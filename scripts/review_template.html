@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OPEL US catalogue: extracted data review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font:14px/1.4 system-ui,-apple-system,sans-serif;background:#f4f5f7;color:#1d2330}
+header{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid #dde1e7;padding:12px 20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+header h1{font-size:17px;margin:0 12px 0 0}header a{color:#1d2330;text-decoration:none;padding:4px 10px;border-radius:999px;background:#eef0f3}
+header input,header select{padding:6px 10px;border:1px solid #cdd2da;border-radius:8px;font:inherit}
+main{padding:20px;max-width:1500px;margin:auto}section{margin-bottom:36px}
+h2{font-size:18px;margin:0 0 4px}.sub{color:#5b6472;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.card{background:#fff;border:1px solid #dde1e7;border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.card.ok{border-top:4px solid #2e9d5b}.card.check{border-top:4px solid #e0a100}.card.duplicate{border-top:4px solid #d64545}
+.img{height:190px;background:repeating-conic-gradient(#f0f1f3 0 25%,#fff 0 50%) 0 0/16px 16px;display:flex;align-items:center;justify-content:center}
+.img img{max-width:100%;max-height:100%;object-fit:contain}.img .none{color:#d64545;font-weight:600}
+.body{padding:10px 12px;flex:1}.model{font-weight:700;font-size:16px}.name{color:#3a4250}
+.meta{color:#6b7380;font-size:12px;margin:4px 0}.meta a{color:#2563eb}
+.pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;margin:2px 4px 0 0;background:#fdecc8;color:#7a5600}
+.pill.power{background:#e3edff;color:#1e4fb5}
+table{width:100%;border-collapse:collapse;margin-top:6px;font-size:12px}td{padding:2px 0;border-top:1px solid #f0f1f3;vertical-align:top}td:first-child{color:#6b7380;padding-right:8px;width:45%}
+.pages{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}.pages a{display:block;background:#fff;border:1px solid #dde1e7;border-radius:8px;padding:6px;text-align:center;color:#1d2330;text-decoration:none}
+.pages img{width:100%;display:block;margin-bottom:4px}
+dialog{border:0;border-radius:12px;padding:0;max-width:95vw;max-height:95vh}dialog img{display:block;max-height:92vh;max-width:95vw}
+dialog::backdrop{background:#0009}
+</style></head><body>
+<header><h1>OPEL US catalogue: data review</h1><span id="nav"></span>
+<input id="q" placeholder="Search model, name, spec"><select id="cat"><option value="">All categories</option></select></header>
+<main id="main"></main>
+<dialog id="dlg" onclick="this.close()"><img id="dlgimg" alt=""></dialog>
+<script>
+const DATA = /*DATA*/null;
+const SECTIONS = [
+  ['ok', 'Looks complete: just verify', 'Model, name, photo and specs were all found. Check them against the brochure page.'],
+  ['check', 'Needs checking', 'Something is missing or unusual (no specs, no photo, or an odd model number). Usually a different page layout.'],
+  ['duplicate', 'Duplicate model numbers', 'The same model number appears more than once. Decide whether to merge them or give each one its own ID.'],
+];
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const page = n => `review/pages/p-${String(n).padStart(2,'0')}.webp`;
+const cats = [...new Set(DATA.products.map(p => p.category).filter(Boolean))].sort();
+document.getElementById('cat').innerHTML += cats.map(c => `<option>${esc(c)}</option>`).join('');
+function card(p){
+  const img = p.images.length ? `<img loading="lazy" src="public/images/products/${esc(p.images[0])}" alt="${esc(p.model)}">` : '<span class="none">No image</span>';
+  const specs = Object.entries(p.specs).map(([k,v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join('');
+  return `<div class="card ${p.review.status}"><div class="img">${img}</div><div class="body">
+    <div class="model">${esc(p.model)}</div><div class="name">${esc(p.name) || '<i>no name</i>'}</div>
+    <div class="meta">${esc(p.category)} · <a href="#" data-page="${p.page}">brochure p.${p.page}</a> · id <code>${esc(p.id)}</code></div>
+    ${(p.power||[]).map(w => `<span class="pill power">${esc(w)}</span>`).join('')}${p.review.issues.map(i => `<span class="pill">${esc(i)}</span>`).join('')}
+    ${specs ? `<table>${specs}</table>` : ''}${(p.notes||[]).length ? `<div class="meta">${p.notes.map(esc).join('<br>')}</div>` : ''}
+  </div></div>`;
+}
+function render(){
+  const q = document.getElementById('q').value.toLowerCase(), cat = document.getElementById('cat').value;
+  const list = DATA.products.filter(p => (!cat || p.category === cat) && (!q || JSON.stringify(p).toLowerCase().includes(q)));
+  let html = '', nav = '';
+  for (const [key, title, sub] of SECTIONS){
+    const items = list.filter(p => p.review.status === key);
+    nav += `<a href="#${key}">${title.split(':')[0]} (${items.length})</a> `;
+    html += `<section id="${key}"><h2>${title} (${items.length})</h2><p class="sub">${sub}</p><div class="grid">${items.map(card).join('')}</div></section>`;
+  }
+  nav += `<a href="#skipped">Pages not extracted (${DATA.skipped.length})</a>`;
+  html += `<section id="skipped"><h2>Pages not extracted (${DATA.skipped.length})</h2><p class="sub">No product cards were found here: intro or category pages, spare-part lists, warranty. Check none of them hold products we need.</p>
+    <div class="pages">${DATA.skipped.map(n => `<a href="#" data-page="${n}"><img loading="lazy" src="${page(n)}" alt="">Page ${n}</a>`).join('')}</div></section>`;
+  document.getElementById('nav').innerHTML = nav; document.getElementById('main').innerHTML = html;
+}
+document.addEventListener('click', e => { const a = e.target.closest('[data-page]'); if (!a) return; e.preventDefault();
+  document.getElementById('dlgimg').src = page(a.dataset.page); document.getElementById('dlg').showModal(); });
+document.getElementById('q').oninput = render; document.getElementById('cat').onchange = render; render();
+</script></body></html>

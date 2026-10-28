@@ -1,0 +1,3632 @@
+[
+  {
+    "id": "5229",
+    "model": "5229",
+    "name": "Angle Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "1450 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "100mm",
+      "No Load Speed": "11500r/min"
+    },
+    "notes": [],
+    "images": [
+      "5229-0.webp"
+    ],
+    "page": 4,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5301",
+    "model": "5301",
+    "name": "Angle Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "950 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "100/115mm",
+      "No Load Speed": "11000r/min"
+    },
+    "notes": [],
+    "images": [
+      "5301-0.webp"
+    ],
+    "page": 4,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5304",
+    "model": "5304",
+    "name": "Angle Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "850W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "100mm",
+      "No Load Speed": "11000r/min"
+    },
+    "notes": [],
+    "images": [
+      "5304-0.webp"
+    ],
+    "page": 4,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5305",
+    "model": "5305",
+    "name": "Angle Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "1850W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "125mm",
+      "No Load Speed": "11000r/min"
+    },
+    "notes": [],
+    "images": [
+      "5305-0.webp"
+    ],
+    "page": 4,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5221",
+    "model": "5221",
+    "name": "Angle Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "1150 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "100/115mm",
+      "No Load Speed": "11000r/min"
+    },
+    "notes": [],
+    "images": [
+      "5221-0.webp"
+    ],
+    "page": 4,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5308",
+    "model": "5308",
+    "name": "Angle Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "950W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "125mm",
+      "No Load Speed": "1150r/min"
+    },
+    "notes": [],
+    "images": [
+      "5308-0.webp"
+    ],
+    "page": 4,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5311",
+    "model": "5311",
+    "name": "Marble Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "1850W",
+      "1450W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Max Blade Diameter": "",
+      "No Load Speed": "13000r/min"
+    },
+    "notes": [
+      "110/125mm"
+    ],
+    "images": [
+      "5311-0.webp"
+    ],
+    "page": 5,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5307",
+    "model": "5307",
+    "name": "Marble Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "1550W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Max Blade Diameter": "125mm",
+      "No Load Speed": "13000r/min"
+    },
+    "notes": [],
+    "images": [
+      "5307-0.webp"
+    ],
+    "page": 5,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5312",
+    "model": "5312",
+    "name": "Marble Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "1450W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Max Blade Diameter": "110mm",
+      "No Load Speed": "13000r/min"
+    },
+    "notes": [],
+    "images": [
+      "5312-0.webp"
+    ],
+    "page": 5,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5231",
+    "model": "5231",
+    "name": "Marble Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "1650W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Diameter": "110/125mm",
+      "No Load Speed": "12500r/min"
+    },
+    "notes": [],
+    "images": [
+      "5231-0.webp"
+    ],
+    "page": 5,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5230",
+    "model": "5230",
+    "name": "Marble Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "1850 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Diameter": "126mm",
+      "No Load Speed": "13000r/min"
+    },
+    "notes": [],
+    "images": [
+      "5230-0.webp"
+    ],
+    "page": 5,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5232",
+    "model": "5232",
+    "name": "Marble Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "1650 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Diameter": "110mm",
+      "No Load Speed": "12000r/min"
+    },
+    "notes": [],
+    "images": [
+      "5232-0.webp"
+    ],
+    "page": 5,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5204",
+    "model": "5204",
+    "name": "Marble Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "1850 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Diameter": "126mm",
+      "No Load Speed": "13000r/min"
+    },
+    "notes": [
+      "Wood Cutting Base"
+    ],
+    "images": [
+      "5204-0.webp"
+    ],
+    "page": 5,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5337",
+    "model": "5337",
+    "name": "Electric Screw Driver",
+    "category": "POWER TOOLS",
+    "power": [
+      "980 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Drilling Diameter": "10mm",
+      "No Load Speed": "750r/min"
+    },
+    "notes": [],
+    "images": [
+      "5337-0.webp"
+    ],
+    "page": 6,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5316",
+    "model": "5316",
+    "name": "Drill",
+    "category": "POWER TOOLS",
+    "power": [
+      "800 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Drilling Diameter": "10mm",
+      "No Load Speed": "0-2600r/min"
+    },
+    "notes": [],
+    "images": [
+      "5316-0.webp"
+    ],
+    "page": 6,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5310",
+    "model": "5310",
+    "name": "Impact Drill",
+    "category": "POWER TOOLS",
+    "power": [
+      "950W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Drilling Diameter": "13mm",
+      "No Load Speed": "0-2800r/min"
+    },
+    "notes": [],
+    "images": [
+      "5310-0.webp"
+    ],
+    "page": 6,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5339",
+    "model": "5339",
+    "name": "Impact Drill",
+    "category": "POWER TOOLS",
+    "power": [
+      "1050 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Frequency": "50Hz",
+      "Drilling Diameter": "13mm",
+      "No Load Speed": "0-750r/min"
+    },
+    "notes": [],
+    "images": [
+      "5339-0.webp"
+    ],
+    "page": 6,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5340",
+    "model": "5340",
+    "name": "Drill",
+    "category": "POWER TOOLS",
+    "power": [
+      "950W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Drilling Diameter": "13mm",
+      "No Load Speed": "0-750r/min"
+    },
+    "notes": [],
+    "images": [
+      "5340-0.webp"
+    ],
+    "page": 6,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5222",
+    "model": "5222",
+    "name": "Rotary Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "1650 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Maximum Diameter": "26mm",
+      "No Load Speed": "0-900r/min"
+    },
+    "notes": [],
+    "images": [
+      "5222-0.webp"
+    ],
+    "page": 7,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5206",
+    "model": "5206",
+    "name": "Rotary Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "1500 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "No-Load Speed": "1480r/min",
+      "Maximum Diameter": "28mm"
+    },
+    "notes": [],
+    "images": [
+      "5206-0.webp"
+    ],
+    "page": 7,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5223",
+    "model": "5223",
+    "name": "Rotary Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "1200 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Maximum Diameter": "20mm",
+      "No Load Speed": "0-850r/min"
+    },
+    "notes": [],
+    "images": [
+      "5223-0.webp"
+    ],
+    "page": 7,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5341",
+    "model": "5341",
+    "name": "Rotary Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "950 W"
+    ],
+    "specs": {
+      "Rated Voltage": "200V",
+      "Rated Frequency": "50Hz",
+      "Max Hole Opening Dia": "20mm",
+      "No Load Speed": "0-850 r/min"
+    },
+    "notes": [],
+    "images": [
+      "5341-0.webp"
+    ],
+    "page": 7,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5342",
+    "model": "5342",
+    "name": "Rotary Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "1500W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Max Hole Opening Dia": "26mm",
+      "No Load Speed": "0-900 r/min"
+    },
+    "notes": [],
+    "images": [
+      "5342-0.webp"
+    ],
+    "page": 7,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5214",
+    "model": "5214",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "2200 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50/60Hz",
+      "No Load Speed": "900-1890r/min"
+    },
+    "notes": [],
+    "images": [
+      "5214-0.webp"
+    ],
+    "page": 8,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5211",
+    "model": "5211",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "2500 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Single Impacting Force": "55J",
+      "Rated Impacting Frequency": ""
+    },
+    "notes": [
+      "1850BPM"
+    ],
+    "images": [
+      "5211-0.webp"
+    ],
+    "page": 8,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5210",
+    "model": "5210",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "2600 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Single Impacting Force": "60J",
+      "Rated Impacting Frequency": ""
+    },
+    "notes": [
+      "1850BPM"
+    ],
+    "images": [
+      "5210-0.webp"
+    ],
+    "page": 8,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5207",
+    "model": "5207",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "1850 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Single Impacting Force": "32J",
+      "Frequency": "5100BPM"
+    },
+    "notes": [
+      "Rated Impacting"
+    ],
+    "images": [
+      "5207-0.webp"
+    ],
+    "page": 8,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5209",
+    "model": "5209",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "1850 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Single Impacting Force": "32J",
+      "Frequency": "5100BPM"
+    },
+    "notes": [
+      "Rated Impacting"
+    ],
+    "images": [
+      "5209-0.webp"
+    ],
+    "page": 8,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5360",
+    "model": "5360",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "1450W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Rated Impact": "3750BPM"
+    },
+    "notes": [],
+    "images": [
+      "5360-0.webp"
+    ],
+    "page": 8,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5364",
+    "model": "5364",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "2400W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Rated Impact": "1900BPM"
+    },
+    "notes": [],
+    "images": [
+      "5364-0.webp"
+    ],
+    "page": 8,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5363",
+    "model": "5363",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "1850W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Rated Impact": "3800BPM"
+    },
+    "notes": [],
+    "images": [
+      "5363-0.webp"
+    ],
+    "page": 8,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5361",
+    "model": "5361",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "2200W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "No Load Speed": "1400r/min"
+    },
+    "notes": [],
+    "images": [
+      "5361-0.webp"
+    ],
+    "page": 9,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5362",
+    "model": "5362",
+    "name": "Demolition Hammer",
+    "category": "POWER TOOLS",
+    "power": [
+      "3850W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "No Load Speed": "2200r/min"
+    },
+    "notes": [],
+    "images": [
+      "5362-0.webp"
+    ],
+    "page": 9,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5327",
+    "model": "5327",
+    "name": "Cut Off Saw",
+    "category": "POWER TOOLS",
+    "power": [
+      "2850W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "No Load Speed": "3800r/min",
+      "Cutting Diameter": "355mm"
+    },
+    "notes": [],
+    "images": [
+      "5327-0.webp"
+    ],
+    "page": 9,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5326",
+    "model": "5326",
+    "name": "Cut Off Saw",
+    "category": "POWER TOOLS",
+    "power": [
+      "2200W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "No Load Speed": "3800r/min",
+      "Cutting Diameter": "355mm"
+    },
+    "notes": [],
+    "images": [
+      "5326-0.webp"
+    ],
+    "page": 9,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5395-5396",
+    "model": "5395/5396",
+    "name": "Motorised Cut Off Saw",
+    "category": "POWER TOOLS",
+    "power": null,
+    "specs": {
+      "Rated Voltage": "220/380v",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "400mm",
+      "No Load Speed": "3800r/min"
+    },
+    "notes": [],
+    "images": [
+      "5395-5396-0.webp"
+    ],
+    "page": 9,
+    "review": {
+      "status": "check",
+      "issues": [
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "5225",
+    "model": "5225",
+    "name": "Concrete Vibrator",
+    "category": "POWER TOOLS",
+    "power": [
+      "1850 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50/60Hz",
+      "Shaft Diameter": "35mm",
+      "No Load Speed": "4500r/min"
+    },
+    "notes": [],
+    "images": [
+      "5225-0.webp"
+    ],
+    "page": 10,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5228",
+    "model": "5228",
+    "name": "Concrete Vibrator",
+    "category": "POWER TOOLS",
+    "power": [
+      "2400 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50/60Hz",
+      "Shaft Diameter": "50mm",
+      "No Load Speed": "4500r/min"
+    },
+    "notes": [
+      "Includes BMC Carry Box"
+    ],
+    "images": [
+      "5228-0.webp"
+    ],
+    "page": 10,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5336",
+    "model": "5336",
+    "name": "Concrete Vibrator",
+    "category": "POWER TOOLS",
+    "power": [
+      "1200W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Rod Diameter": "35mm",
+      "No Load Speed": "4500 r/min"
+    },
+    "notes": [],
+    "images": [
+      "5336-0.webp"
+    ],
+    "page": 10,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5335",
+    "model": "5335",
+    "name": "Concrete Vibrator",
+    "category": "POWER TOOLS",
+    "power": [
+      "900 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Rod Diameter": "35mm",
+      "No Load Speed": "4500 r/min"
+    },
+    "notes": [],
+    "images": [
+      "5335-0.webp"
+    ],
+    "page": 10,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5215",
+    "model": "5215",
+    "name": "Groove Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "3200 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Diameter": "135mm",
+      "No Load Speed": "5000r/min",
+      "No. of Blade": "5"
+    },
+    "notes": [],
+    "images": [
+      "5215-0.webp"
+    ],
+    "page": 11,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5394",
+    "model": "5394",
+    "name": "Wall Planner",
+    "category": "POWER TOOLS",
+    "power": [
+      "1600 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Planning Depth": "1-4mm",
+      "Planning Width": "150mm"
+    },
+    "notes": [
+      "With anti-vibration handle"
+    ],
+    "images": [
+      "5394-0.webp"
+    ],
+    "page": 11,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5393",
+    "model": "5393",
+    "name": "Floor Polisher",
+    "category": "POWER TOOLS",
+    "power": [
+      "2450 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "No-Load Speed": "2500-4800 r/min",
+      "Chassis Diameter": "230mm",
+      "Blade size": "4\"",
+      "No. of blades": "3"
+    },
+    "notes": [],
+    "images": [
+      "5393-0.webp"
+    ],
+    "page": 11,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5392",
+    "model": "5392",
+    "name": "Slab Cutter",
+    "category": "POWER TOOLS",
+    "power": [
+      "4200 W"
+    ],
+    "specs": {
+      "Blade diameter(mm)": "405",
+      "Rated Voltage(V)": "220/110",
+      "Rated Frequency(Hz)": "50/60",
+      "No-load speed(r/min)": "4700",
+      "Cutting Depth(cm)": "15.5"
+    },
+    "notes": [],
+    "images": [
+      "5392-0.webp"
+    ],
+    "page": 11,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5391",
+    "model": "5391",
+    "name": "Ring Saw",
+    "category": "POWER TOOLS",
+    "power": [
+      "6000 W"
+    ],
+    "specs": {
+      "Blade diameter(mm)": "410",
+      "Rated Voltage(V)": "220/110",
+      "Rated Frequency(Hz)": "50/60",
+      "No-load speed(r/min)": "3600",
+      "Cutting Depth(cm)": "31"
+    },
+    "notes": [],
+    "images": [
+      "5391-0.webp"
+    ],
+    "page": 11,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5332",
+    "model": "5332",
+    "name": "Electric Blower",
+    "category": "POWER TOOLS",
+    "power": [
+      "600 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/240V",
+      "Rated Frequency": "50/60Hz",
+      "No Load Speed": "11000r/min",
+      "Air Circulation": "2.3(m3), Blow &"
+    },
+    "notes": [
+      "Suction"
+    ],
+    "images": [
+      "5332-0.webp"
+    ],
+    "page": 12,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5330",
+    "model": "5330",
+    "name": "Electric Blower",
+    "category": "POWER TOOLS",
+    "power": [
+      "600 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/240V",
+      "Rated Frequency": "50/60Hz",
+      "No Load Speed": "11000r/min",
+      "Air Circulation": "2.3(m3), Blow &"
+    },
+    "notes": [
+      "Suction, Variable Speed"
+    ],
+    "images": [
+      "5330-0.webp"
+    ],
+    "page": 12,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5331",
+    "model": "5331",
+    "name": "Electric Blower",
+    "category": "POWER TOOLS",
+    "power": [
+      "750 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/240V",
+      "Rated Frequency": "50/60Hz",
+      "No Load Speed": "11000r/min, Air",
+      "Circulation": "2.3(m3), Blow &"
+    },
+    "notes": [
+      "Suction"
+    ],
+    "images": [
+      "5331-0.webp"
+    ],
+    "page": 12,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5329",
+    "model": "5329",
+    "name": "Heat Gun",
+    "category": "POWER TOOLS",
+    "power": [
+      "2000 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/230V",
+      "Rated Frequency": "50Hz",
+      "Temprature Range": "220"
+    },
+    "notes": [
+      "C-",
+      "650",
+      "C",
+      "o",
+      "o"
+    ],
+    "images": [
+      "5329-0.webp"
+    ],
+    "page": 12,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5387",
+    "model": "5387",
+    "name": "Electric Leaf Blower",
+    "category": "POWER TOOLS",
+    "power": [
+      "900 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/11V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "100/115mm",
+      "No Load Speed": "1100r/min"
+    },
+    "notes": [],
+    "images": [
+      "5387-0.webp"
+    ],
+    "page": 12,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5333",
+    "model": "5333",
+    "name": "Wood Planner",
+    "category": "POWER TOOLS",
+    "power": [
+      "720 W",
+      "Aluminum Roller Set"
+    ],
+    "specs": {
+      "Rated Voltage": "230V",
+      "Rated Frequency": "50/60Hz",
+      "Cutting Width": "82mm",
+      "Cutting Depth": "2mm",
+      "No Load Speed": "16200r/min"
+    },
+    "notes": [],
+    "images": [
+      "5333-0.webp"
+    ],
+    "page": 13,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5218",
+    "model": "5218",
+    "name": "Bench Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "550 W"
+    ],
+    "specs": {
+      "Rated Voltage": "230V",
+      "Rated Frequency": "50/60Hz",
+      "Wheel Size": "150mm",
+      "No Load Speed": "2950 Rpm"
+    },
+    "notes": [],
+    "images": [
+      "5218-0.webp"
+    ],
+    "page": 13,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5219",
+    "model": "5219",
+    "name": "Bench Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "850 W"
+    ],
+    "specs": {
+      "Rated Voltage": "230V",
+      "Rated Frequency": "50/60Hz",
+      "Wheel Size": "200mm",
+      "No Load Speed": "2950 Rpm"
+    },
+    "notes": [],
+    "images": [
+      "5219-0.webp"
+    ],
+    "page": 13,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5319",
+    "model": "5319",
+    "name": "Bench Drill 13mm",
+    "category": "POWER TOOLS",
+    "power": [
+      "650 W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Blade Capacity": "100/115mm",
+      "No Load Speed": "1420 Rpm"
+    },
+    "notes": [],
+    "images": [
+      "5319-0.webp"
+    ],
+    "page": 13,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5322",
+    "model": "5322",
+    "name": "Bench Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "550 W"
+    ],
+    "specs": {
+      "Rated Voltage": "230V",
+      "Rated Frequency": "50/60Hz",
+      "Wheel Size": "150mm",
+      "No Load Speed": "2950 Rpm"
+    },
+    "notes": [],
+    "images": [
+      "5322-0.webp"
+    ],
+    "page": 13,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5323",
+    "model": "5323",
+    "name": "Bench Grinder",
+    "category": "POWER TOOLS",
+    "power": [
+      "850 W"
+    ],
+    "specs": {
+      "Rated Voltage": "230V",
+      "Rated Frequency": "50/60Hz",
+      "Wheel Size": "200mm",
+      "No Load Speed": "2950 Rpm"
+    },
+    "notes": [],
+    "images": [
+      "5323-0.webp"
+    ],
+    "page": 13,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5334",
+    "model": "5334",
+    "name": "Wood Planner",
+    "category": "POWER TOOLS",
+    "power": [
+      "550 W"
+    ],
+    "specs": {
+      "Rated Voltage": "230V",
+      "Rated Frequency": "50/60Hz",
+      "Cutting Width": "82mm",
+      "Cutting Depth": "1mm",
+      "No Load Speed": "16200r/min"
+    },
+    "notes": [],
+    "images": [
+      "5334-0.webp"
+    ],
+    "page": 13,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5233",
+    "model": "5233",
+    "name": "Wood Planner",
+    "category": "POWER TOOLS",
+    "power": [
+      "810 W",
+      "Aluminum Roller Set"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50/60Hz",
+      "Cutting Width": "82mm",
+      "Cutting Depth": "2mm",
+      "No Load Speed": "16200r/min"
+    },
+    "notes": [],
+    "images": [
+      "5233-0.webp"
+    ],
+    "page": 13,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5238",
+    "model": "5238",
+    "name": "Cordless Drill Machine",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Maximum Torque": "60Nm",
+      "No Load Speed": "2900Rpm",
+      "Chuck Size": "10mm",
+      "Battery Type": "2.0 A.H."
+    },
+    "notes": [],
+    "images": [
+      "5238-0.webp"
+    ],
+    "page": 15,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5239",
+    "model": "5239",
+    "name": "Cordless Drill Machine",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "18V",
+      "Maximum Torque": "45Nm",
+      "No Load Speed": "2800Rpm",
+      "Chuck Size": "10mm"
+    },
+    "notes": [
+      "Battery Type 2.0 A.H."
+    ],
+    "images": [
+      "5239-0.webp"
+    ],
+    "page": 15,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5349",
+    "model": "5349",
+    "name": "Cordless Drill Machine",
+    "category": "CORDLESS TOOLS",
+    "power": [
+      "With Kit"
+    ],
+    "specs": {
+      "Battery Voltage": "12V",
+      "Chuck Size": "10MM",
+      "No Load Speed": "2600r/min",
+      "Maximum Torque": "35Nm"
+    },
+    "notes": [],
+    "images": [
+      "5349-0.webp"
+    ],
+    "page": 15,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5347",
+    "model": "5347",
+    "name": "Cordless Drill Machine",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "12V",
+      "Chuck Size": "10MM",
+      "No Load Speed": "2600r/min",
+      "Maximum Torque": "35Nm"
+    },
+    "notes": [],
+    "images": [
+      "5347-0.webp"
+    ],
+    "page": 15,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5348",
+    "model": "5348",
+    "name": "Cordless Drill Machine",
+    "category": "CORDLESS TOOLS",
+    "power": [
+      "With Kit"
+    ],
+    "specs": {
+      "Battery Voltage": "21V",
+      "Maximum Torque": "60Nm",
+      "No Load Speed": "2600Rpm",
+      "Battery Type": "2.0 A.H."
+    },
+    "notes": [],
+    "images": [
+      "5348-0.webp"
+    ],
+    "page": 15,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5234",
+    "model": "5234",
+    "name": "Cordless Impact Wrench",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Impact Rating": "0 to 3400Ipm",
+      "Maximum Torque": "800Nm",
+      "No Load Speed": "2450Rpm",
+      "Battery Type": "4.0 A.H."
+    },
+    "notes": [],
+    "images": [
+      "5234-0.webp"
+    ],
+    "page": 15,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5235",
+    "model": "5235",
+    "name": "Cordless Impact Wrench",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Impact Rating": "0 to 3800Ipm",
+      "Maximum Torque": "1050Nm",
+      "No Load Speed": "2150Rpm",
+      "Battery Type": "4.0 A.H."
+    },
+    "notes": [],
+    "images": [
+      "5235-0.webp"
+    ],
+    "page": 15,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5236",
+    "model": "5236",
+    "name": "Cordless Impact Wrench",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Impact Rating": "0 to 3100Ipm",
+      "Maximum Torque": "400Nm",
+      "No Load Speed": "2600Rpm",
+      "Battery Type": "4.0 A.H."
+    },
+    "notes": [],
+    "images": [
+      "5236-0.webp"
+    ],
+    "page": 16,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5346",
+    "model": "5346",
+    "name": "Cordless Impact Wrench",
+    "category": "CORDLESS TOOLS",
+    "power": [
+      "With Kit"
+    ],
+    "specs": {
+      "Battery Voltage": "21V",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "100/115mm",
+      "No Load Speed": "1100r/min",
+      "Torque": "350 Nm"
+    },
+    "notes": [],
+    "images": [
+      "5346-0.webp"
+    ],
+    "page": 16,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5246",
+    "model": "5246",
+    "name": "Cordless Rachet Wrench",
+    "category": "CORDLESS TOOLS",
+    "power": [
+      "With Kit"
+    ],
+    "specs": {
+      "Battery Voltage": "18V",
+      "Variable Speed": "230-260r/min",
+      "No load speed": "1800 rpm",
+      "Ratchet size": "3/8 Dr",
+      "Torque": "14 Nm"
+    },
+    "notes": [],
+    "images": [
+      "5246-0.webp"
+    ],
+    "page": 16,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5240",
+    "model": "5240",
+    "name": "Angle Grinder",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Wheel Diameter": "100mm",
+      "No-Load Speed": "9000Rpm",
+      "Battery type": "2.0 AH"
+    },
+    "notes": [],
+    "images": [
+      "5240-0.webp"
+    ],
+    "page": 16,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5241",
+    "model": "5241",
+    "name": "Angle Grinder",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Wheel Diameter": "100mm",
+      "No-Load Speed": "9000Rpm",
+      "Battery type": "4.0 AH"
+    },
+    "notes": [],
+    "images": [
+      "5241-0.webp"
+    ],
+    "page": 16,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5242",
+    "model": "5242",
+    "name": "Cordless Rotary Hammer",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Drill size": "26mm",
+      "No Load Speed": "0 - 2700/",
+      "Battery type": "4.0 AH"
+    },
+    "notes": [
+      "5700Rpm"
+    ],
+    "images": [
+      "5242-0.webp"
+    ],
+    "page": 17,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5247",
+    "model": "5247",
+    "name": "Cordless Tile Vibrator",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "12V",
+      "Vibration Frequency": "0-150Hz",
+      "Suction Cup Diameter": "120mm",
+      "Absorption Capacity": "30kg"
+    },
+    "notes": [],
+    "images": [
+      "5247-0.webp"
+    ],
+    "page": 17,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5249",
+    "model": "5249",
+    "name": "Cordless Vibrator",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Maximum Power": "1200W",
+      "Nozzle Size": "35mm",
+      "Battery type": "4.0 AH"
+    },
+    "notes": [],
+    "images": [
+      "5249-0.webp"
+    ],
+    "page": 17,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5248",
+    "model": "5248",
+    "name": "Cordless Tile Vibrator",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Adsorption Capacity": "150Kg",
+      "Vibration Frequency": "3000r/min",
+      "Suction Cup Diameter": "100mm",
+      "Battery type": "2.0 AH"
+    },
+    "notes": [],
+    "images": [
+      "5248-0.webp"
+    ],
+    "page": 17,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5243",
+    "model": "5243",
+    "name": "Cordless Blower",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Rated Frequency": "50/60Hz",
+      "Air Circulation": "2.3 (m3)",
+      "No Load Speed": "1100r/min",
+      "Battery type": "4.0 AH"
+    },
+    "notes": [],
+    "images": [
+      "5243-0.webp"
+    ],
+    "page": 17,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5245",
+    "model": "5245",
+    "name": "Cordless Chainsaw",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Maximum Power": "800W",
+      "Cutting size": "16\"",
+      "Battery type": "4.0 AH"
+    },
+    "notes": [],
+    "images": [
+      "5245-0.webp"
+    ],
+    "page": 18,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5244",
+    "model": "5244",
+    "name": "Cordless Chainsaw",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Maximum Power": "500W",
+      "Cutting size": "8\"",
+      "Battery type": "4.0 AH"
+    },
+    "notes": [],
+    "images": [
+      "5244-0.webp"
+    ],
+    "page": 18,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5377",
+    "model": "5377",
+    "name": "Tea Harvester",
+    "category": "CORDLESS TOOLS",
+    "power": null,
+    "specs": {
+      "Battery Voltage": "21V",
+      "Power": "300-800w",
+      "Output Speed": "1600-580s/min",
+      "Length of Cutting": "300/400mm",
+      "Battery type": "2.0 AH"
+    },
+    "notes": [],
+    "images": [
+      "5377-0.webp"
+    ],
+    "page": 18,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5313",
+    "model": "5313",
+    "name": "Spray Gun",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Inlet Pressure": "3.0 Bar/43Psi",
+      "Air Consumption": "",
+      "Nozzle Size": "0.5mm"
+    },
+    "notes": [
+      "260/410NL/Min"
+    ],
+    "images": [
+      "5313-0.webp"
+    ],
+    "page": 20,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5314",
+    "model": "5314",
+    "name": "Spray Gun",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Inlet Pressure": "3.0 Bar/43Psi",
+      "Air Consumption": "",
+      "Nozzle Size": "0.5mm"
+    },
+    "notes": [
+      "260/410NL/Min"
+    ],
+    "images": [
+      "5314-0.webp"
+    ],
+    "page": 20,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5315",
+    "model": "5315",
+    "name": "Electric Spray Gun",
+    "category": "PAINTING EQUIPMENTS",
+    "power": [
+      "550 W"
+    ],
+    "specs": {
+      "Rated Voltage": "110V",
+      "Rated Frequency": "60Hz",
+      "Container Capacity": "950ml",
+      "Max Flow": "1200ml/min",
+      "Motor Speed": "34000rpm",
+      "Nozzle Size": "1.0/1.8/2.5mm"
+    },
+    "notes": [
+      "Detachable Body"
+    ],
+    "images": [
+      "5315-0.webp"
+    ],
+    "page": 20,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5398",
+    "model": "5398",
+    "name": "Electric Mixer",
+    "category": "PAINTING EQUIPMENTS",
+    "power": [
+      "1150W"
+    ],
+    "specs": {
+      "Rated Voltage": "220/240V",
+      "Rated Frequency": "50/60Hz",
+      "No-Load Speed": "680r/min"
+    },
+    "notes": [
+      "Non Corrosive Material",
+      "Light Weight For Steady Performance"
+    ],
+    "images": [
+      "5398-0.webp"
+    ],
+    "page": 20,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5227",
+    "model": "5227",
+    "name": "Electric Spray Gun",
+    "category": "PAINTING EQUIPMENTS",
+    "power": [
+      "850 W"
+    ],
+    "specs": {
+      "Rated Voltage": "110V",
+      "Rated Frequency": "60Hz",
+      "Container Capacity": "950ml",
+      "Max Flow": "1200ml/min",
+      "Motor Speed": "34000rpm",
+      "Nozzle Size": "1.0/1.8/2.5mm"
+    },
+    "notes": [
+      "Detachable Body"
+    ],
+    "images": [
+      "5227-0.webp"
+    ],
+    "page": 20,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "92-08",
+    "model": "92-08",
+    "name": "Airless spray gun",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Maximum pressure": "3300PSI",
+      "Outer box size": "35*29*45CM",
+      "Volume": "0.04m³",
+      "Net weight": "7.5KG",
+      "Voltage frequency": "220V/50HZ",
+      "Flow": "1.2L/min",
+      "Gross weight": "9.4KG"
+    },
+    "notes": [
+      "Gypsum",
+      "Glue",
+      "Applied Materials",
+      "Shall not Apply to Materials",
+      "Emulsion Paint",
+      "Paint"
+    ],
+    "images": [
+      "92-08-0.webp"
+    ],
+    "page": 21,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "92-01",
+    "model": "92-01",
+    "name": "Airless spray gun",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Maximum pressure": "3300PSI",
+      "Outer box size": "35*29*45CM",
+      "Volume": "0.05m³",
+      "Net weight": "9.4KG",
+      "Voltage frequency": "220V/50HZ",
+      "Flow": "1.2L/min",
+      "Gross weight": "8KG"
+    },
+    "notes": [
+      "Gypsum",
+      "Glue",
+      "Really Stone",
+      "Applied Materials",
+      "Shall not Apply to Materials",
+      "Emulsion Paint",
+      "Paint"
+    ],
+    "images": [
+      "92-01-0.webp"
+    ],
+    "page": 21,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "92-02",
+    "model": "92-02",
+    "name": "Airless spray gun",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Maximum pressure": "3300PSI",
+      "Outer box size": "52*41*81CM",
+      "Volume": "0.17m³",
+      "Net weight": "18KG",
+      "Voltage frequency": "220V/50HZ",
+      "Flow": "1.8L/min",
+      "Gross weight": "20.5KG"
+    },
+    "notes": [
+      "Applied Materials",
+      "Emulsion Paint",
+      "Ordinary Pain Coating",
+      "Water Based Waterproof",
+      "Coating",
+      "Anticorrosive",
+      "Coating",
+      "No Sand Cement",
+      "Water"
+    ],
+    "images": [
+      "92-02-0.webp"
+    ],
+    "page": 22,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "92-03",
+    "model": "92-03",
+    "name": "Airless spray gun",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Maximum pressure": "3300PSI",
+      "Outer box size": "35*29*45CM",
+      "Volume": "0.04m³",
+      "Net weight": "7.5KG",
+      "Voltage frequency": "220V/50HZ",
+      "Flow": "1.2L/min",
+      "Gross weight": "9.4KG"
+    },
+    "notes": [
+      "Applied Materials",
+      "Emulsion Paint",
+      "Ordinary Pain Coating",
+      "Water Based Waterproof",
+      "Anticorrosive",
+      "Coating",
+      "No Sand Cement"
+    ],
+    "images": [
+      "92-03-0.webp"
+    ],
+    "page": 22,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "92-05",
+    "model": "92-05",
+    "name": "Road Marking Machine",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Gasoline engine model": "170",
+      "Maximum jet flow": "2.5L/min",
+      "The nozzle type": "317",
+      "The best spray distance": "350-400mm",
+      "Jet width": "250mm",
+      "High pressure pipe compression strength": "25mpa"
+    },
+    "notes": [
+      "Accessories"
+    ],
+    "images": [
+      "92-05-0.webp"
+    ],
+    "page": 23,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "92-04",
+    "model": "92-04",
+    "name": "Diaphragm pump",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Voltage/frequency": "220V/50Hz",
+      "High pressure pipe": "20m Steel Wire Tube",
+      "Maximum jet flow": "2.0L/min",
+      "The nozzle type": "621",
+      "The best spray distance": "350-400mm",
+      "Jet width": "250mm"
+    },
+    "notes": [
+      "Applied Materials",
+      "Emulsion Paint",
+      "Shall not Apply to Materials"
+    ],
+    "images": [],
+    "page": 23,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no image"
+      ]
+    }
+  },
+  {
+    "id": "92-06",
+    "model": "92-06",
+    "name": "Stone Texture / Mortar Screed pump",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "The motor power": "2200W",
+      "Voltage/frequency": "220V/50Hz",
+      "High pressure pipe": "20m",
+      "Maximum jet flow": "2.0L/min",
+      "Vertical output": "15m",
+      "The level of output": "20m",
+      "Motor speed": "0-2500r/min",
+      "Hopper capacity": "40L",
+      "The input displacement": "0.6"
+    },
+    "notes": [
+      "≥ 3mm Particles or Mortar",
+      "Shall not Apply to Materials",
+      "Applied Materials",
+      "Really Stone Paint",
+      "Putty Powder",
+      "Anti-Crack Mortar",
+      "Ordinary Paint Coating",
+      "Water-based Fire",
+      "Retardant Coatings"
+    ],
+    "images": [
+      "92-06-0.webp"
+    ],
+    "page": 24,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "92-07",
+    "model": "92-07",
+    "name": "Chemical / Water-proof coating Screed pump",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "The motor power": "1000W",
+      "Voltage/frequency": "220V/50Hz",
+      "The Longest Over": "15m",
+      "Maximum jet flow": "10L/min",
+      "Level of output": "5m",
+      "The level of output": "15m",
+      "Motor speed": "0-2500r/min",
+      "Hopper capacity": "20L",
+      "The input displacement": ">0.36"
+    },
+    "notes": [
+      "Mortar, Putty",
+      "Really Stone Paint",
+      "Shall not Apply to Materials",
+      "Applied Materials",
+      "Emulsion Paint",
+      "Ordinary paint Coating",
+      "Water Based Waterproof",
+      "Coating",
+      "Fireproof Coating",
+      "Anticorrosive Coatings"
+    ],
+    "images": [
+      "92-07-0.webp"
+    ],
+    "page": 24,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "B18",
+    "model": "B18",
+    "name": "High Pressure Washer",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Rated Voiltage": "220V-50Hz",
+      "Flow Rate": "10.0 L/min",
+      "Temperature": "50°C",
+      "Motor Speed": "2850Rpm",
+      "Motor Pump": "250 BAR"
+    },
+    "notes": [
+      "Accessories"
+    ],
+    "images": [
+      "B18-0.webp"
+    ],
+    "page": 26,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5226",
+    "model": "5226",
+    "name": "High Pressure Washer",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Rated Voiltage": "220V-50Hz",
+      "Flow Rate": "7.2 L/min",
+      "Temperature": "50°C",
+      "Motor Pump": "220 BAR"
+    },
+    "notes": [
+      "Accessories",
+      "High-pressure",
+      "(ceramic core)"
+    ],
+    "images": [
+      "5226-0.webp"
+    ],
+    "page": 26,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "GE2T40",
+    "model": "GE2T40",
+    "name": "High Pressure Washer",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Rated Voiltage": "380V-50Hz",
+      "Speed": "1450 r/min",
+      "Working Pressure": "13 / 1900 Mpa/PSI",
+      "Flow": "10.0 / 20.0 L/min",
+      "Pump": "BSG1815D",
+      "Weight": "55 Kg",
+      "Dimension": "62.5x43x44",
+      "Motor Pump": "250 + 250 BAR"
+    },
+    "notes": [
+      "Accessories"
+    ],
+    "images": [
+      "GE2T40-0.webp"
+    ],
+    "page": 26,
+    "review": {
+      "status": "check",
+      "issues": [
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "5365",
+    "model": "5365",
+    "name": "Pressure Washer",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Pressure": "180 Bar",
+      "Rated Frequency": "50/60Hz",
+      "No Load Speed": "2850r/min"
+    },
+    "notes": [
+      "Accessories",
+      "High Pressure",
+      "Washer Gun",
+      "(Copper Core)",
+      "Pressure Washer Gun"
+    ],
+    "images": [
+      "5365-0.webp"
+    ],
+    "page": 27,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "S3000",
+    "model": "S3000",
+    "name": "High Pressure Washer",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Rated Voltage": "220V/50Hz",
+      "Rated Pressure": "350 Bar",
+      "Temperature": "50",
+      "Maximum Flow": "16L/min"
+    },
+    "notes": [
+      "Accessories",
+      "C",
+      "0"
+    ],
+    "images": [
+      "S3000-0.webp"
+    ],
+    "page": 27,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "S2300",
+    "model": "S2300",
+    "name": "High Pressure Washer",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Rated Voltage": "220V/50Hz",
+      "Rated Pressure": "310 Bar",
+      "Temperature": "50",
+      "Maximum Flow": "13L/min"
+    },
+    "notes": [
+      "Accessories",
+      "C",
+      "0"
+    ],
+    "images": [
+      "S2300-0.webp"
+    ],
+    "page": 27,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5371",
+    "model": "5371",
+    "name": "Foam Bottle",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Material Brass + ABS",
+      "Quick connector",
+      "Bottle Capacity 1 L",
+      "Requires Flow 2.0 GPM",
+      "Requires pressure 70 BAR, 1000 PSI",
+      "Maximum flow 5.3 GPM",
+      "Maximum pressure 200 BAR 3000 PSI",
+      "Highest temperature 60°C or 140°F"
+    ],
+    "images": [
+      "5371-0.webp"
+    ],
+    "page": 27,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "unknown--p28-1",
+    "model": "--",
+    "name": "Floor Cleaner",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Rated Voltage": "220-240V",
+      "Rated Frequency": "50/60Hz",
+      "Chassis Diameter": "17 Inches",
+      "Wire Length": "12M",
+      "Speed": "1450r/min",
+      "Gross Weight": "48KG"
+    },
+    "notes": [
+      "Accessories",
+      "Ground brush",
+      "(hard brush)"
+    ],
+    "images": [
+      "unknown--p28-1-0.webp"
+    ],
+    "page": 28,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "odd model number",
+        "model appears 4x"
+      ]
+    }
+  },
+  {
+    "id": "unknown--p28-2",
+    "model": "--",
+    "name": "Manual Sweeper",
+    "category": "CLEANING EQUIPMENTS",
+    "power": [
+      "1000 W"
+    ],
+    "specs": {
+      "Max. Work Efficiency": "3680m/h",
+      "Working Width": "980mm",
+      "Bucket Capacity": "45L",
+      "Weight": "27Kg"
+    },
+    "notes": [],
+    "images": [
+      "unknown--p28-2-0.webp"
+    ],
+    "page": 28,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "odd model number",
+        "model appears 4x"
+      ]
+    }
+  },
+  {
+    "id": "5345",
+    "model": "5345",
+    "name": "Chain Pulley Block",
+    "category": "LIFTING EQUIPMENTS",
+    "power": [
+      "1, 2, 3, 5 TON"
+    ],
+    "specs": {},
+    "notes": [
+      "Capacity",
+      "Lift",
+      "(Mtrs)",
+      "Fold",
+      "Load",
+      "Chain",
+      "Hand",
+      "Chain",
+      "Load",
+      "Chain",
+      "1 Ton",
+      "3",
+      "Single",
+      "6",
+      "5",
+      "6",
+      "6",
+      "Single",
+      "6",
+      "5",
+      "6",
+      "2 Ton",
+      "3",
+      "Single",
+      "8",
+      "5",
+      "6",
+      "6",
+      "Single",
+      "8",
+      "5",
+      "6",
+      "3 Ton",
+      "3",
+      "Single",
+      "8",
+      "5",
+      "6",
+      "6",
+      "Double",
+      "8",
+      "5",
+      "12",
+      "3",
+      "Single",
+      "10",
+      "5",
+      "3",
+      "5 Ton",
+      "3",
+      "Double",
+      "10",
+      "6",
+      "6",
+      "6",
+      "Double",
+      "10",
+      "6",
+      "12",
+      "Thickness (mm)",
+      "Lengeth (Mtrs)"
+    ],
+    "images": [
+      "5345-0.webp"
+    ],
+    "page": 30,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "5255",
+    "model": "5255",
+    "name": "Chain Pulley Block",
+    "category": "LIFTING EQUIPMENTS",
+    "power": [
+      "1, 2, 3, 5 TON"
+    ],
+    "specs": {},
+    "notes": [
+      "Capacity",
+      "Lift",
+      "(Mtrs)",
+      "Fold",
+      "Load",
+      "Chain",
+      "Hand",
+      "Chain",
+      "Load",
+      "Chain",
+      "1 Ton",
+      "3",
+      "Single",
+      "6",
+      "5",
+      "6",
+      "6",
+      "Single",
+      "6",
+      "5",
+      "6",
+      "2 Ton",
+      "3",
+      "Single",
+      "8",
+      "5",
+      "6",
+      "6",
+      "Single",
+      "8",
+      "5",
+      "6",
+      "3 Ton",
+      "3",
+      "Single",
+      "8",
+      "5",
+      "6",
+      "6",
+      "Double",
+      "8",
+      "5",
+      "12",
+      "3",
+      "Single",
+      "10",
+      "5",
+      "3",
+      "5 Ton",
+      "3",
+      "Double",
+      "10",
+      "6",
+      "6",
+      "6",
+      "Double",
+      "10",
+      "6",
+      "12",
+      "Thickness (mm)",
+      "Lengeth (Mtrs)"
+    ],
+    "images": [
+      "5255-0.webp"
+    ],
+    "page": 30,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "2-5-TON-3-TON",
+    "model": "2.5 TON/3 TON",
+    "name": "Pallet Truck",
+    "category": "LIFTING EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Capacity - 2.5/3 Ton",
+      "min. fork height - 80mm",
+      "max. lifting height - 190-200mm",
+      "Loading Wheel - 80*70mm",
+      "Steering Wheel - 180*50mm"
+    ],
+    "images": [
+      "2-5-TON-3-TON-0.webp"
+    ],
+    "page": 31,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs",
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "5216",
+    "model": "5216",
+    "name": "Clutch Winch",
+    "category": "LIFTING EQUIPMENTS",
+    "power": [
+      "40M, 50M, 60M"
+    ],
+    "specs": {
+      "Lifting Capacity": "100 KG to 1000 KG",
+      "Wire Rope Specification": "8mm - 12mm",
+      "Lifting Height": "1 - 60 Mtr.",
+      "Rated Power": "3Kw - 9Kw",
+      "Rotation": "360 with rotation locking",
+      "Boom-Extendable/Fit": "9-10 Ft.",
+      "Frame": "Heavy mounted and moveable",
+      "Breaking": "Fail (safe) breaking"
+    },
+    "notes": [
+      "0"
+    ],
+    "images": [],
+    "page": 31,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no image"
+      ]
+    }
+  },
+  {
+    "id": "5343",
+    "model": "5343",
+    "name": "Mini Wire Rope Hoist",
+    "category": "LIFTING EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "PA 500",
+      "PA 1000",
+      "PA 1500",
+      "PA 2000",
+      "x 20 mt",
+      "x 20 mt",
+      "x 20 mt",
+      "x 12 mt",
+      "Wire Rope",
+      "Size",
+      "6mm",
+      "8mm",
+      "8mm",
+      "10mm"
+    ],
+    "images": [
+      "5343-0.webp"
+    ],
+    "page": 31,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "5203",
+    "model": "5203",
+    "name": "Gasoline chain saw",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": [
+      "68CC"
+    ],
+    "specs": {
+      "Rated Output": "2.4KW",
+      "Fuel Tank": "550ml",
+      "Engine Oil Tank": "260ml",
+      "Idling Speed": "2800-3200r/min",
+      "Guide Bar": "18\"(450mm) 22\""
+    },
+    "notes": [
+      "(550mm)"
+    ],
+    "images": [
+      "5203-0.webp"
+    ],
+    "page": 33,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5325",
+    "model": "5325",
+    "name": "Electric Chainsaw 16\"",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": [
+      "1800W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Guide Bar Size": "16\"(405mm) Idling",
+      "Speed": "400r/min"
+    },
+    "notes": [],
+    "images": [
+      "5325-0.webp"
+    ],
+    "page": 33,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5324",
+    "model": "5324",
+    "name": "Electric Chainsaw 16\"",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": [
+      "2200W"
+    ],
+    "specs": {
+      "Rated Voltage": "220V",
+      "Rated Frequency": "50Hz",
+      "Guide Bar Size": "16\"(405mm)",
+      "Idling Speed": "400r/min, Fibure Body"
+    },
+    "notes": [],
+    "images": [
+      "5324-0.webp"
+    ],
+    "page": 33,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "unknown--p33-3",
+    "model": "--",
+    "name": "Chain Saw Guide Bar",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Sizes": "16\" (405mm), 18\""
+    },
+    "notes": [
+      "(455mm), 22\" (550mm)",
+      "Titanium type"
+    ],
+    "images": [
+      "unknown--p33-3-0.webp"
+    ],
+    "page": 33,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "odd model number",
+        "model appears 4x"
+      ]
+    }
+  },
+  {
+    "id": "5202",
+    "model": "5202",
+    "name": "Chain Saw Chain",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Sizes": "16\" (405mm), 18\" (455mm),"
+    },
+    "notes": [
+      "FULL CHISEL & ANTI KICK BACK",
+      "22\" (550mm)"
+    ],
+    "images": [],
+    "page": 33,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no image"
+      ]
+    }
+  },
+  {
+    "id": "5317",
+    "model": "5317",
+    "name": "Chain saw chain",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Sizes": "16\" (405mm), 18\" (455mm), 22\""
+    },
+    "notes": [
+      "(550mm)"
+    ],
+    "images": [
+      "5317-0.webp"
+    ],
+    "page": 33,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5328-WP-50-80",
+    "model": "5328-WP-50/80",
+    "name": "Water Pump",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Real Oil Alert",
+      "Easy recoil starter",
+      "Heavy crank case",
+      "Square frame",
+      "Screw oil cap",
+      "Chrome air cleaner"
+    ],
+    "images": [
+      "5328-WP-50-80-0.webp"
+    ],
+    "page": 34,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs",
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "5309",
+    "model": "5309",
+    "name": "Gasoline Engine",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Real Oil Alert",
+      "Easy Recoil Starter",
+      "Heavy Crank Case",
+      "Iron Cramshaft",
+      "Pulley Included"
+    ],
+    "images": [
+      "5309-0.webp"
+    ],
+    "page": 34,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "5344---45NO",
+    "model": "5344 - 45NO",
+    "name": "HTP Sprayer Pump",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Speed": "800-1200RPM",
+      "Suction": "40-60L/min",
+      "Pressure": "20-40 Bar",
+      "Motor": "3X30X22 HP"
+    },
+    "notes": [],
+    "images": [
+      "5344---45NO-0.webp"
+    ],
+    "page": 34,
+    "review": {
+      "status": "check",
+      "issues": [
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "5205",
+    "model": "5205",
+    "name": "Oil Free Compressor",
+    "category": "PNEUMATIC EQUIPMENTS",
+    "power": [
+      "50L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Capacity": "102 L/min",
+      "No Load Speed": "2500 r/min"
+    },
+    "notes": [],
+    "images": [
+      "5205-0.webp"
+    ],
+    "page": 36,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5358",
+    "model": "5358",
+    "name": "Oil Free Compressor",
+    "category": "PNEUMATIC EQUIPMENTS",
+    "power": [
+      "50L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Capacity": "102 L/min",
+      "No Load Speed": "1440 r/min"
+    },
+    "notes": [],
+    "images": [
+      "5358-0.webp"
+    ],
+    "page": 36,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5373--p36-1",
+    "model": "5373",
+    "name": "Compresser 50L",
+    "category": "PNEUMATIC EQUIPMENTS",
+    "power": [
+      "50L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Capacity": "205 L/min",
+      "Power": "2 HP"
+    },
+    "notes": [],
+    "images": [
+      "5373--p36-1-0.webp"
+    ],
+    "page": 36,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "model appears 2x"
+      ]
+    }
+  },
+  {
+    "id": "5372",
+    "model": "5372",
+    "name": "Compresser 30L",
+    "category": "PNEUMATIC EQUIPMENTS",
+    "power": [
+      "30L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Capacity": "185 L/min",
+      "Power": "2 HP"
+    },
+    "notes": [],
+    "images": [
+      "5372-0.webp"
+    ],
+    "page": 36,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5373--p36-2",
+    "model": "5373",
+    "name": "Oil Free Compressor",
+    "category": "PNEUMATIC EQUIPMENTS",
+    "power": [
+      "30L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Capacity": "102 L/min",
+      "No Load Speed": "1440 r/min"
+    },
+    "notes": [],
+    "images": [
+      "5373--p36-2-0.webp"
+    ],
+    "page": 36,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "model appears 2x"
+      ]
+    }
+  },
+  {
+    "id": "5250",
+    "model": "5250",
+    "name": "Welding Machine",
+    "category": "WELDING EQUIPMENTS",
+    "power": [
+      "200 AMP"
+    ],
+    "specs": {
+      "Number of Phase": "Single/2Phase",
+      "Number of PCB": "5",
+      "Number of Capacitors": "4",
+      "Number of Diodes": "3"
+    },
+    "notes": [],
+    "images": [
+      "5250-0.webp"
+    ],
+    "page": 38,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5251",
+    "model": "5251",
+    "name": "Welding Machine",
+    "category": "WELDING EQUIPMENTS",
+    "power": [
+      "250 AMP"
+    ],
+    "specs": {
+      "Number of Phase": "Single/2Phase",
+      "Number of PCB": "5",
+      "Number of Capacitors": "4",
+      "Number of Diodes": "3"
+    },
+    "notes": [],
+    "images": [
+      "5251-0.webp"
+    ],
+    "page": 38,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5252",
+    "model": "5252",
+    "name": "Welding Machine",
+    "category": "WELDING EQUIPMENTS",
+    "power": [
+      "300 AMP"
+    ],
+    "specs": {
+      "Number of Phase": "",
+      "Number of PCB": "5",
+      "Number of Capacitors": "4",
+      "Number of Diodes": "3"
+    },
+    "notes": [
+      "Single/2/3Phase"
+    ],
+    "images": [
+      "5252-0.webp"
+    ],
+    "page": 38,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5253",
+    "model": "5253",
+    "name": "Welding Machine",
+    "category": "WELDING EQUIPMENTS",
+    "power": [
+      "400 AMP"
+    ],
+    "specs": {
+      "Number of Phase": "",
+      "Number of PCB": "5",
+      "Number of Capacitors": "4",
+      "Number of Diodes": "3"
+    },
+    "notes": [
+      "Single/2/3Phase"
+    ],
+    "images": [
+      "5253-0.webp"
+    ],
+    "page": 38,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "5388--p40-1",
+    "model": "5388",
+    "name": "Diamond Saw Blade",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "4\"x8MM",
+      "4\"x8MM",
+      "4\"x8MM",
+      "4\"x10MM",
+      "4\"x10MM",
+      "4\"x115MM",
+      "SEG",
+      "RIM",
+      "TURBO",
+      "SEG",
+      "RIM",
+      "SEG",
+      "SEG",
+      "RIM",
+      "TURBO",
+      "SEG",
+      "SEG",
+      "5\"x10MM",
+      "5\"x10MM",
+      "5\"x10MM",
+      "355MM",
+      "400MM"
+    ],
+    "images": [
+      "5388--p40-1-0.webp"
+    ],
+    "page": 40,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "no specs",
+        "model appears 3x"
+      ]
+    }
+  },
+  {
+    "id": "5388--p40-2",
+    "model": "5388",
+    "name": "Concrete Cutter Blade",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "4\" Concrete - 112X12X20mm"
+    ],
+    "images": [
+      "5388--p40-2-0.webp"
+    ],
+    "page": 40,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "no specs",
+        "model appears 3x"
+      ]
+    }
+  },
+  {
+    "id": "5213--p40-1",
+    "model": "5213",
+    "name": "Diamond Saw Blade",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "4\" Rim - 110X9X20mm",
+      "4\" Seg - 110X9X9T",
+      "4\" Seg - 110X9X16T",
+      "4\" Turbo - 110X9X20mm"
+    ],
+    "images": [
+      "5213--p40-1-0.webp"
+    ],
+    "page": 40,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "no specs",
+        "model appears 2x"
+      ]
+    }
+  },
+  {
+    "id": "5213--p40-2",
+    "model": "5213",
+    "name": "Diamond Saw Blade",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "4\" Ceramic -",
+      "Segmented For Cutting",
+      "Ceramic",
+      "105X7X8X20mm"
+    ],
+    "images": [
+      "5213--p40-2-0.webp"
+    ],
+    "page": 40,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "no specs",
+        "model appears 2x"
+      ]
+    }
+  },
+  {
+    "id": "5388--p40-3",
+    "model": "5388",
+    "name": "Super Thin Turbo",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "4x105/4x110",
+      "Extra Life, Smooth, No",
+      "Chipping, For All Kinds of",
+      "Granite and Tiles"
+    ],
+    "images": [
+      "5388--p40-3-0.webp"
+    ],
+    "page": 40,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "no specs",
+        "model appears 3x"
+      ]
+    }
+  },
+  {
+    "id": "5389",
+    "model": "5389",
+    "name": "TCT Saw Blades",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "4X30T 110 X 20mm",
+      "4X40T 110 X 20mm",
+      "5x30T 110 X 20mm",
+      "5x40T 110 X 20mm"
+    ],
+    "images": [
+      "5389-0.webp"
+    ],
+    "page": 40,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "DIAMOND",
+    "model": "DIAMOND",
+    "name": "Core Bits",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Sizes - 6.5mm, 8mm, 10mm,",
+      "12mm, 14mm, 16mm, 19mm,",
+      "20mm, 22mm, 26mm, 30mm,",
+      "32mm, 37mm, 40mm, 45mm,",
+      "50mm, 65mm, 75mm"
+    ],
+    "images": [
+      "DIAMOND-0.webp"
+    ],
+    "page": 41,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs",
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "CONCRETE",
+    "model": "CONCRETE",
+    "name": "Core Bits",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Sizes - 38mm, 52mm, 63mm,",
+      "78mm, 84mm, 102mm, 112mm,",
+      "127mm, 152mm, 178mm,",
+      "200mm, 250mm, 300mm"
+    ],
+    "images": [
+      "CONCRETE-0.webp"
+    ],
+    "page": 41,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs",
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "TWISTED",
+    "model": "TWISTED",
+    "name": "Wire Brush",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Size 3\" (75mm)",
+      "Size 3\" (75mm)",
+      "Size 4\" (100mm)",
+      "x M10",
+      "x M14",
+      "x M14"
+    ],
+    "images": [
+      "TWISTED-0.webp"
+    ],
+    "page": 41,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs",
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "CRIMPED",
+    "model": "CRIMPED",
+    "name": "Wire Brush",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Size 3\" (75mm)",
+      "Size 3\" (75mm)",
+      "Size 4\" (100mm)",
+      "x M10",
+      "x M14",
+      "x M14"
+    ],
+    "images": [
+      "CRIMPED-0.webp"
+    ],
+    "page": 41,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs",
+        "odd model number"
+      ]
+    }
+  },
+  {
+    "id": "DM200",
+    "model": "DM200",
+    "name": "Door Mortiser",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "Max Cutting": "8\"(200mm)"
+    },
+    "notes": [
+      "Hard Chrome Plated, Light weight",
+      "Rust Proof (Includes 2 bits)"
+    ],
+    "images": [
+      "DM200-0.webp"
+    ],
+    "page": 42,
+    "review": {
+      "status": "ok",
+      "issues": []
+    }
+  },
+  {
+    "id": "unknown--p42-4",
+    "model": "--",
+    "name": "Flap Disc",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "100mm x 16 x 60 # Grit",
+      "100mm x 16 x 80 # Grit",
+      "100mm x 16 x 120 # Grit"
+    ],
+    "images": [
+      "unknown--p42-4-0.webp"
+    ],
+    "page": 42,
+    "review": {
+      "status": "duplicate",
+      "issues": [
+        "no specs",
+        "odd model number",
+        "model appears 4x"
+      ]
+    }
+  },
+  {
+    "id": "5359",
+    "model": "5359",
+    "name": "Manual Tile Cutter",
+    "category": "HAND TOOLS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "24 inch - 600mm",
+      "48 inch - 1200mm",
+      "72 inch - 1800mm"
+    ],
+    "images": [
+      "5359-0.webp"
+    ],
+    "page": 54,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "SG700",
+    "model": "SG700",
+    "name": "Caulking Gun",
+    "category": "HAND TOOLS",
+    "power": [
+      "700GMS"
+    ],
+    "specs": {},
+    "notes": [
+      "700GMS"
+    ],
+    "images": [
+      "SG700-0.webp"
+    ],
+    "page": 54,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "SG900D",
+    "model": "SG900D",
+    "name": "Caulking Gun",
+    "category": "HAND TOOLS",
+    "power": [
+      "900GMS"
+    ],
+    "specs": {},
+    "notes": [
+      "Fischer Chemical Gun",
+      "900 GMS"
+    ],
+    "images": [
+      "SG900D-0.webp"
+    ],
+    "page": 54,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  },
+  {
+    "id": "SG510",
+    "model": "SG510",
+    "name": "Caulking Gun",
+    "category": "HAND TOOLS",
+    "power": [
+      "510GMS"
+    ],
+    "specs": {},
+    "notes": [
+      "510GMS"
+    ],
+    "images": [
+      "SG510-0.webp"
+    ],
+    "page": 54,
+    "review": {
+      "status": "check",
+      "issues": [
+        "no specs"
+      ]
+    }
+  }
+]
