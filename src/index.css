@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* OPEL palette: teal body (Pantone 7712), black secondary, gold highlight (Pantone 7752); logo cyan from the brochure. */
+@theme {
+  --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Anton', 'Impact', sans-serif;
+
+  --color-brand: #00859b;
+  --color-brand-dark: #006f82;
+  --color-brand-bright: #00bfd7;
+  --color-highlight: #ccb34d;
+  --color-highlight-dark: #9c8530;
+  --color-ink: #0b0f12;
+  --color-ink-muted: #5b6470;
+  --color-night: #071a20;
+  --color-surface-muted: #f3f5f6;
+  --color-line: #e3e7ea;
+}
+
+@layer base {
+  html { -webkit-font-smoothing: antialiased; scroll-behavior: smooth; }
+  body { @apply bg-white font-sans text-ink; }
+}
+
+@utility container-page {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
