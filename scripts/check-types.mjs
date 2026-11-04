@@ -22,8 +22,22 @@ for (const t of TYPES) {
 }
 for (const p of products) if (!seen.has(p.id)) problems.push(`${p.id} (${p.name}, ${p.category}) has no type`)
 
+const models = products.map((p) => p.model)
+for (const m of new Set(models.filter((m, i) => models.indexOf(m) !== i))) problems.push(`model number ${m} is used by more than one product`)
+
+const spares = JSON.parse(readFileSync(new URL('../src/data/spare_parts.json', import.meta.url)))
+const spareIds = new Set()
+for (const r of spares) {
+  if (spareIds.has(r.id)) problems.push(`duplicate spare part id ${r.id}`)
+  spareIds.add(r.id)
+  if (r.kind === 'kit') {
+    if (!r.opelModels.length) problems.push(`spare kit ${r.id} names no OPEL model`)
+    for (const m of r.opelModels) if (!byId.has(m)) problems.push(`spare kit ${r.id} names model ${m}, which is not in products.json`)
+  }
+}
+
 if (problems.length) {
   console.error(`Product type check failed:\n  ${problems.join('\n  ')}`)
   process.exit(1)
 }
-console.log(`Product types OK: ${products.length} products in ${TYPES.length} types.`)
+console.log(`Product types OK: ${products.length} products in ${TYPES.length} types, ${spares.length} spare part entries.`)

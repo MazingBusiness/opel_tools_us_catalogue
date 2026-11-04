@@ -9,6 +9,7 @@ export const norm = (s) =>
     .replace(/a\.?h\.?$/, 'ah')
 
 const spec = (key) => (p) => p.specMap[key] ?? null
+const specFilter = (key, label, specKey) => ({ key, label, spec: specKey, value: spec(specKey) })
 
 const watts = (p) => {
   const ws = p.power.flatMap((s) => [...s.matchAll(/(\d[\d,]*)\s*W\b/gi)].map((m) => Number(m[1].replace(/,/g, ''))))
@@ -40,16 +41,16 @@ export const FILTERS = [
     },
     rank: (label) => POWER_BANDS.findIndex(([, l]) => l === label),
   },
-  { key: 'voltage', label: 'Rated voltage', value: spec('Rated Voltage') },
-  { key: 'battery', label: 'Battery voltage', value: spec('Battery Voltage') },
-  { key: 'battery-capacity', label: 'Battery capacity', value: spec('Battery Type') },
-  { key: 'chuck', label: 'Chuck size', value: spec('Chuck Size') },
-  { key: 'blade', label: 'Blade capacity', value: spec('Blade Capacity') },
-  { key: 'blade-diameter', label: 'Blade diameter', value: spec('Blade Diameter') },
-  { key: 'drilling', label: 'Drilling diameter', value: spec('Drilling Diameter') },
-  { key: 'wheel', label: 'Wheel size', value: spec('Wheel Size') },
-  { key: 'torque', label: 'Maximum torque', value: spec('Maximum Torque') },
-  { key: 'impact', label: 'Impact energy', value: spec('Single Impacting Force') },
+  specFilter('voltage', 'Rated voltage', 'Rated Voltage'),
+  specFilter('battery', 'Battery voltage', 'Battery Voltage'),
+  specFilter('battery-capacity', 'Battery capacity', 'Battery Type'),
+  specFilter('chuck', 'Chuck size', 'Chuck Size'),
+  specFilter('blade', 'Blade capacity', 'Blade Capacity'),
+  specFilter('blade-diameter', 'Blade diameter', 'Blade Diameter'),
+  specFilter('drilling', 'Drilling diameter', 'Drilling Diameter'),
+  specFilter('wheel', 'Wheel size', 'Wheel Size'),
+  specFilter('torque', 'Maximum torque', 'Maximum Torque'),
+  specFilter('impact', 'Impact energy', 'Single Impacting Force'),
 ]
 
 export const SORTS = [
@@ -100,7 +101,7 @@ export function buildFacets(products, selected = {}) {
       const k = valueKey(def, p)
       if (k != null) options.get(k).count++
     }
-    return [{ key: def.key, label: def.label, options: [...options.values()].sort(compareLabels(def)) }]
+    return [{ key: def.key, label: def.label, spec: def.spec, options: [...options.values()].sort(compareLabels(def)) }]
   })
 }
 

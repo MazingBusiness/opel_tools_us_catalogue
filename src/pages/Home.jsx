@@ -33,9 +33,9 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="relative mx-auto grid aspect-square w-full max-w-md place-items-center">
+          <div className="relative mx-auto grid aspect-square grid-cols-[minmax(0,1fr)] grid-rows-[minmax(0,1fr)] w-full max-w-md place-items-center">
             <div className="absolute inset-6 rounded-full bg-brand/30 blur-3xl" />
-            <img src={productImage(hero.products[0].images[0])} alt="" className="relative max-h-full object-contain drop-shadow-2xl" />
+            <img src={productImage(hero.products[0].images[0])} alt="" className="relative size-full min-h-0 object-contain drop-shadow-2xl" />
           </div>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function Home() {
             <li key={c.slug}>
               <Link to={categoryPath(c)} className="group flex h-full flex-col overflow-hidden rounded-xl border border-line hover:border-brand hover:shadow-lg">
                 <div className="grid aspect-[4/3] place-items-center bg-surface-muted p-5">
-                  <img src={productImage(c.products[0].images[0])} alt="" loading="lazy" className="max-h-full object-contain transition group-hover:scale-105" />
+                  <img src={productImage(c.products[0].images[0])} alt="" loading="lazy" className="size-full min-h-0 object-contain transition group-hover:scale-105" />
                 </div>
                 <div className="border-t-4 border-transparent p-4 group-hover:border-highlight">
                   <h3 className="font-bold uppercase tracking-wide group-hover:text-brand">{c.label}</h3>

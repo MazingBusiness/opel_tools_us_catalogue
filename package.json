@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/check-types.mjs && vite build",
+    "build": "node scripts/check-types.mjs && node scripts/check-units.mjs && vite build",
     "preview": "vite preview",
     "lint": "oxlint",
     "export:data": "node data-review/scripts/export_site.mjs",
-    "check:types": "node scripts/check-types.mjs"
+    "check:types": "node scripts/check-types.mjs",
+    "check:units": "node scripts/check-units.mjs"
   },
   "dependencies": {
     "@fontsource-variable/plus-jakarta-sans": "^5.3.0",

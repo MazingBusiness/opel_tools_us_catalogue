@@ -4,9 +4,11 @@ import Breadcrumbs from '../components/Breadcrumbs.jsx'
 import ProductCard from '../components/ProductCard.jsx'
 import NotFound from './NotFound.jsx'
 import { categoryPath, findCategory, findType, typePath } from '../data/catalogue.js'
+import { showSpec } from '../data/units.js'
+import { useUnits } from '../components/units.js'
 import { SORTS, buildFacets, matches, readQuery, sortProducts, writeQuery } from '../data/filters.js'
 
-function FilterGroup({ facet, picked, onToggle }) {
+function FilterGroup({ facet, picked, onToggle, units }) {
   return (
     <details open className="group border-b border-line py-4">
       <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-extrabold uppercase tracking-wide">
@@ -21,7 +23,7 @@ function FilterGroup({ facet, picked, onToggle }) {
             <li key={o.key}>
               <label className={`flex cursor-pointer items-center gap-3 text-sm ${off ? 'opacity-40' : ''}`}>
                 <input type="checkbox" checked={on} disabled={off} onChange={() => onToggle(facet.key, o.key)} className="size-4 accent-brand" />
-                <span className="flex-1">{o.label}</span>
+                <span className="flex-1">{optionLabel(facet, o.label, units)}</span>
                 <span className="text-xs text-ink-muted">({o.count})</span>
               </label>
             </li>
@@ -32,12 +34,16 @@ function FilterGroup({ facet, picked, onToggle }) {
   )
 }
 
+// Filter values stay as printed in the URL; only the text shown follows the unit choice.
+const optionLabel = (facet, label, units) => (facet.spec ? showSpec(facet.spec, label, units).value : label)
+
 export default function TypeListing() {
   const params = useParams()
   const category = findCategory(params.category)
   const type = findType(category, params.type)
   const [search, setSearch] = useSearchParams()
   const [drawer, setDrawer] = useState(false)
+  const units = useUnits()
 
   const base = type?.products ?? []
   const { selected, sort, clean } = useMemo(() => readQuery(search, base), [search, base])
@@ -51,7 +57,8 @@ export default function TypeListing() {
   if (!category) return <NotFound what="category" />
   if (!type) return <NotFound what="product type" back={[categoryPath(category), `All ${category.label}`]} />
 
-  const facets = buildFacets(base, selected)
+  // In US units every mains voltage reads 120V, so a voltage filter would offer the same choice several times.
+  const facets = buildFacets(base, selected).filter((f) => !(units === 'us' && f.key === 'voltage'))
   const shown = sortProducts(base.filter((p) => matches(p, selected)), sort)
   const pickedCount = Object.values(selected).flat().length
 
@@ -60,7 +67,11 @@ export default function TypeListing() {
     const cur = selected[key] ?? []
     update({ ...selected, [key]: cur.includes(value) ? cur.filter((v) => v !== value) : [...cur, value] })
   }
-  const labelOf = (key, value) => facets.find((f) => f.key === key)?.options.find((o) => o.key === value)?.label ?? value
+  const labelOf = (key, value) => {
+    const f = facets.find((x) => x.key === key)
+    const o = f?.options.find((x) => x.key === value)
+    return o ? optionLabel(f, o.label, units) : value
+  }
 
   const sidebar = (
     <>
@@ -69,7 +80,7 @@ export default function TypeListing() {
         {pickedCount > 0 && <button onClick={() => update({})} className="text-xs font-bold text-brand hover:underline">Clear all</button>}
       </div>
       {facets.length === 0 && <p className="py-4 text-sm text-ink-muted">No filters for this product type.</p>}
-      {facets.map((f) => <FilterGroup key={f.key} facet={f} picked={selected[f.key] ?? []} onToggle={toggle} />)}
+      {facets.map((f) => <FilterGroup key={f.key} facet={f} picked={selected[f.key] ?? []} onToggle={toggle} units={units} />)}
       <div className="py-4">
         <p className="text-xs font-bold uppercase tracking-wide text-ink-muted">More in {category.label}</p>
         <ul className="mt-2 space-y-1.5 text-sm">

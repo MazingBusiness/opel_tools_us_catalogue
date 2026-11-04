@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import Logo from './Logo.jsx'
+import UnitsToggle from './UnitsToggle.jsx'
 import { CATEGORIES, categoryPath, productImage, typePath } from '../data/catalogue.js'
 
 function SearchBox({ className = '', onDone }) {
@@ -69,7 +70,7 @@ function MegaMenu({ onClose }) {
               <li key={t.slug}>
                 <Link to={typePath(t)} onClick={onClose} className="group flex items-center gap-3 rounded-xl p-2 hover:bg-surface-muted">
                   <span className="grid size-16 shrink-0 place-items-center rounded-lg bg-surface-muted p-1.5 group-hover:bg-white">
-                    <img src={productImage(t.products[0].images[0])} alt="" className="max-h-full object-contain" />
+                    <img src={productImage(t.products[0].images[0])} alt="" className="size-full min-h-0 object-contain" />
                   </span>
                   <span>
                     <span className="block text-sm font-bold leading-tight group-hover:text-brand">{t.label}</span>
@@ -90,6 +91,7 @@ function MobileMenu({ onClose }) {
   return (
     <div className="fixed inset-0 top-16 z-40 overflow-y-auto bg-white text-ink lg:hidden">
       <div className="p-4"><SearchBox onDone={onClose} className="text-white [&_label]:bg-night" /></div>
+      <div className="flex items-center justify-between px-4 pb-4 text-sm font-bold uppercase tracking-wide">Units <UnitsToggle /></div>
       <ul className="divide-y divide-line border-t border-line">
         {CATEGORIES.map((c) => (
           <li key={c.slug}>
@@ -120,6 +122,12 @@ function MobileMenu({ onClose }) {
             )}
           </li>
         ))}
+        <li>
+          <Link to="/spare-parts" onClick={onClose} className="flex w-full items-center justify-between px-4 py-4 text-sm font-bold uppercase tracking-wide">
+            Spare Parts
+            <span aria-hidden>›</span>
+          </Link>
+        </li>
       </ul>
     </div>
   )
@@ -181,8 +189,17 @@ export default function Header() {
               <path d="m6 9 6 6 6-6" />
             </svg>
           </button>
+          <Link
+            to="/spare-parts"
+            className={`flex items-center border-b-4 px-4 pt-1 text-sm font-bold uppercase tracking-wider ${
+              pathname.startsWith('/spare-parts') ? 'border-highlight text-highlight' : 'border-transparent hover:text-highlight'
+            }`}
+          >
+            Spare Parts
+          </Link>
         </nav>
         <SearchBox className="ml-auto hidden w-full max-w-sm md:block" />
+        <UnitsToggle className="hidden shrink-0 md:inline-flex" />
         <Link to="/search" aria-label="Search" className="ml-auto grid size-10 place-items-center md:hidden">
           <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2.2">
             <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />

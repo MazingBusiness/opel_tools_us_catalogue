@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "armature",
+    "kind": "part",
+    "title": "Armature",
+    "page": 45,
+    "image": "armature.webp",
+    "name": "Armature",
+    "features": [
+      "100% Copper",
+      "Grinded Gear Teeth",
+      "Superior Copper Wire",
+      "Precision Engineered",
+      "Top Quality Components",
+      "Double Insulation for Extra Durability."
+    ],
+    "fitsModels": [
+      "11E (3WIRES)",
+      "2414NB",
+      "3220 SKILL",
+      "5900B",
+      "CC14STA",
+      "DW871",
+      "KPT5791",
+      "5016",
+      "6-100",
+      "7020",
+      "750-100",
+      "810T",
+      "900-100",
+      "C7",
+      "C7SS",
+      "CC14STD",
+      "CM4SA",
+      "CM4SB",
+      "CM5 NEW",
+      "CM5 PRO(CRO)",
+      "CM6",
+      "DW-014",
+      "DW28700",
+      "DW28730",
+      "DW801",
+      "DWD024",
+      "FF03-26",
+      "G10SS2",
+      "G15SA2",
+      "GC02400J",
+      "GCO 200",
+      "GCO-14-02",
+      "GDC120",
+      "GDC34",
+      "GEX-150",
+      "GHO 10-82",
+      "GKS-140",
+      "GKS-7000",
+      "GQ4",
+      "GSK190",
+      "GWS14-125",
+      "GWS7-100",
+      "GWS8-100",
+      "KEN7614NB",
+      "LG355"
+    ]
+  },
+  {
+    "id": "armature-2",
+    "kind": "part",
+    "title": "Armature",
+    "page": 45,
+    "image": "armature-2.webp",
+    "name": "Armature",
+    "features": [
+      "100% Copper",
+      "Grinded Gear Teeth",
+      "Superior Copper Wire",
+      "Precision Engineered",
+      "Top Quality Components",
+      "Double Insulation for Extra Durability."
+    ],
+    "fitsModels": [
+      "2-20, 2-26",
+      "3612 BR",
+      "6-100",
+      "810T",
+      "9553",
+      "CM4SA",
+      "CM4SB",
+      "DU10",
+      "DW801",
+      "FF160",
+      "LG355",
+      "PD100D",
+      "PD100M",
+      "PH65A",
+      "1900B",
+      "2310",
+      "2510",
+      "355 D / 069",
+      "3703/TR-6",
+      "4016",
+      "5016",
+      "-6MM DRILL ED06A",
+      "C7",
+      "CC14STD",
+      "CM5 NEW",
+      "DP-180",
+      "EB550",
+      "ENDICO ROUTER",
+      "FF-125B",
+      "G10SS2",
+      "G15SA2",
+      "G18SE2",
+      "GCO 200",
+      "gco200 coil",
+      "GDC120",
+      "GHO6500",
+      "GST85PB",
+      "GWS-20-180",
+      "ID- 13RE",
+      "ID-13B",
+      "JS-70",
+      "MS-255",
+      "MSD-255",
+      "MT410",
+      "MT412",
+      "MT-90",
+      "PH65SC",
+      "SD-10B/10C"
+    ]
+  },
+  {
+    "id": "field-coil",
+    "kind": "part",
+    "title": "Field Coil",
+    "page": 45,
+    "image": "field-coil.webp",
+    "name": "Field Coil",
+    "features": [
+      "100% Copper",
+      "Grinded Gear Teeth",
+      "Superior Copper Wire",
+      "Precision Engineered",
+      "Top Quality Components",
+      "Double Insulation for Extra Durability."
+    ],
+    "fitsModels": [
+      "CC14SF",
+      "2310 (2/80PCS)",
+      "6-100",
+      "6MM DRILL",
+      "750-100",
+      "810T",
+      "CM4SA",
+      "CM4SB",
+      "CM5 NEW",
+      "CM-5 PRO (30PCS)",
+      "DU-10",
+      "DW28700",
+      "DW801",
+      "DW871",
+      "ED10",
+      "GBH2-20",
+      "GBH2-26",
+      "GCO2000 (12PCS)",
+      "LG355",
+      "MT5016",
+      "PH65A",
+      "PH65HC"
+    ]
+  },
+  {
+    "id": "grease",
+    "kind": "part",
+    "title": "Demolition Hammer Grease",
+    "page": 45,
+    "image": "grease.webp",
+    "name": "Demolition Hammer Grease",
+    "codes": [
+      "5390",
+      "5391"
+    ],
+    "features": [
+      "High-density grease",
+      "150 GMS | Tube",
+      "500 GMS | Box"
+    ],
+    "fitsModels": []
+  },
+  {
+    "id": "gear",
+    "kind": "part",
+    "title": "GEAR",
+    "page": 46,
+    "image": "gear.webp",
+    "name": "Gear",
+    "features": [],
+    "fitsModels": [
+      "11E",
+      "5016",
+      "6-100",
+      "810T",
+      "C7",
+      "CC14STD",
+      "CM4SA",
+      "CM4SB",
+      "CM5",
+      "CM6",
+      "801",
+      "G10SS",
+      "G15SA2",
+      "GCO 200",
+      "LG 355"
+    ]
+  },
+  {
+    "id": "gear-box",
+    "kind": "part",
+    "title": "GEAR BOX",
+    "page": 46,
+    "image": "gear-box.webp",
+    "name": "Gear Box",
+    "features": [],
+    "fitsModels": [
+      "11E",
+      "5016",
+      "6-100",
+      "810T",
+      "C7",
+      "CC14STD",
+      "CM4SA",
+      "CM4SB",
+      "CM5",
+      "CM6",
+      "801",
+      "G10SS",
+      "G15SA2",
+      "GCO 200",
+      "LG 355"
+    ]
+  },
+  {
+    "id": "spindle",
+    "kind": "part",
+    "title": "SPINDLE",
+    "page": 46,
+    "image": "spindle.webp",
+    "name": "Spindle",
+    "features": [],
+    "fitsModels": [
+      "11E",
+      "5016",
+      "6-100",
+      "810T",
+      "C7",
+      "CC14STD",
+      "CM4SA",
+      "CM4SB",
+      "CM5",
+      "CM6",
+      "801",
+      "G10SS",
+      "G15SA2",
+      "GCO 200",
+      "LG 355"
+    ]
+  },
+  {
+    "id": "switch",
+    "kind": "part",
+    "title": "SWITCH",
+    "page": 46,
+    "image": "switch.webp",
+    "name": "Switch",
+    "features": [],
+    "fitsModels": [
+      "11E",
+      "5016",
+      "6-100",
+      "810T",
+      "C7",
+      "CC14STD",
+      "CM4SA",
+      "CM4SB",
+      "CM5",
+      "CM6",
+      "801",
+      "G10SS",
+      "G15SA2",
+      "GCO 200",
+      "LG 355"
+    ]
+  },
+  {
+    "id": "carbon",
+    "kind": "part",
+    "title": "CARBON",
+    "page": 46,
+    "image": "carbon.webp",
+    "name": "Carbon",
+    "features": [],
+    "fitsModels": [
+      "11E",
+      "5016",
+      "6-100",
+      "810T",
+      "C7",
+      "CC14STD",
+      "CM4SA",
+      "CM4SB",
+      "CM5",
+      "CM6",
+      "801",
+      "G10SS",
+      "G15SA2",
+      "GCO 200",
+      "LG 355"
+    ]
+  },
+  {
+    "id": "bearing-housing",
+    "kind": "part",
+    "title": "BEARING HOUSING",
+    "page": 46,
+    "image": "bearing-housing.webp",
+    "name": "Bearing Housing",
+    "features": [],
+    "fitsModels": [
+      "11E",
+      "5016",
+      "6-100",
+      "810T",
+      "C7",
+      "CC14STD",
+      "CM4SA",
+      "CM4SB",
+      "CM5",
+      "CM6",
+      "801",
+      "G10SS",
+      "G15SA2",
+      "GCO 200",
+      "LG 355"
+    ]
+  },
+  {
+    "id": "body",
+    "kind": "part",
+    "title": "BODY",
+    "page": 46,
+    "image": "body.webp",
+    "name": "Body",
+    "features": [],
+    "fitsModels": [
+      "11E",
+      "5016",
+      "6-100",
+      "810T",
+      "C7",
+      "CC14STD",
+      "CM4SA",
+      "CM4SB",
+      "CM5",
+      "CM6",
+      "801",
+      "G10SS",
+      "G15SA2",
+      "GCO 200",
+      "LG 355"
+    ]
+  },
+  {
+    "id": "kit-5214",
+    "kind": "kit",
+    "title": "11E / 5214 SPARE PARTS",
+    "page": 47,
+    "image": "kit-5214.webp",
+    "refCodes": [
+      "11E"
+    ],
+    "opelModels": [
+      "5214"
+    ],
+    "parts": [
+      "BACK COVER",
+      "SWITCH PLATE WITH BEARING",
+      "CARBON HOLDER SET",
+      "FRONT HANDLE CLAMP",
+      "CONNECTING ROD WITH NEEDLE BEARING",
+      "CYLINDER SLEEVE",
+      "GEAR",
+      "GEAR BOX",
+      "LEG SET",
+      "MOUTH KIT 11PCS",
+      "NEEDLE BEARING 4902",
+      "NEEDLE BEARING RUBBER ASSEMBLY 162216",
+      "O-RING",
+      "OIL SEAL",
+      "PISTON ALUMINIUM",
+      "RUBBER DAMPING RING",
+      "SIDE HANDLE",
+      "SPEED GOVERNOR",
+      "STOPPING DEVICE",
+      "SUPPORTING DISC",
+      "SWITCH",
+      "SWITCH LEVER",
+      "THREAD NUT COMPLETE",
+      "TUBE O RING",
+      "TOOL HOLDER"
+    ]
+  },
+  {
+    "id": "kit-5361",
+    "kind": "kit",
+    "title": "PH65A / 5361 SPARE PARTS",
+    "page": 47,
+    "image": "kit-5361.webp",
+    "refCodes": [
+      "PH65A"
+    ],
+    "opelModels": [
+      "5361"
+    ],
+    "parts": [
+      "BARREL",
+      "BIT LOCK SET",
+      "O-RING",
+      "BODY",
+      "PISTON",
+      "PISTON PIN",
+      "SWITCH",
+      "CONNECTING ROD WITH NEEDLE BEARING",
+      "NEEDLE BEARING",
+      "SIDE HANDLE",
+      "SWITCH HANDLE, METAL",
+      "TOOL HOLDER WITH LOCK SET"
+    ]
+  },
+  {
+    "id": "kit-5362",
+    "kind": "kit",
+    "title": "21 KG / 5362 SPARE PARTS",
+    "page": 47,
+    "image": "kit-5362.webp",
+    "refCodes": [
+      "21 KG"
+    ],
+    "opelModels": [
+      "5362"
+    ],
+    "parts": [
+      "CONNECTING ROD",
+      "CRANK SHAFT",
+      "CYLINDER",
+      "DAMPING RING",
+      "DAMPING SLEEVE",
+      "DAMPING SPRING",
+      "FAN COVER",
+      "IMPACT BOLT",
+      "L RING (RUBBER)",
+      "METAL PLATE( 5 HOLE)",
+      "NEEDLE BEARING",
+      "O RING",
+      "O RING METAL",
+      "O RING PLASTIC",
+      "PISTON O RING",
+      "76 BEARING COVER",
+      "78 BEARING HOLDER",
+      "80 ARMATURE FAN",
+      "TOOL HOLDER",
+      "STOP LEVER KIT -10 PCS",
+      "MOTOR HOUSING",
+      "GEAR SET COMPLETE(2 PCS)",
+      "CYLINDER ASSY WITH TOOL HOLDER",
+      "PISTON SET ASSY",
+      "CRANK COVER",
+      "GEAR BIG",
+      "35 GEAR PIN",
+      "37 IG PLATE",
+      "40 GEAR SMAL",
+      "44 BRAKET (JALI)",
+      "56 TO 58 HANDLE SET",
+      "61 TO 63 SWITCH ASSY",
+      "72 CARBON HOLDER",
+      "73 CARBON HOLDER COVER",
+      "49 SHOCK ABSORBER"
+    ]
+  },
+  {
+    "id": "kit-5363",
+    "kind": "kit",
+    "title": "855 / 5363 SPARE PARTS",
+    "page": 48,
+    "image": "kit-5363.webp",
+    "refCodes": [
+      "855"
+    ],
+    "opelModels": [
+      "5363"
+    ],
+    "parts": [
+      "BODY",
+      "CARBON HOLDER",
+      "COMPLETE BARREL SET",
+      "CONNECTING ROD",
+      "CRANK SHAFT",
+      "IMPACT BOLT",
+      "CYLINDER",
+      "O RING",
+      "GEAR BOX",
+      "PISTON",
+      "HANDLE SET",
+      "PISTON PIN",
+      "SCREW M8*40",
+      "SWITCH",
+      "BACK COVER",
+      "BACK COVER SCREW",
+      "GEAR SET",
+      "TOOL HOLDER"
+    ]
+  },
+  {
+    "id": "kit-5360",
+    "kind": "kit",
+    "title": "810T / 5360 SPARE PARTS",
+    "page": 48,
+    "image": "kit-5360.webp",
+    "refCodes": [
+      "810T"
+    ],
+    "opelModels": [
+      "5360"
+    ],
+    "parts": [
+      "BARREL SET COMPLETE",
+      "BODY",
+      "CARBON HOLDER",
+      "CONNECTING ROD WITH NEEDLE BEARING",
+      "GEAR",
+      "GEAR BOX",
+      "NIDDLE BEARING NK1212",
+      "O RING",
+      "OIL CAP WITH O-RING",
+      "SEAL",
+      "PISTON PIN",
+      "SIDE HANDLE",
+      "SWITCH",
+      "SWITCH HANDLE",
+      "PISTON",
+      "TOOL HOLDER COMPLETE"
+    ]
+  },
+  {
+    "id": "kit-5231-5311",
+    "kind": "kit",
+    "title": "CM4SA / 5231 / 5311 SPARE PARTS",
+    "page": 48,
+    "image": "kit-5231-5311.webp",
+    "refCodes": [
+      "CM4SA"
+    ],
+    "opelModels": [
+      "5231",
+      "5311"
+    ],
+    "parts": [
+      "GEAR",
+      "SWITCH HANDLE",
+      "BEARING COVER",
+      "SPINDLE",
+      "BLACK COVER",
+      "SWITCH",
+      "BEARING HOUSING",
+      "BODY",
+      "GEAR BOX WITH BEARING HOUSING AND BEARING",
+      "JAALI",
+      "CARBON HOLDER WITH CAP"
+    ]
+  },
+  {
+    "id": "kit-5232-5312",
+    "kind": "kit",
+    "title": "CM4SB / 5232 / 5312 SPARE PARTS",
+    "page": 48,
+    "image": "kit-5232-5312.webp",
+    "refCodes": [
+      "CM4SB"
+    ],
+    "opelModels": [
+      "5232",
+      "5312"
+    ],
+    "parts": [
+      "GEAR",
+      "SWITCH HANDLE",
+      "BEARING COVER",
+      "SPINDLE",
+      "BLACK COVER",
+      "SWITCH",
+      "BEARING HOUSING",
+      "BODY",
+      "GEAR BOX WITH BEARING HOUSING AND BEARING",
+      "JAALI",
+      "CARBON HOLDER WITH CAP"
+    ]
+  },
+  {
+    "id": "kit-5307",
+    "kind": "kit",
+    "title": "CM5 / 5307 SPARE PARTS",
+    "page": 49,
+    "image": "kit-5307.webp",
+    "refCodes": [
+      "CM5"
+    ],
+    "opelModels": [
+      "5307"
+    ],
+    "parts": [
+      "GEAR",
+      "SWITCH HANDLE",
+      "BEARING COVER",
+      "SPINDLE",
+      "BLACK COVER",
+      "SWITCH",
+      "BEARING HOUSING",
+      "BODY",
+      "GEAR BOX WITH BEARING HOUSING AND BEARING",
+      "JAALI",
+      "CARBON HOLDER WITH CAP"
+    ]
+  },
+  {
+    "id": "kit-5341-5223",
+    "kind": "kit",
+    "title": "2-20 / 5341 / 5223 SPARE PARTS",
+    "page": 49,
+    "image": "kit-5341-5223.webp",
+    "refCodes": [
+      "2-20"
+    ],
+    "opelModels": [
+      "5341",
+      "5223"
+    ],
+    "parts": [
+      "COMPLETE GEARBOX",
+      "BODY",
+      "DUMPING SET",
+      "KNOB",
+      "LONG GEAR",
+      "MOUTH SET",
+      "O RING",
+      "OIL SEAL",
+      "PISTON",
+      "PISTON PIN SET",
+      "SMALL GEAR",
+      "SWING BEARING",
+      "SWITCH",
+      "TOOL HOLDER SET",
+      "FLANGE SET WITH RUBBER",
+      "GEAR BOX WITH KNOB AND NEEDLE BEARING",
+      "BEARING RUBBER 607"
+    ]
+  },
+  {
+    "id": "kit-5342-5222",
+    "kind": "kit",
+    "title": "2-26 / 5342 / 5222 SPARE PARTS",
+    "page": 49,
+    "image": "kit-5342-5222.webp",
+    "refCodes": [
+      "2-26"
+    ],
+    "opelModels": [
+      "5342",
+      "5222"
+    ],
+    "parts": [
+      "COMPLETE GEARBOX",
+      "BEARING RUBBER",
+      "BODY",
+      "DUMPING SET",
+      "KNOB",
+      "LONG GEAR",
+      "MOUTH SET",
+      "O RING",
+      "CLAMP BEARING WITH BEARING",
+      "PISTON",
+      "PISTON PIN SET",
+      "SWING BEARING",
+      "GEAR BOX WITH KNOB AND NEEDLE BEARING",
+      "TOOL HOLDER SET",
+      "FLANGE SET WITH RUBBER",
+      "MOON C PLATE STEEL",
+      "U PATTI",
+      "NEDDLE BEARING 3012",
+      "NEEDLE BEARING (910)",
+      "NEEDLE BEARING (709)",
+      "NEEDLE BEARING PVC"
+    ]
+  },
+  {
+    "id": "kit-5304",
+    "kind": "kit",
+    "title": "6-100 / 5304 SPARE PARTS",
+    "page": 49,
+    "image": "kit-5304.webp",
+    "refCodes": [
+      "6-100"
+    ],
+    "opelModels": [
+      "5304"
+    ],
+    "parts": [
+      "AB WASHER",
+      "BEARING HOUSING WITH BEARING",
+      "BEARING RUBBER",
+      "BODY SET",
+      "CARBON HOLDER",
+      "GEAR BOX",
+      "LOCK SET",
+      "NEEDLE BEARING HK0810",
+      "SPANNER",
+      "SPINDLE",
+      "SWITCH",
+      "GEAR SET",
+      "KNOB ROD"
+    ]
+  },
+  {
+    "id": "kit-5301",
+    "kind": "kit",
+    "title": "801 / 5301SPARE PARTS",
+    "page": 50,
+    "image": "kit-5301.webp",
+    "refCodes": [
+      "801"
+    ],
+    "opelModels": [
+      "5301"
+    ],
+    "parts": [
+      "AB WASHER",
+      "BEARING HOUSING WITH BEARING",
+      "BEARING RUBBER",
+      "BODY SET",
+      "CARBON HOLDER",
+      "LOCK SET",
+      "NEEDLE BEARING",
+      "SPANNER",
+      "SPINDLE",
+      "SWITCH",
+      "GEAR BOX",
+      "GEAR SET"
+    ]
+  },
+  {
+    "id": "kit-5334",
+    "kind": "kit",
+    "title": "1900B / 5334 SPARE PARTS",
+    "page": 50,
+    "image": "kit-5334.webp",
+    "refCodes": [
+      "1900B"
+    ],
+    "opelModels": [
+      "5334"
+    ],
+    "parts": [
+      "ADJUSTING BASE WITH KNOB COMPLETE SET",
+      "BELT",
+      "BODY",
+      "CARBON HOLDER",
+      "FLANGE WITH BEARING",
+      "PULLY SET",
+      "ROLLER SET"
+    ]
+  },
+  {
+    "id": "kit-5335",
+    "kind": "kit",
+    "title": "5335 / VIBRATOR SPARE PARTS",
+    "page": 50,
+    "image": "kit-5335.webp",
+    "refCodes": [
+      "VIBRATOR"
+    ],
+    "opelModels": [
+      "5335"
+    ],
+    "parts": [
+      "GEAR",
+      "GEAR BOX COMPLETE",
+      "IG PLATE WITH BEARING",
+      "CARBON HOLDER SET",
+      "BODY",
+      "HANDLE SETS",
+      "SPINDLE",
+      "SWITCH",
+      "SWITCH HANDLE"
+    ]
+  },
+  {
+    "id": "kit-5229",
+    "kind": "kit",
+    "title": "5229 SPARE PARTS",
+    "page": 51,
+    "image": "kit-5229.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5229"
+    ],
+    "parts": [
+      "CARBON BRUSH",
+      "GEAR BOX COMPLETE",
+      "GEAR SET",
+      "IG PLATE",
+      "POWER PROTECTION UNIT",
+      "BODY"
+    ]
+  },
+  {
+    "id": "kit-5221",
+    "kind": "kit",
+    "title": "5221 SPARE PARTS",
+    "page": 51,
+    "image": "kit-5221.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5221"
+    ],
+    "parts": [
+      "IG PLATE",
+      "SPINDLE",
+      "BODY",
+      "GEAR SET"
+    ]
+  },
+  {
+    "id": "kit-5232-2",
+    "kind": "kit",
+    "title": "5232 SPARE PARTS",
+    "page": 51,
+    "image": "kit-5232-2.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5232"
+    ],
+    "parts": [
+      "CARBON BRUSH",
+      "SWITCH HANDLE",
+      "BEARING COVER",
+      "GEAR BOX",
+      "GEAR",
+      "PINION",
+      "BODY",
+      "SWITCH"
+    ]
+  },
+  {
+    "id": "kit-5204-5230",
+    "kind": "kit",
+    "title": "5204/5230 SPARE PARTS",
+    "page": 51,
+    "image": "kit-5204-5230.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5204",
+      "5230"
+    ],
+    "parts": [
+      "BODY",
+      "CARBON BRUSH",
+      "BEARING HOUSING",
+      "SWITCH HANDLE",
+      "GEAR BOX",
+      "GEAR SET",
+      "PINION",
+      "BASE PLATE",
+      "SWITCH"
+    ]
+  },
+  {
+    "id": "kit-5206",
+    "kind": "kit",
+    "title": "5206 SPARE PARTS",
+    "page": 51,
+    "image": "kit-5206.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5206"
+    ],
+    "parts": [
+      "BACK COVER",
+      "GEAR BOX",
+      "HANDLE",
+      "KNOB",
+      "MOUTH ASSY",
+      "HOLDER",
+      "GEAR",
+      "SWITCH"
+    ]
+  },
+  {
+    "id": "kit-5210",
+    "kind": "kit",
+    "title": "5210 SPARE PARTS",
+    "page": 51,
+    "image": "kit-5210.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5210"
+    ],
+    "parts": [
+      "BARREL SET COMPLETE",
+      "BOTTOM COVER",
+      "HANDLE WITH COVER",
+      "NECK",
+      "HANDLE",
+      "GEAR",
+      "SWITCH"
+    ]
+  },
+  {
+    "id": "kit-5225-5228",
+    "kind": "kit",
+    "title": "5225/5228 SPARE PARTS",
+    "page": 51,
+    "image": "kit-5225-5228.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5225",
+      "5228"
+    ],
+    "parts": [
+      "BODY",
+      "GEAR BOX",
+      "GEAR SETS",
+      "HANDLE SETS",
+      "SPINDLE"
+    ]
+  },
+  {
+    "id": "kit-5336",
+    "kind": "kit",
+    "title": "5336 SPARE PARTS",
+    "page": 51,
+    "image": "kit-5336.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5336"
+    ],
+    "parts": [
+      "GEAR",
+      "GEAR BOX COMPLETE",
+      "IG PLATE WITH BEARING",
+      "SWITCH",
+      "HANDLE SETS",
+      "HOUSING",
+      "SPINDLE"
+    ]
+  },
+  {
+    "id": "kit-5207",
+    "kind": "kit",
+    "title": "5207 SPARE PARTS",
+    "page": 52,
+    "image": "kit-5207.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5207"
+    ],
+    "parts": [
+      "HANDLE",
+      "FIELD COIL",
+      "TOOL HOLDER ASSEMBLY",
+      "O RING",
+      "CRANK HOUSING",
+      "CRANK SHAFT",
+      "FIRST GEAR",
+      "SHOCK ABSORBER SLEEVE",
+      "SHOCK ABSORBER SPRING",
+      "MIDDLE COVER",
+      "CARBON BRUSH HOLDER",
+      "BRAKET (JALI)",
+      "MOTOR HOUSING",
+      "NECK",
+      "CYLINDER INNER",
+      "CYLINDER SET COMPLETE WITH TOOLHOLDER",
+      "SWITCH"
+    ]
+  },
+  {
+    "id": "kit-5209",
+    "kind": "kit",
+    "title": "5209 SPARE PARTS",
+    "page": 52,
+    "image": "kit-5209.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5209"
+    ],
+    "parts": [
+      "CYLINDER SET COMPLETE",
+      "TOOL HOLDER",
+      "PISTON",
+      "NECK",
+      "PISTON SET WITH CONNECTING ROD",
+      "CRANK CASE ASSEMBLY",
+      "BODY",
+      "SCERW KEY TYPE NUT",
+      "CRANK SHAFT",
+      "GEAR SET",
+      "IG PLATE",
+      "MOTOR HOUSING",
+      "CARBON BRUSH",
+      "BRAKET (JALI)",
+      "SWITCH",
+      "O RING",
+      "OIL SEAL",
+      "OIL CAP WITH RING"
+    ]
+  },
+  {
+    "id": "kit-5211",
+    "kind": "kit",
+    "title": "5211 SPARE PARTS",
+    "page": 52,
+    "image": "kit-5211.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5211"
+    ],
+    "parts": [
+      "HANDLE",
+      "NECK OLD",
+      "STOP LEVER ASSY",
+      "CYLINDER CASE (NECK)",
+      "CYLINDER",
+      "STRIKER",
+      "PISTON, CONNECTING ROD",
+      "PISTON",
+      "GEAR BOX",
+      "CARBON HOLDER",
+      "SWITCH",
+      "CARBON HOLDER",
+      "BARREL SET COMPLETE",
+      "NEEDLE BEARING",
+      "CRANK SHAFT",
+      "BEARING COVER",
+      "SECONDARY GEAR",
+      "BEARING",
+      "GASKET",
+      "GEAR",
+      "PINION",
+      "MOTOR COVER",
+      "BRUSH HOLDER CAP",
+      "CARBON BRUSH",
+      "HANDLE",
+      "BEARING",
+      "GEAR"
+    ]
+  },
+  {
+    "id": "kit-5215",
+    "kind": "kit",
+    "title": "5215 SPARE PARTS",
+    "page": 52,
+    "image": "kit-5215.webp",
+    "refCodes": [],
+    "opelModels": [
+      "5215"
+    ],
+    "parts": [
+      "GEAR SHAFT Z14",
+      "HANDLE",
+      "HANDLE COVER",
+      "HOUSING COVER LEFT",
+      "HOUSING COVER RIGHT",
+      "WATER PUMP ASSMEBLY COMPLETE",
+      "BIG GEAR",
+      "GEAR BOX",
+      "GEAR SET",
+      "BIG BEVEL GEAR Z27",
+      "BODY",
+      "SMALL BEVEL GEAR Z12",
+      "SWITCH"
+    ]
+  }
+]

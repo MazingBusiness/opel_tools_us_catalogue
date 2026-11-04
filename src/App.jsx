@@ -9,6 +9,8 @@ import TypeListing from './pages/TypeListing.jsx'
 import Product from './pages/Product.jsx'
 import Search from './pages/Search.jsx'
 import NotFound from './pages/NotFound.jsx'
+import SpareParts from './pages/SpareParts.jsx'
+import SparePart from './pages/SparePart.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -30,6 +32,8 @@ export default function App() {
           <Route path="/products/:category" element={<Category />} />
           <Route path="/products/:category/:type" element={<TypeListing />} />
           <Route path="/product/:id" element={<Product />} />
+          <Route path="/spare-parts" element={<SpareParts />} />
+          <Route path="/spare-parts/:id" element={<SparePart />} />
           <Route path="/search" element={<Search />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
