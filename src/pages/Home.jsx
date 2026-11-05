@@ -1,5 +1,5 @@
 import { Link, Navigate, useSearchParams } from 'react-router-dom'
-import { CATEGORIES, PRODUCTS, categoryPath, findProduct, productImage, productPath, typePath } from '../data/catalogue.js'
+import { CATEGORIES, categoryPath, findProduct, productImage, productPath, typePath } from '../data/catalogue.js'
 
 export default function Home() {
   const [params] = useSearchParams()
@@ -22,36 +22,37 @@ export default function Home() {
               Explore the<br /><span className="text-brand-bright">OPEL</span> range
             </h1>
             <p className="mt-5 max-w-md text-white/75">
-              {PRODUCTS.length} power tools, cordless tools and equipment across {CATEGORIES.length} categories.
+              Power tools, cordless tools and equipment across {CATEGORIES.length} categories.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/products" className="bg-highlight px-6 py-3 text-sm font-bold uppercase tracking-wider text-ink hover:bg-white">
+            <div className="mt-8">
+              <Link to="/products" className="inline-block bg-highlight px-6 py-3 text-sm font-bold uppercase tracking-wider text-ink hover:bg-white">
                 Explore products
-              </Link>
-              <Link to={categoryPath(hero)} className="border-2 border-white/40 px-6 py-3 text-sm font-bold uppercase tracking-wider hover:border-white">
-                {hero.label}
               </Link>
             </div>
           </div>
-          <div className="relative mx-auto grid aspect-square grid-cols-[minmax(0,1fr)] grid-rows-[minmax(0,1fr)] w-full max-w-md place-items-center">
-            <div className="absolute inset-6 rounded-full bg-brand/30 blur-3xl" />
-            <img src={productImage(hero.products[0].images[0])} alt="" className="relative size-full min-h-0 object-contain drop-shadow-2xl" />
+          <div className="relative mx-auto flex w-full max-w-lg justify-center">
+            <div className="absolute inset-x-8 inset-y-16 rounded-full bg-brand/30 blur-3xl" />
+            <img
+              src="/images/hero-range.webp"
+              alt="OPEL SELECT tools, including a vacuum cleaner, drill, impact wrench, heat gun, angle grinder, and diamond blades"
+              className="relative max-h-[34rem] w-auto max-w-full object-contain drop-shadow-2xl"
+            />
           </div>
         </div>
       </section>
 
       <section className="container-page py-14">
         <h2 className="font-display text-4xl uppercase">Browse by category</h2>
-        <ul className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4">
+        <ul className="card-grid mt-8 grid grid-cols-2 gap-4 md:grid-cols-4">
           {CATEGORIES.map((c) => (
             <li key={c.slug}>
-              <Link to={categoryPath(c)} className="group flex h-full flex-col overflow-hidden rounded-xl border border-line hover:border-brand hover:shadow-lg">
-                <div className="grid aspect-[4/3] place-items-center bg-surface-muted p-5">
-                  <img src={productImage(c.products[0].images[0])} alt="" loading="lazy" className="size-full min-h-0 object-contain transition group-hover:scale-105" />
+              <Link to={categoryPath(c)} className="group flex h-full w-full flex-col overflow-hidden rounded-xl border border-line hover:border-brand hover:shadow-lg">
+                <div className="relative aspect-[4/3] w-full shrink-0 overflow-hidden bg-surface-muted">
+                  <img src={productImage(c.products[0].images[0])} alt="" loading="lazy" className="absolute inset-0 size-full object-contain p-5 transition group-hover:scale-105" />
                 </div>
-                <div className="border-t-4 border-transparent p-4 group-hover:border-highlight">
-                  <h3 className="font-bold uppercase tracking-wide group-hover:text-brand">{c.label}</h3>
-                  <p className="text-xs text-ink-muted">{c.products.length} products</p>
+                <div className="flex flex-1 flex-col border-t-4 border-transparent p-4 group-hover:border-highlight">
+                  <h3 className="line-clamp-2 min-h-[2.75rem] font-bold leading-snug uppercase tracking-wide group-hover:text-brand">{c.label}</h3>
+                  <p className="mt-auto pt-1 text-xs text-ink-muted">{c.products.length} products</p>
                 </div>
               </Link>
             </li>

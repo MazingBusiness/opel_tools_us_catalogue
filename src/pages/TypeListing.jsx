@@ -143,7 +143,7 @@ export default function TypeListing() {
               <button onClick={() => update({})} className="mt-4 text-sm font-bold text-brand hover:underline">Clear all filters</button>
             </div>
           ) : (
-            <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3">
+            <ul className="card-grid mt-6 grid grid-cols-2 gap-4 md:grid-cols-3">
               {shown.map((p) => <li key={p.id}><ProductCard product={p} /></li>)}
             </ul>
           )}

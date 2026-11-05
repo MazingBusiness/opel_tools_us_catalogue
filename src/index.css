@@ -25,3 +25,8 @@
 @utility container-page {
   @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
 }
+
+/* Grid items stretch so ProductCard / SparePartCard h-full fills every cell. */
+@utility card-grid {
+  @apply [&>li]:flex [&>li]:h-full;
+}

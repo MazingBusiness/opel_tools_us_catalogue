@@ -34,9 +34,28 @@ const cases = [
   ['Vibration Frequency', '0-150Hz', '0-150Hz'],
   ['Frequency', '5100BPM', '5100BPM'],
   ['Inlet Pressure', '3.0 Bar/43Psi', '3.0 Bar/43Psi'],
+  // Single-phase becomes 120V, three-phase 380-415V becomes 480V, 50Hz becomes 60Hz.
+  ['Lifting Voltage', '220v/50Hz', '120V/60Hz'],
+  ['Input voltage', '380v', '480V'],
+  ['Phase / Voltage', '3-Phase / 380V - 415V, 50Hz', '3-Phase / 480V, 60Hz'],
+  ['Voltage', 'AC 415v 3 phase', 'AC 480V 3 phase'],
+  ['Working Voltage', '380v/220v', '480V/120V'],
+  ['Voltage(V)', '220/380', '120V/480V'],
+  ['Vlotage', '220-240V 50HZ', '120V 60Hz'],
+  ['Voltage', '220v/380v/Engine', '120V/480V/Engine'],
+  ['Generator Output Voltage', '230V/50Hz', '120V/240V/60Hz'],
+  ['Exciting Frequency', '70HZ', '70HZ'],
+  ['Control Voltage', '12V', '12V'],
+  ['Input voltage', '460V', '460V'],
 ]
 const problems = []
 if (toUS('Rated Frequency', '50/60Hz', { corded: false }).value !== '50/60Hz') problems.push('a cordless charger frequency was changed to 60Hz')
+// Engine machines have no mains supply, so their specs must come out of US mode unchanged.
+for (const id of ['110-43', '110-25', '110-17', '110-62', '110-63']) {
+  const p = PRODUCTS.find((x) => x.id === id)
+  if (!p) problems.push(`engine check product ${id} is missing`)
+  else if (isCorded(p)) problems.push(`${id} runs on an engine but is treated as mains powered`)
+}
 for (const p of PRODUCTS) {
   if (isCorded(p)) continue
   for (const [k, v] of p.specs) if (toUS(k, v, { corded: false }).value.match(/^(120V|60Hz)/) && !/^(120V|60Hz)/.test(v)) problems.push(`${p.id} ${k} changed on a cordless or gasoline tool`)

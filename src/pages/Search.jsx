@@ -29,13 +29,13 @@ export default function Search() {
       </form>
       {q && <h1 className="mt-8 text-lg font-extrabold">{total} {total === 1 ? 'result' : 'results'} for “{q}”</h1>}
       {q && total === 0 && <p className="mt-2 text-ink-muted">Try a model number like 5229, or a tool name like grinder.</p>}
-      <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
+      <ul className="card-grid mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
         {results.map((p) => <li key={p.id}><ProductCard product={p} /></li>)}
       </ul>
       {parts.length > 0 && (
         <>
           <h2 className="mt-12 border-b-2 border-ink pb-2 text-xl font-extrabold uppercase tracking-wide">Spare parts</h2>
-          <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
+          <ul className="card-grid mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
             {parts.map((r) => <li key={r.id}><SparePartCard item={r} /></li>)}
           </ul>
         </>

@@ -78,7 +78,7 @@ export default function Product() {
       {kits.length > 0 && (
         <section className="mt-16">
           <h2 className="border-b-2 border-ink pb-2 text-xl font-extrabold uppercase tracking-wide">Spare parts for this model</h2>
-          <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-4">
+          <ul className="card-grid mt-6 grid grid-cols-2 gap-4 md:grid-cols-4">
             {kits.map((k) => <li key={k.id}><SparePartCard item={k} /></li>)}
           </ul>
         </section>
@@ -87,7 +87,7 @@ export default function Product() {
       {related.length > 0 && (
         <section className="mt-16">
           <h2 className="border-b-2 border-ink pb-2 text-xl font-extrabold uppercase tracking-wide">More {type.label}</h2>
-          <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-4">
+          <ul className="card-grid mt-6 grid grid-cols-2 gap-4 md:grid-cols-4">
             {related.map((x) => <li key={x.id}><ProductCard product={x} /></li>)}
           </ul>
         </section>

@@ -2218,5 +2218,1892 @@
       "DM200-0.webp"
     ],
     "page": 42
+  },
+  {
+    "id": "110-08",
+    "model": "110-08",
+    "name": "Steel Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "3kw"
+    ],
+    "specs": {
+      "Round bar": "6-32mm(ob<450N/mm2)",
+      "Deformed bar": "6-28mm (ob 650N/mm2)",
+      "Motor power": "3kw",
+      "Input voltage": "380v",
+      "Product capacity": "2.5 ton/hr",
+      "Panel thickness": "10mm",
+      "Net weight": "300kg"
+    },
+    "notes": [
+      "The equipment adopts advanced mechanical structure and high-precision control system, and has the advantages of easy operation, high efficiency. high precision, safety and reliability. It is an ideal choice for steel bar processing."
+    ],
+    "images": [
+      "110-08-0.webp"
+    ],
+    "page": 4,
+    "refModel": "GW40A",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-06",
+    "model": "110-06",
+    "name": "Steel Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4kw"
+    ],
+    "specs": {
+      "Round bar": "6-42mm(ob<450N/mm2)",
+      "Deformed bar": "6-36mm(ob 650N/mm2)",
+      "Motor power": "4kw",
+      "Input voltage": "380v",
+      "Product capacity": "2.5 ton/hr",
+      "Panel thickness": "10mm",
+      "Net weight": "320kg"
+    },
+    "notes": [
+      "GW42 steel bar bending machine is an efficient and precise steel bar processing equipment, designed to meet the high requirements of steel bar bending in the modern construction industry."
+    ],
+    "images": [
+      "110-06-0.webp"
+    ],
+    "page": 4,
+    "refModel": "GW42",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-07",
+    "model": "110-07",
+    "name": "Steel Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5kw"
+    ],
+    "specs": {
+      "Round bar": "6-52mm(ob<450N/mm2)",
+      "Deformed bar": "6-42mm(ob 650N/mm2)",
+      "Motor power": "5kw",
+      "Input voltage": "380v",
+      "Product capacity": "2.5 ton/hr",
+      "Panel thickness": "12mm",
+      "Net weight": "410kg"
+    },
+    "notes": [
+      "The equipment adopts advanced mechanical structure and high-precision control system, and has the advantages of easy operation, high efficiency. high precision, safety and reliability. It is an ideal choice for steel bar processing."
+    ],
+    "images": [
+      "110-07-0.webp"
+    ],
+    "page": 5,
+    "refModel": "GW52",
+    "source": "construction-2026"
+  },
+  {
+    "id": "GW42B",
+    "model": "GW42B",
+    "name": "Steel Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4kw"
+    ],
+    "specs": {
+      "Round bar": "6-42mm(ob<450N/mm2)",
+      "Deformed bar": "6-36mm(ob 650N/mm2)",
+      "Motor power": "4kw",
+      "Input voltage": "380v",
+      "Product capacity": "2.5 ton/hr",
+      "Panel thickness": "10mm",
+      "Net weight": "320kg"
+    },
+    "notes": [
+      "GW42B steel bar bending machine is an efficient and precise steel bar processing equipment, designed to meet the high requirements of steel bar bending in the modern construction industry."
+    ],
+    "images": [
+      "GW42B-0.webp"
+    ],
+    "page": 5,
+    "refModel": "GW42B",
+    "source": "construction-2026"
+  },
+  {
+    "id": "GW52B",
+    "model": "GW52B",
+    "name": "Steel Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5kw"
+    ],
+    "specs": {
+      "Round bar": "6-52mm(ob<450N/mm2)",
+      "Deformed bar": "6-42mm(ob 650N/mm2)",
+      "Motor power": "5kw",
+      "Input voltage": "380v",
+      "Product capacity": "2.5 ton/hr",
+      "Panel thickness": "12mm",
+      "Net weight": "410kg"
+    },
+    "notes": [
+      "GW52 adopts advanced hydraulic system and solid mechanical structure to ensure the reliability and durability of the equipment under high-load working environment."
+    ],
+    "images": [
+      "GW52B-0.webp"
+    ],
+    "page": 6,
+    "refModel": "GW52B",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-01",
+    "model": "110-01",
+    "name": "Steel Bar Cutter",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4kw"
+    ],
+    "specs": {
+      "Round bar": "6-42mm (ob ≤650N/mm2)",
+      "Deformed bar": "6-36mm (ob ≤650N/mm2)",
+      "Motor power": "4kw",
+      "Input voltage": "380v/220v",
+      "Power protection": "yes",
+      "Motor speed": "2800rmp",
+      "Net weight": "290kg"
+    },
+    "notes": [],
+    "images": [
+      "110-01-0.webp"
+    ],
+    "page": 7,
+    "refModel": "GQ42",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-02",
+    "model": "110-02",
+    "name": "Steel Bar Cutter",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4kw"
+    ],
+    "specs": {
+      "Round bar": "6-46mm(ob ≤450N/mm2)",
+      "Deformed bar": "6-36mm(ob ≤450N/mm2)",
+      "Motor power": "4kw",
+      "Input voltage": "380v/220v",
+      "Power protection": "yes",
+      "Motor speed": "2800rmp",
+      "Net weight": "350kg"
+    },
+    "notes": [],
+    "images": [
+      "110-02-0.webp"
+    ],
+    "page": 7,
+    "refModel": "GQ46A",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-03",
+    "model": "110-03",
+    "name": "Steel Bar Cutter",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5kw"
+    ],
+    "specs": {
+      "Round bar": "6-52mm(ob ≤450N/mm2)",
+      "Deformed bar": "6-42mm (ob ≤650N/mm2)",
+      "Motor power": "5kw",
+      "Input voltage": "380v/220v",
+      "Power protection": "yes",
+      "Motor speed": "2800rmp",
+      "Net weight": "475kg"
+    },
+    "notes": [],
+    "images": [
+      "110-03-0.webp"
+    ],
+    "page": 8,
+    "refModel": "GQ52A",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-31",
+    "model": "110-31",
+    "name": "Steel Bar Cutter",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5kw"
+    ],
+    "specs": {
+      "Round bar": "6-55mm(ob ≤450N/mm2)",
+      "Deformed bar": "6-46mm (ob ≤650N/mm2)",
+      "Motor power": "5kw",
+      "Input voltage": "380v/220v",
+      "Power protection": "yes",
+      "Motor speed": "2800rmp",
+      "Net weight": "530kg"
+    },
+    "notes": [
+      "GQ55A anti-corrosion shearing machine is an efficient and durable anti-corrosion processing equipment, designed for fast and accurate shearing of heat-resistant."
+    ],
+    "images": [
+      "110-31-0.webp"
+    ],
+    "page": 8,
+    "refModel": "GQ55A",
+    "source": "construction-2026"
+  },
+  {
+    "id": "RB32-B2000W",
+    "model": "RB32-B2000W",
+    "name": "Portable Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2000W"
+    ],
+    "specs": {
+      "Watts": "2000W",
+      "Rated Voltage": "220V",
+      "Staightening Diameter": "16-28MM",
+      "Staightening Speed": "5S-8S",
+      "Height": "60CM"
+    },
+    "notes": [],
+    "images": [
+      "RB32-B2000W-0.webp"
+    ],
+    "page": 9,
+    "refModel": "RB32",
+    "source": "construction-2026"
+  },
+  {
+    "id": "RB32-B2500W",
+    "model": "RB32-B2500W",
+    "name": "Portable Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2500W"
+    ],
+    "specs": {
+      "Watts": "2500W",
+      "Rated Voltage": "220V",
+      "Staightening Diameter": "16-32MM",
+      "Staightening Speed": "5S-8S",
+      "Height": "60CM"
+    },
+    "notes": [],
+    "images": [
+      "RB32-B2500W-0.webp"
+    ],
+    "page": 9,
+    "refModel": "RB32",
+    "source": "construction-2026"
+  },
+  {
+    "id": "RB32-C2000W",
+    "model": "RB32-C2000W",
+    "name": "Portable Bar Cutter",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2000W"
+    ],
+    "specs": {
+      "Watts": "2000W",
+      "Rated Voltage": "220V",
+      "Steel Cutting": "4-28MM",
+      "Cutting Speed": "5S",
+      "Length": "50CM"
+    },
+    "notes": [],
+    "images": [
+      "RB32-C2000W-0.webp"
+    ],
+    "page": 9,
+    "refModel": "RB32",
+    "source": "construction-2026"
+  },
+  {
+    "id": "RB32-C2500W",
+    "model": "RB32-C2500W",
+    "name": "Portable Bar Cutter",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2500W"
+    ],
+    "specs": {
+      "Watts": "2500W",
+      "Rated Voltage": "220V",
+      "Steel Cutting": "4-32MM",
+      "Cutting Speed": "5S",
+      "Length": "50CM"
+    },
+    "notes": [],
+    "images": [
+      "RB32-C2500W-0.webp"
+    ],
+    "page": 9,
+    "refModel": "RB32",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-04",
+    "model": "110-04",
+    "name": "Steel Hoop Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4kw"
+    ],
+    "specs": {
+      "Round bar": "6-20mm(ob ≤450N/mm2)",
+      "Deformed bar": "6-16mm (ob ≤650N/mm2)",
+      "Motor power": "4kw",
+      "Input voltage": "380v/220v",
+      "Bending speed": "25 r/min",
+      "Panel Thickenss": "8mm"
+    },
+    "notes": [
+      "The model adopts a high-strength fuselage structure and an intelligent control system, which can quickly complete the bending and forming operations of various steel bars, greatly improve construction efficiency and reduce labor costs."
+    ],
+    "images": [
+      "110-04-0.webp"
+    ],
+    "page": 10,
+    "refModel": "GF20",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Motor power",
+        "block": "4w",
+        "table": "4kw",
+        "page": 10,
+        "reason": "block prints 4w; table 4kW"
+      }
+    ]
+  },
+  {
+    "id": "110-32",
+    "model": "110-32",
+    "name": "Steel Hoop Bar Bender",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4kw"
+    ],
+    "specs": {
+      "Round bar": "6-28mm(ob ≤450N/mm2)",
+      "Deformed bar": "6-25mm (ob ≤650N/mm2)",
+      "Bending speed": "30 r/min",
+      "Motor power": "4kw",
+      "Input voltage": "380v/220v"
+    },
+    "notes": [
+      "This equipment adopts modular design and is equipped with advanced numerical control system, which can meet the precise bending needs of different specifications of steel bars from Φ6mm to Φ28mm"
+    ],
+    "images": [
+      "110-32-0.webp"
+    ],
+    "page": 10,
+    "refModel": "GF26",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-14",
+    "model": "110-14",
+    "name": "Steel Bar Straightening Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "7.5Kw"
+    ],
+    "specs": {
+      "Round bar": "4-10mm",
+      "III-Class bar": "4-8mm",
+      "Straightening Wheel": "φ48*57mm",
+      "Wheel Material": "CR12/8pcs",
+      "Motor power": "7.5Kw",
+      "Voltage": "380v",
+      "Straightening frame": "L650*T:18mm",
+      "Frame Material": "#45 steel"
+    },
+    "notes": [],
+    "images": [
+      "110-14-0.webp"
+    ],
+    "page": 12,
+    "refModel": "GT4-10",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-15",
+    "model": "110-15",
+    "name": "Steel Bar Straightening Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "9Kw"
+    ],
+    "specs": {
+      "Round bar": "4-12mm",
+      "III-Class bar": "4-12mm",
+      "Straightening Wheel": "φ54*62mm",
+      "Wheel Material": "CR12/8pcs",
+      "Motor power": "9Kw",
+      "Voltage": "380v",
+      "Straightening frame": "L800*T:20mm",
+      "Frame Material": "#45 steel"
+    },
+    "notes": [],
+    "images": [
+      "110-15-0.webp"
+    ],
+    "page": 12,
+    "refModel": "GT4-12",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-33",
+    "model": "110-33",
+    "name": "Rebar Straightening Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "7.5kw"
+    ],
+    "specs": {
+      "Machining diameter": "6-14mm",
+      "Shortes processing": "300mm",
+      "Motor Power": "7.5kw",
+      "Dimensions": "1150*720*1200mm",
+      "Total Weught": "650kg",
+      "Inlet": "5",
+      "Reducer model": "350"
+    },
+    "notes": [],
+    "images": [
+      "110-33-0.webp"
+    ],
+    "page": 13,
+    "refModel": "GX6-14",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-34",
+    "model": "110-34",
+    "name": "Rebar Straightening Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "15kw"
+    ],
+    "specs": {
+      "Machining diameter": "6-25mm",
+      "Shortes processing": "300mm",
+      "Motor Power": "15kw",
+      "Dimensions": "1400*1000*1350mm",
+      "Total Weught": "850kg",
+      "Inlet": "8",
+      "Reducer model": "400"
+    },
+    "notes": [],
+    "images": [
+      "110-34-0.webp"
+    ],
+    "page": 13,
+    "refModel": "GX6-25",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-35",
+    "model": "110-35",
+    "name": "Rebar Threading Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4.0 kW (5.5 HP)"
+    ],
+    "specs": {
+      "Threading Capacity (Rebar)": "16 mm - 40 mm",
+      "Bar Diameter Range": "16 mm to 40 mm",
+      "Die Head Sizes Included": "16mm, 20mm, 25mm, 32mm, 40mm",
+      "Motor Rating": "4.0 kW (5.5 HP)",
+      "Phase / Voltage": "3-Phase / 380V - 415V, 50Hz",
+      "Spindle Speed": "50 - 80 RPM (Adjustable)",
+      "Feed Mechanism": "Manual handwheel/lever feed for precision",
+      "Machine Weight (Approx.)": "380 kg",
+      "Machine Dimensions (L x W x H)": "1150 x 650 x 1100 mm",
+      "Production Rate": "Approx. 1-2 threads per minute (depending on diameter)",
+      "Power Consumption": "Approx. 4.5 kWh under full load"
+    },
+    "notes": [],
+    "images": [
+      "110-35-0.webp"
+    ],
+    "page": 14,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-36",
+    "model": "110-36",
+    "name": "Vibratory Paver Roller",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "21.2 Kw"
+    ],
+    "specs": {
+      "Overall Dimensions": "4500x1500x980 mm",
+      "Vibratory Frequency": "48-60Hz",
+      "Vibration Force": "4.5-5.5 KN",
+      "Paving Thickness": "300mm",
+      "Spread Thickness": "250-300 mm",
+      "Vibrators Needle": "8 Nos.",
+      "Walking Speed": "5.7 M/min",
+      "Max. Motor Power": "21.2 Kw",
+      "Length of the Roller": "4000 mm",
+      "Weigh": "800 Kg"
+    },
+    "notes": [],
+    "images": [
+      "110-36-0.webp"
+    ],
+    "page": 15,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-39",
+    "model": "110-39",
+    "name": "4KW Cement Spraying Pump",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4Kw",
+      "1.6Kw"
+    ],
+    "specs": {
+      "Voltage": "220v/380v/Engine",
+      "Max. Particle size": "4mm",
+      "Vertical convexing distance": "~10m to 20m",
+      "Main motor": "4Kw",
+      "Air pump motor": "1.6Kw",
+      "Hopper size": "80L",
+      "Horizontal distance": "20-35m",
+      "Output/Flow Rate": "~2m³/h to 3m³/h"
+    },
+    "notes": [],
+    "images": [
+      "110-39-0.webp"
+    ],
+    "page": 16,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-30",
+    "model": "110-30",
+    "name": "7.5KW Cement Spraying Pump",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "7.5Kw",
+      "2.2Kw"
+    ],
+    "specs": {
+      "Voltage": "380v/Engine",
+      "Max. Particle size": "5mm",
+      "Vertical convexing distance": "~20m to 30m",
+      "Main motor": "7.5Kw",
+      "Air pump motor": "2.2Kw",
+      "Hopper size": "80L",
+      "Horizontal distance": "30-45m",
+      "Output/Flow Rate": "~3m³/h to 5m³/h"
+    },
+    "notes": [],
+    "images": [
+      "110-30-0.webp"
+    ],
+    "page": 16,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-38",
+    "model": "110-38",
+    "name": "Suspended Platform",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "1.8kw x 2 no.s"
+    ],
+    "specs": {
+      "Technical Specs.": "2.5 Meter x 2nos = 5 Meter; 1.5 Meter x 1nos = 1.5Meter; 1Meter x 1no.s= 1Meter; Total = 7.5 Meter",
+      "Material of Platform": "M.S. Steel Platform & Beta Dip Hot Galvanized",
+      "Balance Weight": "1000 kgs.",
+      "Rated load": "800 kgs.",
+      "Ascend Speed (working speed)": "9-11m/min",
+      "Height Adjusting": "1.15m-1.75m",
+      "Front Beam extension": "1.1m-1.7m",
+      "Wire rope": "4x31 Sw FC-9.1",
+      "Wire rope size": "9.1mm",
+      "Wire rope Length": "75/100/150 meters",
+      "Structure Weight Approx.": "900-950 kg",
+      "Counter Weight": "1000kg",
+      "Rated Lifting force": "8KN",
+      "Power": "1.8kw x 2 no.s",
+      "Voltage": "AC 415v 3 phase",
+      "Breaking": "15 NM",
+      "Safety lock": "Tilt proof safety lock (2 no.s)"
+    },
+    "notes": [],
+    "images": [
+      "110-38-0.webp"
+    ],
+    "page": 17,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-60",
+    "model": "110-60",
+    "name": "Mini Crane",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "3Kw - 9Kw"
+    ],
+    "specs": {
+      "Lifting Capacity": "100 KG to 1000 KG",
+      "Wire Rope Specification": "8mm - 12mm",
+      "Lifting Height": "1 - 60 Mtr.",
+      "Rated Power": "3Kw - 9Kw",
+      "Rotation": "360 with rotation locking",
+      "Boom-Extendable/Fit": "9-10 Ft.",
+      "Frame": "Heavy mounted and moveable",
+      "Breaking": "Fail (safe) breaking"
+    },
+    "notes": [],
+    "images": [
+      "110-60-0.webp"
+    ],
+    "page": 18,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-37",
+    "model": "110-37",
+    "name": "Lifting Platform",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "1.1Kw"
+    ],
+    "specs": {
+      "Plateform height": "12m",
+      "Working height": "14m",
+      "Load capacity": "200Kg",
+      "Plateform size": "1320*600*1100mm",
+      "Lifting motor power": "1.1Kw",
+      "Voltage": "220v/50Hz"
+    },
+    "notes": [],
+    "images": [
+      "110-37-0.webp"
+    ],
+    "page": 18,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-16",
+    "model": "110-16",
+    "name": "Scissor Lift",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "3Kw/50Hz"
+    ],
+    "specs": {
+      "Plateform height": "12m",
+      "Working height": "14m",
+      "Load capacity": "500Kg",
+      "Plateform size": "2550*1530*1100mm",
+      "Plateform": "3mm non-slip plate",
+      "Voltage": "380v",
+      "Scissor strut": "Q500 high-strength steel",
+      "Power": "3Kw/50Hz"
+    },
+    "notes": [],
+    "images": [
+      "110-16-0.webp"
+    ],
+    "page": 19,
+    "refModel": "LP-0.5-12",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-21",
+    "model": "110-21",
+    "name": "Tamping Rammer",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Impact Frequency": "600-700/min (with honda engine)",
+      "Height": "40-75mm",
+      "Plate Size": "300*280mm",
+      "Walking Speed": "9-12m/min",
+      "Ramping energy": "60NM",
+      "Operating weight": "90Kg"
+    },
+    "notes": [],
+    "images": [
+      "110-21-0.webp"
+    ],
+    "page": 20,
+    "refModel": "HRC110",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-22",
+    "model": "110-22",
+    "name": "Tamping Rammer",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Impact Frequency": "600-700/min",
+      "Height": "40-75mm",
+      "Plate Size": "300*280mm",
+      "Walking Speed": "16m/min",
+      "Ramping energy": "60NM",
+      "Operating weight": "90Kg"
+    },
+    "notes": [],
+    "images": [
+      "110-22-0.webp"
+    ],
+    "page": 20,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-40",
+    "model": "110-40",
+    "name": "Road Roller",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Walk Speed": "0-4km/h",
+      "Walking Way": "Forward or Backward",
+      "Steel Wheel Size": "560*400mm",
+      "Centrifugal Force": "13.5kn",
+      "Exciting Frequency": "70HZ",
+      "Grade Ability": "25%"
+    },
+    "notes": [
+      "VR-600S is a medium-sized full hydraulic vibratory roller with high-precision compaction and intelligent control, suitable for highway, airport runway, large-scale municipal engineering and other scenarios with strict requirements for flatness"
+    ],
+    "images": [
+      "110-40-0.webp"
+    ],
+    "page": 21,
+    "refModel": "VR-600S",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-41",
+    "model": "110-41",
+    "name": "Road Roller",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Walk Speed": "0-4km/h",
+      "Walking Way": "Forward or Backward",
+      "Steel Wheel Size": "600*450mm",
+      "Centrifugal Force": "20kn",
+      "Grade Ability": "30%"
+    },
+    "notes": [
+      "VR-600B is a heavy-duty vibratory roller designed for high-grade highways, airport runways, and large industrial foundations, using tandem full hydraulic drive + intelligent compaction control system"
+    ],
+    "images": [
+      "110-41-0.webp"
+    ],
+    "page": 21,
+    "refModel": "VR-600B",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-26-27",
+    "model": "110-26-27",
+    "name": "Plate Compactor",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Impact Frequency": "700t/min",
+      "Jump Height": "45-75mm",
+      "Plate Size": "460*515mm",
+      "Engine": "Honda",
+      "Compaction capacity": "3Ton",
+      "Travel Speed": "20-25cm/sec",
+      "Compaction Depth": "10-12 inches",
+      "Working area": "380Mtr/hr.",
+      "Engine Type": "Four-Stroke Air- Cooled",
+      "Applicable Power": "5.5-7hp",
+      "Max Speed": "3600rpm",
+      "Plate Thickness": "10mm",
+      "Centrifugal Force": "15kn",
+      "Walking Speed": "20-25m/min"
+    },
+    "notes": [],
+    "images": [
+      "110-26-27-0.webp"
+    ],
+    "page": 22,
+    "refModel": "C90T",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Plate Size",
+        "block": "300*280mm",
+        "table": "460*515mm",
+        "page": 22,
+        "reason": "every block on p23 prints the same 300*280mm"
+      }
+    ]
+  },
+  {
+    "id": "110-42",
+    "model": "110-42",
+    "name": "Plate Compactor",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Impact Frequency": "700t/min",
+      "Jump Height": "45-75mm",
+      "Plate Size": "300*280mm",
+      "Engine": "Honda",
+      "Compaction capacity": "3Ton",
+      "Travel Speed": "20-25cm/sec",
+      "Compaction Depth": "10-12 inches",
+      "Working area": "380Mtr/hr.",
+      "Engine Type": "Four-Stroke Air- Cooled",
+      "Applicable Power": "5.5-7hp",
+      "Max Speed": "3600rpm",
+      "Plate Thickness": "10mm",
+      "Centrifugal Force": "15kn",
+      "Walking Speed": "20-25m/min"
+    },
+    "notes": [],
+    "images": [
+      "110-42-0.webp"
+    ],
+    "page": 22,
+    "refModel": "C100",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-43",
+    "model": "110-43",
+    "name": "Plate Compactor",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Impact Frequency": "700t/min",
+      "Jump Height": "45-75mm",
+      "Plate Size": "420*685mm",
+      "Travel speed": "20.25cm/sec",
+      "Compaction depth": "10-12 inches",
+      "Working area": "380Mtr.hr.",
+      "Direction Type": "Reverse forward",
+      "Engine": "Honda",
+      "Compaction capacity": "4Ton",
+      "Engine Type": "Four-Stroke Air- Cooled",
+      "Applicable Power": "5.5-7hp",
+      "Max Speed": "3600rpm",
+      "Centrifugal Force": "23kn",
+      "Walking Speed": "20-25m/min"
+    },
+    "notes": [
+      "The HZR-160 Plate Compactor is an efficient, flexible and durable compaction equipment designed for compaction of various soils, asphalt and other materials."
+    ],
+    "images": [
+      "110-43-0.webp"
+    ],
+    "page": 22,
+    "refModel": "HZR-160",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Plate Size",
+        "block": "300*280mm",
+        "table": "420*685mm",
+        "page": 22,
+        "reason": "every block on p23 prints the same 300*280mm"
+      }
+    ]
+  },
+  {
+    "id": "110-28",
+    "model": "110-28",
+    "name": "Plate Compactor",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Impact Frequency": "700t/min",
+      "Jump Height": "45-75mm",
+      "Plate Size": "420*685mm",
+      "Travel speed": "20.25cm/sec",
+      "Compaction depth": "10-12 inches",
+      "Working area": "380Mtr.hr.",
+      "Direction Type": "Reverse forward",
+      "Engine": "Honda",
+      "Compaction capacity": "4Ton",
+      "Engine Type": "Four-Stroke Air- Cooled",
+      "Applicable Power": "5.5-7hp",
+      "Max Speed": "3600rpm",
+      "Centrifugal Force": "30kn",
+      "Walking Speed": "20-25m/min"
+    },
+    "notes": [
+      "The HZR-160D plate compactor is an advanced compaction equipment that combines high efficiency, flexibility and environmental protection, and is designed to meet the needs of modern engineering construction."
+    ],
+    "images": [
+      "110-28-0.webp"
+    ],
+    "page": 23,
+    "refModel": "HZR-160D",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Plate Size",
+        "block": "300*280mm",
+        "table": "420*685mm",
+        "page": 23,
+        "reason": "every block on p23 prints the same 300*280mm"
+      }
+    ]
+  },
+  {
+    "id": "110-25",
+    "model": "110-25",
+    "name": "Power Trowel",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5.5-7HP"
+    ],
+    "specs": {
+      "Applicable Power": "5.5-7HP",
+      "Pan Diameter": "580mm",
+      "Pan Thickness": "2.0mm",
+      "Working Width": "670mm",
+      "Engine": "Honda",
+      "No. of Blade": "4",
+      "Speed": "70-125RPM",
+      "Weight": "120Kg",
+      "Max. speed": "3600RPM",
+      "Blade Quantity": "4pcs"
+    },
+    "notes": [],
+    "images": [
+      "110-25-0.webp"
+    ],
+    "page": 24,
+    "refModel": "DMR600",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Pan Diameter",
+        "block": "670mm",
+        "table": "580mm",
+        "page": 24,
+        "reason": "block values equal the table's Working Width"
+      }
+    ]
+  },
+  {
+    "id": "110-24",
+    "model": "110-24",
+    "name": "Power Trowel",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5.5-7HP"
+    ],
+    "specs": {
+      "Applicable Power": "5.5-7HP",
+      "Pan Diameter": "880mm",
+      "Pan Thickness": "2.0mm",
+      "Working Width": "970mm",
+      "Engine": "Honda",
+      "No. of Blade": "4",
+      "Speed": "70-125RPM",
+      "Weight": "120Kg",
+      "Max. speed": "3600RPM",
+      "Blade Quantity": "4pcs"
+    },
+    "notes": [],
+    "images": [
+      "110-24-0.webp"
+    ],
+    "page": 24,
+    "refModel": "DMR900",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Pan Diameter",
+        "block": "970mm",
+        "table": "880mm",
+        "page": 24,
+        "reason": "block values equal the table's Working Width"
+      }
+    ]
+  },
+  {
+    "id": "110-23",
+    "model": "110-23",
+    "name": "Power Trowel",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5.5-7HP"
+    ],
+    "specs": {
+      "Applicable Power": "5.5-7HP",
+      "Pan Diameter": "980mm",
+      "Pan Thickness": "2.0mm",
+      "Working Width": "1170mm",
+      "Engine": "Honda",
+      "No. of Blade": "4",
+      "Speed": "70-125RPM",
+      "Weight": "120Kg",
+      "Max. speed": "3600RPM",
+      "Blade Quantity": "4pcs"
+    },
+    "notes": [],
+    "images": [
+      "110-23-0.webp"
+    ],
+    "page": 25,
+    "refModel": "DMR1000A",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Pan Diameter",
+        "block": "1170mm",
+        "table": "980mm",
+        "page": 25,
+        "reason": "block values equal the table's Working Width"
+      }
+    ]
+  },
+  {
+    "id": "110-44",
+    "model": "110-44",
+    "name": "Screed Vibrator",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Engine": "Gasoline",
+      "Vibation Force": "1800N",
+      "Fuel Tank Capacity": "0.65L",
+      "Frame Material": "Stainless Steel",
+      "Engine type": "Gasoline (Honda)",
+      "Screed Size": "Customized",
+      "Weight": "14kg"
+    },
+    "notes": [],
+    "images": [
+      "110-44-0.webp"
+    ],
+    "page": 26,
+    "refModel": "MX-300",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-09",
+    "model": "110-09",
+    "name": "Screed Vibrator",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "200W"
+    ],
+    "specs": {
+      "Voltage": "380V/220V",
+      "Vibation Force": "1800N",
+      "Power": "200W",
+      "Drive System": "Electric Drive",
+      "Frame Material": "Iron",
+      "Screed Size": "Customized",
+      "Weight": "13kg"
+    },
+    "notes": [],
+    "images": [
+      "110-09-0.webp"
+    ],
+    "page": 26,
+    "refModel": "EMX-300",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-45",
+    "model": "110-45",
+    "name": "Thruss Screed With Motor",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "750 W"
+    ],
+    "specs": {
+      "Type": "Double Beam Screed Vibrators",
+      "Usage": "Industrial",
+      "Material": "Mild Steel",
+      "Power(W)": "750"
+    },
+    "notes": [],
+    "images": [
+      "110-45-0.webp"
+    ],
+    "page": 27,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-46",
+    "model": "110-46",
+    "name": "Thruss Screed With Engine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Drive": "Honda GX 160",
+      "Length": "3mtr to 6.5mtr",
+      "Material": "Aluminum / MS"
+    },
+    "notes": [],
+    "images": [
+      "110-46-0.webp"
+    ],
+    "page": 27,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-47",
+    "model": "110-47",
+    "name": "Concrete Grinding Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5.5kw",
+      "0.75kw"
+    ],
+    "specs": {
+      "Motor Power": "5.5kw",
+      "Blower Power": "0.75kw",
+      "Working Voltage": "380v/220v",
+      "Grinding Width": "500mm",
+      "Dust Tank Capacity": "24L",
+      "Weight": "180kg"
+    },
+    "notes": [],
+    "images": [
+      "110-47-0.webp"
+    ],
+    "page": 28,
+    "refModel": "G500",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-48",
+    "model": "110-48",
+    "name": "Concrete Grinding Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "15kw"
+    ],
+    "specs": {
+      "Motor Power": "15kw",
+      "Speed": "0-1800r/min",
+      "Working Voltage": "380v/220v",
+      "Grinding Width": "800mm",
+      "Weight": "480kg"
+    },
+    "notes": [],
+    "images": [
+      "110-48-0.webp"
+    ],
+    "page": 28,
+    "refModel": "G800",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-17",
+    "model": "110-17",
+    "name": "Road Cutter",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Max Depth": "180mm",
+      "Saw Blade Size(Inner Diameter:50mm)": "400-500mm",
+      "Water Tank": "40L",
+      "Applicable Engine": "Gasoline/Diesel",
+      "RPM": "3600"
+    },
+    "notes": [],
+    "images": [
+      "110-17-0.webp"
+    ],
+    "page": 29,
+    "refModel": "Q500",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-18",
+    "model": "110-18",
+    "name": "Road Cutter",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Max Depth": "180mm",
+      "Saw Blade Size(Inner Diameter:50mm)": "400-500mm",
+      "Water Tank": "40L",
+      "Applicable Engine": "Gasoline/Diesel",
+      "RPM": "3600"
+    },
+    "notes": [],
+    "images": [
+      "110-18-0.webp"
+    ],
+    "page": 29,
+    "refModel": "Q500A",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-20",
+    "model": "110-20",
+    "name": "Concrete Mixer",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "1000W"
+    ],
+    "specs": {
+      "Actual capacity(L)": "200Ltr.",
+      "Motor Power": "1000W",
+      "Stirring speed": "28r/min",
+      "Drum Thickness": "2mm",
+      "Drum Diameter": "Ф610",
+      "Motor": "220v",
+      "Total Weight": "50kg",
+      "Motor Speed": "1420 RPM\\MIN",
+      "Screed Size": "Ф340mm",
+      "Engine": "Electric Motor",
+      "Vlotage": "220-240V 50HZ"
+    },
+    "notes": [],
+    "images": [
+      "110-20-0.webp"
+    ],
+    "page": 31,
+    "refModel": "CMH-180",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Total Weight",
+        "block": "69kg",
+        "table": "50kg",
+        "page": 31,
+        "reason": "both blocks print the same 69kg"
+      }
+    ]
+  },
+  {
+    "id": "110-49",
+    "model": "110-49",
+    "name": "Concrete Mixer",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "1000W"
+    ],
+    "specs": {
+      "Actual capacity(L)": "200Ltr.",
+      "Motor Power": "1000W",
+      "Stirring speed": "28r/min",
+      "Drum Thickness": "2mm",
+      "Drum Diameter": "Ф610",
+      "Motor": "220v",
+      "Total Weight": "70kg",
+      "Motor Speed": "1420 RPM\\MIN",
+      "Screed Size": "Ф450mm",
+      "Engine": "Electric Motor",
+      "Vlotage": "220-240V 50HZ"
+    },
+    "notes": [],
+    "images": [
+      "110-49-0.webp"
+    ],
+    "page": 31,
+    "refModel": "CMH-240",
+    "source": "construction-2026",
+    "corrections": [
+      {
+        "spec": "Total Weight",
+        "block": "69kg",
+        "table": "70kg",
+        "page": 31,
+        "reason": "both blocks print the same 69kg"
+      }
+    ]
+  },
+  {
+    "id": "110-56",
+    "model": "110-56",
+    "name": "Multifunctional Punching & Shearing Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2.2kw"
+    ],
+    "specs": {
+      "Max thickness of work": "8 mm",
+      "Shear strength": "360 kn",
+      "Tool travel": "27 mm",
+      "Number of trips": "30 times/min",
+      "Motor power": "2.2 kw",
+      "Overall dimension": "900*600*1100mm",
+      "Machine weight": "430 kg",
+      "Tool material": "Nine chromiun silicon"
+    },
+    "notes": [],
+    "images": [
+      "110-56-0.webp"
+    ],
+    "page": 32,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-57",
+    "model": "110-57",
+    "name": "Multifunctional Punching & Shearing Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "3.0kw"
+    ],
+    "specs": {
+      "Max thickness of work": "10 mm",
+      "Shear strength": "500 kn",
+      "Tool travel": "30 mm",
+      "Number of trips": "30 times/min",
+      "Motor power": "3.0 kw",
+      "Overall dimension": "900*600*1250mm",
+      "Machine weight": "660 Kg",
+      "Tool material": "Nine chromiun silicon"
+    },
+    "notes": [],
+    "images": [
+      "110-57-0.webp"
+    ],
+    "page": 32,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-58",
+    "model": "110-58",
+    "name": "Multifunctional Punching & Shearing Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "4.0kw"
+    ],
+    "specs": {
+      "Max thickness of work": "12 mm",
+      "Shear strength": "900 kn",
+      "Tool travel": "34 mm",
+      "Number of trips": "30 times/min",
+      "Motor power": "4.0 kw",
+      "Overall dimension": "1100*600*1450mm",
+      "Machine weight": "970 kg",
+      "Tool material": "Nine chromiun silicon"
+    },
+    "notes": [],
+    "images": [
+      "110-58-0.webp"
+    ],
+    "page": 32,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-59",
+    "model": "110-59",
+    "name": "Multifunctional Punching & Shearing Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "7.5kw"
+    ],
+    "specs": {
+      "Max thickness of work": "14 mm",
+      "Shear strength": "1200 kn",
+      "Tool travel": "45 mm",
+      "Number of trips": "30 times/min",
+      "Motor power": "7.5 kw",
+      "Overall dimension": "1100*700*1500mm",
+      "Machine weight": "1250 kg",
+      "Tool material": "Nine chromiun silicon"
+    },
+    "notes": [],
+    "images": [
+      "110-59-0.webp"
+    ],
+    "page": 32,
+    "source": "construction-2026"
+  },
+  {
+    "id": "PL20S",
+    "model": "PL20S",
+    "name": "Multifunctional Punching & Shearing Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2000W"
+    ],
+    "specs": {
+      "Watts": "2000W",
+      "Rated Voltage": "220V",
+      "Min/Max Piercing Diameter": "6.5-20.5MM",
+      "Punching Speed": "2S-3S",
+      "Height": "50CM"
+    },
+    "notes": [],
+    "images": [
+      "PL20S-0.webp"
+    ],
+    "page": 34,
+    "refModel": "PL20S",
+    "source": "construction-2026"
+  },
+  {
+    "id": "PL25S",
+    "model": "PL25S",
+    "name": "Multifunctional Punching & Shearing Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2500W"
+    ],
+    "specs": {
+      "Watts": "2500W",
+      "Rated Voltage": "220V",
+      "Min/Max Piercing Diameter": "11-25.5MM",
+      "Punching Speed": "2S-3S",
+      "Height": "39CM"
+    },
+    "notes": [],
+    "images": [
+      "PL25S-0.webp"
+    ],
+    "page": 34,
+    "refModel": "PL25S",
+    "source": "construction-2026"
+  },
+  {
+    "id": "CR60",
+    "model": "CR60",
+    "name": "Multifunctional Punching & Shearing Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2000W"
+    ],
+    "specs": {
+      "Watts": "2000W",
+      "Rated Voltage": "220V",
+      "Max Cutting Size": "60x60MM",
+      "Punching Speed": "2S-3S",
+      "Height": "48CM"
+    },
+    "notes": [],
+    "images": [
+      "CR60-0.webp"
+    ],
+    "page": 34,
+    "refModel": "CR60",
+    "source": "construction-2026"
+  },
+  {
+    "id": "PL60",
+    "model": "PL60",
+    "name": "Multifunctional Punching & Shearing Machine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2000W"
+    ],
+    "specs": {
+      "Watts": "2000W",
+      "Rated Voltage": "220V",
+      "Wide Cutting Range": "2.36Inch",
+      "Cutting Speed": "2S-3S",
+      "Height": "51CM"
+    },
+    "notes": [],
+    "images": [
+      "PL60-0.webp"
+    ],
+    "page": 34,
+    "refModel": "PL60",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-50",
+    "model": "110-50",
+    "name": "Portable Light Tower",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Luminaire type": "LED lights",
+      "Quantity * Wattage": "4*300 William",
+      "Total lumens": "4*39000 rams",
+      "Maximum height": "4. 5 Marks",
+      "Number of pole sections": "3 knots",
+      "Lifting mode": "Hand",
+      "Tire size": "4*13 inches",
+      "Power": "3KW"
+    },
+    "notes": [],
+    "images": [
+      "110-50-0.webp"
+    ],
+    "page": 35,
+    "refModel": "W-103",
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-51",
+    "model": "110-51",
+    "name": "Portable Light Tower",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Luminaire type": "Halogen",
+      "Quantity * Wattage": "4*500W",
+      "Total lumens": "4*9500LM",
+      "Maximum height": "4.5M",
+      "Number of pole sections": "4",
+      "Lifting mode": "Pneumatic Lifting",
+      "Power": "3-8KW"
+    },
+    "notes": [],
+    "images": [
+      "110-51-0.webp"
+    ],
+    "page": 35,
+    "refModel": "S-101",
+    "source": "construction-2026"
+  },
+  {
+    "id": "92-04",
+    "model": "92-04",
+    "name": "Diaphragm Pump",
+    "category": "PAINTING EQUIPMENTS",
+    "power": [
+      "1100W"
+    ],
+    "specs": {
+      "The motor power": "1100W",
+      "Voltage/frequency": "220V/50Hz",
+      "High pressure pipe": "20m Steel Wire Tube",
+      "Maximum jet flow": "2.0L/min",
+      "The nozzle type": "621",
+      "The best spray distance": "350-400mm",
+      "Jet width": "250mm",
+      "High pressure pipe compression strength": "25mpa",
+      "Shot and pressure": "14mpa (1800PSI)",
+      "Close the gun pressure": "18mpa(2800PSII",
+      "The maximum output tube": "50m",
+      "Packing size": "61.5*48*50.5cm",
+      "The weight": "34.5KG"
+    },
+    "notes": [
+      "Applied Materials: Emulsion Paint; Water Based Waterproof Coating; Ultra-thin Fireproof Paint; No Sand Cement Water",
+      "Shall not Apply to Materials: Gypsum; Glue; Really Stone Paint; Anti-crack Mortar; Thick Type Anticorrosive Coating; Oily Waterproof Coating; Thin & Thick Type Fireproof Coating; Any Coatings Containing Particles",
+      "Use: Cars, Ships Washing; Spray Insecticide, Disinfection; External Walls and Yard"
+    ],
+    "images": [
+      "92-04-0.webp"
+    ],
+    "page": 38,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-52",
+    "model": "110-52",
+    "name": "Shutter Vibrator",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "0.75/1 KW/HP"
+    ],
+    "specs": {
+      "Power(KW/HP)": "0.75/1",
+      "Vibrating Force (KN)": "2.5",
+      "Voltage(V)": "220/380",
+      "Frequency(Hz)": "50/60",
+      "G.W.(KG)": "11",
+      "Size(cm)": "34*19*22",
+      "Material body": "Iron smooth"
+    },
+    "notes": [],
+    "images": [
+      "110-52-0.webp"
+    ],
+    "page": 40,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-53",
+    "model": "110-53",
+    "name": "Shutter Vibrator",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "1.5/2 KW/HP"
+    ],
+    "specs": {
+      "Power(KW/HP)": "1.5/2",
+      "Vibrating Force (KN)": "7",
+      "Voltage(V)": "220/380",
+      "Frequency(Hz)": "50/60",
+      "G.W.(KG)": "20",
+      "Size(cm)": "43*22.5*25",
+      "Material body": "Iron smooth"
+    },
+    "notes": [],
+    "images": [
+      "110-53-0.webp"
+    ],
+    "page": 40,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-54",
+    "model": "110-54",
+    "name": "Shutter Vibrator",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2.2/3 KW/HP"
+    ],
+    "specs": {
+      "Power(KW/HP)": "2.2/3",
+      "Vibrating Force (KN)": "10",
+      "Voltage(V)": "220/380",
+      "Frequency(Hz)": "50/60",
+      "G.W.(KG)": "26",
+      "Size(cm)": "47.5*26*28",
+      "Material body": "Iron smooth"
+    },
+    "notes": [],
+    "images": [
+      "110-54-0.webp"
+    ],
+    "page": 40,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-55",
+    "model": "110-55",
+    "name": "Shutter Vibrator",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "3/4 KW/HP"
+    ],
+    "specs": {
+      "Power(KW/HP)": "3/4",
+      "Vibrating Force (KN)": "13",
+      "Voltage(V)": "380",
+      "Frequency(Hz)": "50/60",
+      "G.W.(KG)": "30",
+      "Size(cm)": "55*28*30",
+      "Material body": "Iron smooth"
+    },
+    "notes": [],
+    "images": [
+      "110-55-0.webp"
+    ],
+    "page": 40,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-61",
+    "model": "110-61",
+    "name": "Electric Stand Vibrator",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "2000W"
+    ],
+    "specs": {
+      "Voltage": "220v",
+      "Power": "2000W",
+      "Shaft": "2-6 Mtr.",
+      "Nozzle Size": "35-50mm"
+    },
+    "notes": [],
+    "images": [
+      "110-61-0.webp"
+    ],
+    "page": 46,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-62",
+    "model": "110-62",
+    "name": "Engine Vibrator",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5.5-7HP"
+    ],
+    "specs": {
+      "Power": "5.5-7HP",
+      "Shaft": "2-6 Mtr.",
+      "Nozzle Size": "35-50mm"
+    },
+    "notes": [],
+    "images": [
+      "110-62-0.webp"
+    ],
+    "page": 46,
+    "source": "construction-2026"
+  },
+  {
+    "id": "110-63",
+    "model": "110-63",
+    "name": "Opel Engine",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [
+      "5.5-7HP"
+    ],
+    "specs": {
+      "Power": "5.5-7HP",
+      "Shaft": "2-6 Mtr.",
+      "Nozzle Size": "35-50mm"
+    },
+    "notes": [],
+    "images": [
+      "110-63-0.webp"
+    ],
+    "page": 47,
+    "source": "construction-2026"
+  },
+  {
+    "id": "vibrator-shaft",
+    "model": "vibrator-shaft",
+    "name": "Vibrator Shaft",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Length x Diameter (35mm)": "1mt, 1.5mt, 2mt, 3mt, 4mt x 35mm",
+      "Length x Diameter (50mm)": "1mt, 1.5mt, 2mt, 3mt, 4mt x 50mm"
+    },
+    "notes": [],
+    "images": [
+      "vibrator-shaft-0.webp"
+    ],
+    "page": 47,
+    "source": "construction-2026"
+  },
+  {
+    "id": "bull-float-8in",
+    "model": "bull-float-8in",
+    "name": "Bull Float (203mm / 8\" wide)",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "lite No. 7469": "609mm(24”)x203mm(8”)",
+      "lite No. 7436": "915mm(36”)x203mm(8”)",
+      "lite No. 7444": "1067mm(42”)x203mm(8”)",
+      "lite No. 7452": "1143mm(45”)x203mm(8”)",
+      "lite No. 7420": "1220mm(48”)x203mm(8”)",
+      "lite No. 7460": "1372mm(54”)x203mm(8”)",
+      "lite No. 7428": "1524mm(60”)x203mm(8”)",
+      "lite No. 7470": "1829mm(72”)x203mm(8”)",
+      "lite No. 7468": "3000mm(118”)x203mm(8”)"
+    },
+    "notes": [],
+    "images": [
+      "bull-float-8in-0.webp"
+    ],
+    "page": 48,
+    "source": "construction-2026"
+  },
+  {
+    "id": "bull-float-5in",
+    "model": "bull-float-5in",
+    "name": "Bull Float (127mm / 5\" wide)",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "lite No. 7100": "610mm(24”)x127mm(5”)",
+      "lite No. 7108": "762mm(30”)x127mm(5”)",
+      "lite No. 7166": "915mm(36”)x127mm(5”)",
+      "lite No. 7124": "1067mm(42”)x127mm(5”)",
+      "lite No. 7132": "1220mm(48”)x127mm(5”)"
+    },
+    "notes": [],
+    "images": [
+      "bull-float-5in-0.webp"
+    ],
+    "page": 48,
+    "source": "construction-2026"
+  },
+  {
+    "id": "round-tipped-trowel",
+    "model": "round-tipped-trowel",
+    "name": "High-Carbon Steel Round-Tipped Trowel",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "lite No. 8252": "305mmx102mm(12”x4”)",
+      "lite No. 8105": "356mmx102mm(14”x4”)",
+      "lite No. 8106": "406mmx102mm(16”x4”)",
+      "lite No. 8259*": "356mmx102mm(16”x4”)",
+      "lite No. 8260*": "406mmx102mm(16”x4”)"
+    },
+    "notes": [
+      "*Round head"
+    ],
+    "images": [
+      "round-tipped-trowel-0.webp"
+    ],
+    "page": 48,
+    "source": "construction-2026"
+  },
+  {
+    "id": "round-head-hand-float",
+    "model": "round-head-hand-float",
+    "name": "Aluminum Alloy Round Head Handmade Float",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "lite No. 8514": "305mm(12”)x79.4mm(3.125”)",
+      "lite No. 8515": "355mm(14”)x79.4mm(3.125”)",
+      "lite No. 8511": "405mm(16”)x79.4mm(3.125”)"
+    },
+    "notes": [],
+    "images": [
+      "round-head-hand-float-0.webp"
+    ],
+    "page": 48,
+    "source": "construction-2026"
+  },
+  {
+    "id": "bull-float-mx",
+    "model": "bull-float-mx",
+    "name": "Bull Float",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "Blade Dimension MX90-20S": "900mm*200mm",
+      "Blade Dimension MX120-15S": "1200*150mm",
+      "Blade Dimension MX120-20S": "1200*200mm",
+      "Blade Dimension MX120-30S": "1200mm*300mm",
+      "Blade Dimension MX150-30S": "1500*300mm",
+      "Handle Length": "180cm*3",
+      "Connector": "Turbine Connector",
+      "Package Size": "1850*210*65mm"
+    },
+    "notes": [],
+    "images": [
+      "bull-float-mx-0.webp"
+    ],
+    "page": 48,
+    "source": "construction-2026"
+  },
+  {
+    "id": "scraping-flat-ruler",
+    "model": "scraping-flat-ruler",
+    "name": "Aluminum Alloy Scraping Flat Ruler",
+    "category": "CONSTRUCTION EQUIPMENT",
+    "power": [],
+    "specs": {
+      "lite No. 8252": "305mmx102mm(12”x4”)",
+      "lite No. 8105": "356mmx102mm(14”x4”)",
+      "lite No. 8106": "406mmx102mm(16”x4”)",
+      "lite No. 8259*": "356mmx102mm(16”x4”)",
+      "lite No. 8260*": "406mmx102mm(16”x4”)"
+    },
+    "notes": [
+      "*Round head"
+    ],
+    "images": [
+      "scraping-flat-ruler-0.webp"
+    ],
+    "page": 48,
+    "source": "construction-2026"
   }
 ]

@@ -1,3 +1,5 @@
+import { isEngine } from './units.js'
+
 // Sidebar filters, built only from fields the catalogue actually has.
 // Values are compared in a standard form ("220V", "220 V" and "220V/50Hz" all become "220v") and shown as written.
 
@@ -11,8 +13,13 @@ export const norm = (s) =>
 const spec = (key) => (p) => p.specMap[key] ?? null
 const specFilter = (key, label, specKey) => ({ key, label, spec: specKey, value: spec(specKey) })
 
+// Reads "1450 W", "4kw" and "1.8kw x 2"; in "0.75/1 KW/HP" the first number is the kW.
 const watts = (p) => {
-  const ws = p.power.flatMap((s) => [...s.matchAll(/(\d[\d,]*)\s*W\b/gi)].map((m) => Number(m[1].replace(/,/g, ''))))
+  const ws = p.power.flatMap((s) =>
+    [...s.replace(/(\d[\d.]*)\s*\/\s*[\d.]+\s*kw\s*\/\s*hp/i, '$1kW').matchAll(/(\d[\d,]*(?:\.\d+)?)\s*(k?)W\b/gi)].map(
+      (m) => Number(m[1].replace(/,/g, '')) * (m[2] ? 1000 : 1),
+    ),
+  )
   return ws.length ? Math.max(...ws) : null
 }
 const POWER_BANDS = [
@@ -25,6 +32,7 @@ const POWER_BANDS = [
 const powerSource = (p) => {
   if (p.specMap['Battery Voltage'] || p.specMap['Battery Type']) return 'Cordless'
   if (p.power.some((s) => /\d\s*cc\b/i.test(s))) return 'Gasoline'
+  if (isEngine(p)) return 'Engine'
   if (p.specMap['Rated Voltage'] || watts(p) != null) return 'Corded electric'
   return null
 }

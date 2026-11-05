@@ -6,7 +6,7 @@ function Section({ title, items }) {
   return (
     <section className="mt-10">
       <h2 className="border-b-2 border-ink pb-2 text-xl font-extrabold uppercase tracking-wide">{title}</h2>
-      <ul className="mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
+      <ul className="card-grid mt-6 grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-4">
         {items.map((r) => <li key={r.id}><SparePartCard item={r} /></li>)}
       </ul>
     </section>

@@ -37,9 +37,27 @@ function convertNumbers(value) {
   return m[1].replace(/\d+(?:\.\d+)?/g, (x) => fn(Number(x))).replace(/\s+/g, '') + ' ' + label
 }
 
+// Rewrites each voltage group in a mains rating: "380v/220v" becomes "480V/120V", "220V/50HZ" becomes "120V/60Hz".
+// A group like "380V - 415V" is one supply, so it gives one US voltage.
+// Only mains ratings change: 100-260V is single-phase, 360-440V is three-phase. Anything else (12V, 460V) stays as printed.
+const usVolts = (n) => (n >= 100 && n <= 260 ? '120V' : n >= 360 && n <= 440 ? '480V' : `${n}V`)
+function mainsUS(value) {
+  const HZ = '\u0000'
+  return value
+    .replace(/\d+(?:\s*\/\s*\d+)?\s*hz\b/gi, HZ)
+    .replace(/\d{2,3}\s*v?(?:\s*[-/]\s*\d{2,3}\s*v?)*(?![\d])/gi, (g) => {
+      const out = [...new Set([...g.matchAll(/\d{2,3}/g)].map((m) => usVolts(Number(m[0]))))]
+      return out.join('/') + (/\s$/.test(g) ? ' ' : '')
+    })
+    .replaceAll(HZ, '60Hz')
+}
+
 // Returns { key, value, status } where status is 'converted', 'same' (nothing to convert) or 'unhandled' (left as printed).
 // 120V/60Hz is a fact about the US corded models, so it only replaces mains ratings on corded products.
-export const isCorded = (p) => !(p.specMap['Battery Voltage'] || p.specMap['Battery Type'] || p.power.some((s) => /\d\s*cc\b/i.test(s)))
+// Engine machines say so in a spec ("Engine: Honda", "Applicable Engine: Gasoline/Diesel") or rate power only in HP.
+export const isEngine = (p) =>
+  p.specs.some(([k, v]) => /engine|fuel/i.test(k) && !/electric/i.test(v)) || p.power.some((s) => /\dhp\b/i.test(s) && !/\dk?w\b/i.test(s))
+export const isCorded = (p) => !(p.specMap['Battery Voltage'] || p.specMap['Battery Type'] || p.power.some((s) => /\d\s*cc\b/i.test(s)) || isEngine(p))
 
 export function toUS(rawKey, rawValue, { corded = true } = {}) {
   let key = rawKey
@@ -51,9 +69,11 @@ export function toUS(rawKey, rawValue, { corded = true } = {}) {
   }
   const k = key.toLowerCase()
 
-  // US models are 120V/60Hz (confirmed by Alok). Battery voltages are the battery's, not the mains supply.
-  if (corded && /vo[il]*tage/.test(k) && !/battery/.test(k) && /\d/.test(value)) return { key, value: /hz/i.test(value) ? '120V/60Hz' : '120V', status: 'converted' }
-  if (corded && /frequency/.test(k) && !/vibration|impact/.test(k) && MAINS_HZ.test(value)) return { key, value: '60Hz', status: 'converted' }
+  // US supply equivalents (agreed with Alok): single-phase becomes 120V, three-phase 380-415V becomes 480V,
+  // 50Hz becomes 60Hz, and a generator's output becomes 120V/240V. Battery voltages are the battery's, not the mains supply.
+  if (corded && /generator/.test(k) && /vo[il]*tage|output/.test(k) && /\d/.test(value)) return { key, value: '120V/240V/60Hz', status: 'converted' }
+  if (corded && /vo[il]*tage|vlotage/.test(k) && !/battery/.test(k) && /\d/.test(value)) return { key, value: mainsUS(value), status: 'converted' }
+  if (corded && /frequency/.test(k) && !/vibrat|impact|excit/.test(k) && MAINS_HZ.test(value)) return { key, value: '60Hz', status: 'converted' }
 
   const relabelled = value.replace(/\s*(r\/min|rpm)\b/gi, ' RPM').replace(/\s*ipm\b/gi, ' IPM')
   const converted = convertNumbers(relabelled)

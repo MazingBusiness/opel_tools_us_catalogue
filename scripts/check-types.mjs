@@ -22,6 +22,16 @@ for (const t of TYPES) {
 }
 for (const p of products) if (!seen.has(p.id)) problems.push(`${p.id} (${p.name}, ${p.category}) has no type`)
 
+// Ids are web addresses (/product/:id), so they must be safe in a URL and unique even ignoring case.
+const lowerIds = new Map()
+for (const p of products) {
+  if (!/^[A-Za-z0-9][A-Za-z0-9._-]*$/.test(p.id)) problems.push(`product id "${p.id}" has a character that isn't safe in a web address`)
+  const k = p.id.toLowerCase()
+  if (lowerIds.has(k)) problems.push(`product ids "${lowerIds.get(k)}" and "${p.id}" differ only in upper and lower case`)
+  lowerIds.set(k, p.id)
+  if (p.model !== p.id) problems.push(`product ${p.id} has model ${p.model}; id and model must match`)
+}
+
 const models = products.map((p) => p.model)
 for (const m of new Set(models.filter((m, i) => models.indexOf(m) !== i))) problems.push(`model number ${m} is used by more than one product`)
 
