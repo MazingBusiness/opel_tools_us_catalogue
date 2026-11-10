@@ -14,6 +14,7 @@ const UNITS = {
   'ml/min': (n) => [round(n / 29.5735, 1), 'fl oz/min'],
   l: (n) => [round(n / 3.78541, 2), 'gal'],
   'l/min': (n) => [round(n / 3.78541, 2), 'GPM'],
+  'l/s': (n) => [round(n * (60 / 28.316846592), 1), 'CFM'],
   'm³': (n) => [round(n * 35.3147, 2), 'ft³'],
   bar: (n) => [round(n * 14.5038, 0), 'PSI'],
   mpa: (n) => [round(n * 145.038, 0), 'PSI'],
@@ -23,7 +24,7 @@ const UNITS = {
 // Small torques read better in inch-pounds, so the unit is chosen from the largest number in the value.
 const torque = (nums) => (Math.max(...nums) < 20 ? [(n) => round(n * 8.85075, 0), 'in-lb'] : [(n) => round(n * 0.737562, 1), 'ft-lb'])
 
-const NUMBERS = /^\s*(\d+(?:\.\d+)?(?:\s*[-/]\s*\d+(?:\.\d+)?)*)\s*(mm|cm|m|kg|ml\/min|ml|l\/min|l|m³|m3|bar|mpa|nm|j|°c)\s*$/i
+const NUMBERS = /^\s*(\d+(?:\.\d+)?(?:\s*[-/]\s*\d+(?:\.\d+)?)*)\s*(mm|cm|m|kg|ml\/min|ml|l\/min|l\/s|l|m³|m3|bar|mpa|nm|j|°c)\s*$/i
 const METRIC_LEFT = /\d\s*(mm|cm|m|kg|ml|l|bar|mpa|nm|j|°c|m³|m3)\b/i
 const KEY_UNIT = /^(.*?)\s*\((mm|cm|v|hz|r\/min)\)$/i
 const MAINS_HZ = /^\s*\d+(\/\d+)?\s*hz\s*$/i

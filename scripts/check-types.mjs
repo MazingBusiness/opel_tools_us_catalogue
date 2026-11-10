@@ -29,11 +29,27 @@ for (const p of products) {
   const k = p.id.toLowerCase()
   if (lowerIds.has(k)) problems.push(`product ids "${lowerIds.get(k)}" and "${p.id}" differ only in upper and lower case`)
   lowerIds.set(k, p.id)
-  if (p.model !== p.id) problems.push(`product ${p.id} has model ${p.model}; id and model must match`)
+  // A brochure "--" is stored as an empty model. A model like 5395/5396 keeps the slash,
+  // and the id is that model with characters that cannot sit in a web address removed.
+  // Two variants may share a model number. Each still has its own id, and a variant label.
+  const urlId = (model) => model.replace(/[^A-Za-z0-9._-]+/g, '-').replace(/^-|-$/g, '')
+  const variantId = p.variant && (p.id === p.model || p.id.startsWith(`${urlId(p.model)}-`))
+  if (!variantId && p.model !== p.id && p.model !== '' && urlId(p.model) !== p.id) problems.push(`product ${p.id} has model ${p.model}; id and model must match`)
+  if (p.variant != null && !String(p.variant).trim()) problems.push(`product ${p.id} has an empty variant label`)
 }
 
-const models = products.map((p) => p.model)
-for (const m of new Set(models.filter((m, i) => models.indexOf(m) !== i))) problems.push(`model number ${m} is used by more than one product`)
+const byModel = new Map()
+for (const p of products) {
+  if (!p.model) continue
+  if (!byModel.has(p.model)) byModel.set(p.model, [])
+  byModel.get(p.model).push(p)
+}
+for (const [model, group] of byModel) {
+  if (group.length < 2) continue
+  if (group.some((p) => !p.variant)) problems.push(`model number ${model} is used by more than one product`)
+  const labels = group.map((p) => p.variant)
+  if (new Set(labels).size !== labels.length) problems.push(`model ${model} has two variants with the same label`)
+}
 
 const spares = JSON.parse(readFileSync(new URL('../src/data/spare_parts.json', import.meta.url)))
 const spareIds = new Set()

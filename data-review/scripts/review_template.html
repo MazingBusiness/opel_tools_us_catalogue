@@ -42,10 +42,10 @@ function card(p){
   const img = p.images.length ? `<img loading="lazy" src="public/images/products/${esc(p.images[0])}" alt="${esc(p.model)}">` : '<span class="none">No image</span>';
   const specs = Object.entries(p.specs).map(([k,v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join('');
   return `<div class="card ${p.review.status}"><div class="img">${img}</div><div class="body">
-    <div class="model">${esc(p.model)}</div><div class="name">${esc(p.name) || '<i>no name</i>'}</div>
+    <div class="model">${p.model ? esc(p.model) : '<i>no model</i>'}${p.variant ? ` · ${esc(p.variant)}` : ''}</div><div class="name">${esc(p.name) || '<i>no name</i>'}</div>
     <div class="meta">${esc(p.category)} · <a href="#" data-page="${p.page}">brochure p.${p.page}</a> · id <code>${esc(p.id)}</code></div>
     ${(p.power||[]).map(w => `<span class="pill power">${esc(w)}</span>`).join('')}${p.review.issues.map(i => `<span class="pill">${esc(i)}</span>`).join('')}
-    ${specs ? `<table>${specs}</table>` : ''}${(p.notes||[]).length ? `<div class="meta">${p.notes.map(esc).join('<br>')}</div>` : ''}
+    ${specs ? `<table>${specs}</table>` : ''}${(p.table?.rows || []).length ? `<div class="meta">${p.table.rows.map(r => r.filter(Boolean).map(esc).join(' · ')).join('<br>')}</div>` : ''}${(p.notes||[]).length ? `<div class="meta">${p.notes.map(esc).join('<br>')}</div>` : ''}
   </div></div>`;
 }
 function render(){

@@ -18,6 +18,7 @@ const cases = [
   ['Rated Pressure', '180 Bar', '2611 PSI'],
   ['High pressure pipe compression strength', '25mpa', '3626 PSI'],
   ['Maximum Flow', '16L/min', '4.23 GPM'],
+  ['Air Flow', '53 L/s', '112.3 CFM'],
   ['Hopper capacity', '40L', '10.57 gal'],
   ['Max Flow', '1200ml/min', '40.6 fl oz/min'],
   ['Fuel Tank', '550ml', '18.6 fl oz'],
@@ -80,11 +81,12 @@ for (const [k, v, want] of cases) {
 const products = JSON.parse(readFileSync(new URL('../src/data/products.json', import.meta.url)))
 const left = new Map()
 for (const p of products) {
-  for (const [k, v] of Object.entries(p.specs ?? {})) {
+  const cells = [...Object.entries(p.specs ?? {}), ...(p.table?.rows ?? []).flat().filter(Boolean).map((v) => ['', v])]
+  for (const [k, v] of cells) {
     if (!v) continue
     const r = toUS(k, v)
     if (/NaN|undefined|Infinity/.test(r.value)) problems.push(`${p.id} ${k}: "${v}" gave "${r.value}"`)
-    if (r.status === 'unhandled') left.set(`${k}: ${v}`, (left.get(`${k}: ${v}`) ?? 0) + 1)
+    if (r.status === 'unhandled') left.set(`${k || p.id}: ${v}`, (left.get(`${k || p.id}: ${v}`) ?? 0) + 1)
   }
 }
 

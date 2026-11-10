@@ -24,12 +24,12 @@ export default function Product() {
 
   return (
     <div className="container-page py-8">
-      <Breadcrumbs items={[['Home', '/'], ['Products', '/products'], [category.label, categoryPath(category)], [type.label, typePath(type)], [p.model]]} />
+      <Breadcrumbs items={[['Home', '/'], ['Products', '/products'], [category.label, categoryPath(category)], [type.label, typePath(type)], [p.model ? `${p.model}${p.variant ? ` · ${p.variant}` : ''}` : p.name]]} />
 
       <div className="mt-6 grid gap-10 lg:grid-cols-2">
         <div>
           <div className="grid aspect-square grid-cols-[minmax(0,1fr)] grid-rows-[minmax(0,1fr)] place-items-center rounded-2xl bg-surface-muted p-10">
-            <img src={productImage(img)} alt={`OPEL ${p.model} ${p.name}`} className="size-full min-h-0 object-contain" />
+            <img src={productImage(img)} alt={`OPEL ${[p.model, p.name].filter(Boolean).join(' ')}`} className="size-full min-h-0 object-contain" />
           </div>
           {p.images.length > 1 && (
             <div className="mt-3 flex gap-3">
@@ -45,7 +45,7 @@ export default function Product() {
         <div>
           <p className="text-xs font-bold uppercase tracking-widest text-brand">{category.label} · {type.label}</p>
           <h1 className="mt-2 text-3xl font-extrabold sm:text-4xl">{p.name}</h1>
-          <p className="mt-2 font-display text-2xl tracking-wide text-ink-muted">MODEL {p.model}</p>
+          {p.model && <p className="mt-2 font-display text-2xl tracking-wide text-ink-muted">MODEL {p.model}{p.variant ? ` · ${p.variant}` : ''}</p>}
           {p.power.length > 0 && (
             <ul className="mt-5 flex flex-wrap gap-2">
               {p.power.map((s) => <li key={s} className="bg-highlight px-3 py-1 text-sm font-bold">{s}</li>)}
@@ -74,6 +74,37 @@ export default function Product() {
           {p.notes.length > 0 && <p className="mt-4 text-sm text-ink-muted">{p.notes.join(' · ')}</p>}
         </div>
       </div>
+
+      {p.table && (
+        <section className="mt-10">
+          <div className="flex items-center justify-between border-b-2 border-ink pb-2">
+            <h2 className="text-sm font-extrabold uppercase tracking-widest">Specifications</h2>
+            <UnitsToggle />
+          </div>
+          <div className="mt-4 overflow-x-auto">
+            <table className="w-full min-w-[40rem] border-collapse text-left text-sm">
+              <thead>
+                {p.table.head.map((row, i) => (
+                  <tr key={i} className="border-b border-line">
+                    {row.map((cell, j) => (
+                      <th key={j} className={`px-2 py-2 font-semibold ${i === 0 ? 'text-xs uppercase tracking-wide text-ink-muted' : ''}`}>{cell}</th>
+                    ))}
+                  </tr>
+                ))}
+              </thead>
+              <tbody>
+                {p.table.rows.map((row, i) => (
+                  <tr key={i} className="border-b border-line">
+                    {row.map((cell, j) => (
+                      <td key={j} className={`px-2 py-2 ${j === 0 ? 'font-semibold' : ''}`}>{showSpec('', cell, units, { corded: isCorded(p) }).value}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
 
       {kits.length > 0 && (
         <section className="mt-16">

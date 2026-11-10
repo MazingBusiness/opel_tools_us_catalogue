@@ -72,7 +72,8 @@ export function searchProducts(list, q) {
   const terms = q.trim().toLowerCase().split(/\s+/).filter(Boolean)
   if (!terms.length) return []
   return list.filter((p) => {
-    const hay = [p.model, p.refModel ?? '', p.name, p.brochureName, p.categoryInfo.label, p.type.label, ...p.power, ...p.specs.flat()]
+    const tableText = p.table ? [...p.table.head.flat(), ...p.table.rows.flat()] : []
+    const hay = [p.model, p.variant ?? '', p.refModel ?? '', p.name, p.brochureName, p.categoryInfo.label, p.type.label, ...p.power, ...p.specs.flat(), ...tableText]
       .join(' ')
       .toLowerCase()
     return terms.every((t) => hay.includes(t))

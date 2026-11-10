@@ -707,6 +707,24 @@
     "page": 9
   },
   {
+    "id": "5395-5396",
+    "model": "5395/5396",
+    "name": "Motorised Cut Off Saw",
+    "category": "POWER TOOLS",
+    "power": null,
+    "specs": {
+      "Rated Voltage": "220/380v",
+      "Rated Frequency": "50/60Hz",
+      "Blade Capacity": "400mm",
+      "No Load Speed": "3800r/min"
+    },
+    "notes": [],
+    "images": [
+      "5395-5396-0.webp"
+    ],
+    "page": 9
+  },
+  {
     "id": "5225",
     "model": "5225",
     "name": "Concrete Vibrator",
@@ -1778,6 +1796,37 @@
     "page": 22
   },
   {
+    "id": "92-04",
+    "model": "92-04",
+    "name": "Diaphragm pump",
+    "category": "PAINTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Voltage/frequency": "220V/50Hz",
+      "High pressure pipe": "20m Steel Wire Tube",
+      "Maximum jet flow": "2.0L/min",
+      "The nozzle type": "621",
+      "The best spray distance": "350-400mm",
+      "Jet width": "250mm",
+      "High pressure pipe compression strength": "25mpa",
+      "Shot and pressure": "14mpa (1800PSI)",
+      "Close the gun pressure": "18mpa(2800PSII",
+      "The maximum output tube": "50m",
+      "Packing size": "61.5*48*50.5cm",
+      "The weight": "34.5KG"
+    },
+    "notes": [
+      "Applied materials: Emulsion Paint, Water Based Waterproof Coating, Ultra-thin Fireproof Paint, No Sand Cement Water",
+      "Shall not apply to materials: Gypsum, Glue, Really Stone Paint, Anti-crack Mortar, Thick Type Anticorrosive Coating, Oily Waterproof Coating, Thin & Thick Type Fireproof Coating, Any Coatings Containing Particles",
+      "Use: Cars, Ships Washing, Spray Insecticide, Disinfection, External Walls and Yard",
+      "Accessories: Spray gun, Gun muzzle, Suction hose assemblies, 10m high pressure pipe, 50 cm extinction rod, Table assembly"
+    ],
+    "images": [
+      "92-04-0.webp"
+    ],
+    "page": 23
+  },
+  {
     "id": "92-05",
     "model": "92-05",
     "name": "Road Marking Machine",
@@ -1910,6 +1959,37 @@
     "page": 26
   },
   {
+    "id": "GE2T40",
+    "model": "GE2T40",
+    "name": "High Pressure Washer",
+    "category": "CLEANING EQUIPMENTS",
+    "power": [
+      "2600 W"
+    ],
+    "specs": {
+      "Rated Voiltage": "380V-50Hz",
+      "Speed": "1450 r/min",
+      "Working Pressure": "13 / 1900 Mpa/PSI",
+      "Flow": "10.0 / 20.0 L/min",
+      "Pump": "BSG1815D",
+      "Weight": "55 Kg",
+      "Dimension": "62.5x43x44",
+      "Motor Pump": "250 + 250 BAR"
+    },
+    "notes": [
+      "Dual gun model",
+      "2x high-pressure washer gun (ceramic core)",
+      "Precision filter",
+      "2mt inlet water pipe + filter",
+      "2x 10mt-14mm pressure washer hose",
+      "4 nozzle tips"
+    ],
+    "images": [
+      "GE2T40-0.webp"
+    ],
+    "page": 26
+  },
+  {
     "id": "5365",
     "model": "5365",
     "name": "Pressure Washer",
@@ -1978,6 +2058,322 @@
     "page": 27
   },
   {
+    "id": "pressure-washer-gun",
+    "model": "",
+    "name": "Pressure Washer Gun",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [],
+    "images": [
+      "pressure-washer-gun-0.webp"
+    ],
+    "page": 27
+  },
+  {
+    "id": "5371",
+    "model": "5371",
+    "name": "Foam Bottle",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Material": "Brass + ABS",
+      "Bottle Capacity": "1 L",
+      "Requires Flow": "2.0 GPM",
+      "Requires pressure": "70 BAR, 1000 PSI",
+      "Maximum flow": "5.3 GPM",
+      "Maximum pressure": "200 BAR 3000 PSI",
+      "Highest temperature": "60°C or 140°F"
+    },
+    "notes": [
+      "Quick connector"
+    ],
+    "images": [
+      "5371-0.webp"
+    ],
+    "page": 27
+  },
+  {
+    "id": "5366",
+    "model": "5366",
+    "name": "Vacuum Cleaner Wet / Dry",
+    "category": "CLEANING EQUIPMENTS",
+    "power": [
+      "30L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/240V",
+      "Rated Frequency": "50/60Hz",
+      "Air Flow": "53 L/s"
+    },
+    "notes": [],
+    "images": [
+      "5366-0.webp"
+    ],
+    "page": 28
+  },
+  {
+    "id": "5367",
+    "model": "5367",
+    "name": "Vacuum Cleaner Wet / Dry",
+    "category": "CLEANING EQUIPMENTS",
+    "power": [
+      "40L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/240V",
+      "Rated Frequency": "50/60Hz",
+      "Air Flow": "53 L/s"
+    },
+    "notes": [],
+    "images": [
+      "5367-0.webp"
+    ],
+    "page": 28
+  },
+  {
+    "id": "5369",
+    "model": "5369",
+    "name": "Vacuum Cleaner Wet / Dry",
+    "category": "CLEANING EQUIPMENTS",
+    "power": [
+      "60L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/240V",
+      "Rated Frequency": "50/60Hz",
+      "Air Flow": "106 L/s"
+    },
+    "notes": [
+      "Double motor"
+    ],
+    "images": [
+      "5369-0.webp"
+    ],
+    "page": 28
+  },
+  {
+    "id": "5370",
+    "model": "5370",
+    "name": "Vacuum Cleaner Wet / Dry",
+    "category": "CLEANING EQUIPMENTS",
+    "power": [
+      "80L",
+      "4500W"
+    ],
+    "specs": {
+      "Power": "4500W",
+      "Rated Voltage": "220/240V",
+      "Rated Frequency": "50/60Hz",
+      "Air Flow": "120 L/s"
+    },
+    "notes": [
+      "Triple motor"
+    ],
+    "images": [
+      "5370-0.webp"
+    ],
+    "page": 28
+  },
+  {
+    "id": "vacuum-cleaner-accessories",
+    "model": "",
+    "name": "Vacuum Cleaner Accessories",
+    "category": "CLEANING EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Extendable rod"
+    ],
+    "images": [
+      "vacuum-cleaner-accessories-0.webp"
+    ],
+    "page": 28
+  },
+  {
+    "id": "manual-sweeper",
+    "model": "",
+    "name": "Manual Sweeper",
+    "category": "CLEANING EQUIPMENTS",
+    "power": [
+      "1000 W"
+    ],
+    "specs": {
+      "Max. Work Efficiency": "3680m/h",
+      "Working Width": "980mm",
+      "Bucket Capacity": "45L",
+      "Weight": "27Kg"
+    },
+    "notes": [],
+    "images": [
+      "manual-sweeper-0.webp"
+    ],
+    "page": 28
+  },
+  {
+    "id": "floor-cleaner",
+    "model": "",
+    "name": "Floor Cleaner",
+    "category": "CLEANING EQUIPMENTS",
+    "power": [
+      "1200W"
+    ],
+    "specs": {
+      "Rated Voltage": "220-240V",
+      "Rated Frequency": "50/60Hz",
+      "Chassis Diameter": "17 Inches",
+      "Wire Length": "12M",
+      "Speed": "1450r/min",
+      "Gross Weight": "48KG"
+    },
+    "notes": [
+      "Ground brush (hard brush)",
+      "Crept brush (soft brush)",
+      "Needle seat (for padding)"
+    ],
+    "images": [
+      "floor-cleaner-0.webp"
+    ],
+    "page": 28
+  },
+  {
+    "id": "5255",
+    "model": "5255",
+    "name": "Chain Pulley Block",
+    "category": "LIFTING EQUIPMENTS",
+    "power": [
+      "1, 2, 3, 5 TON"
+    ],
+    "specs": {},
+    "table": {
+      "head": [
+        ["", "", "", "Thickness", "Thickness", "Length", "Length"],
+        ["Capacity", "Lift", "Fold", "Load chain", "Hand chain", "Load chain", "Hand chain"]
+      ],
+      "rows": [
+        ["1 Ton", "3 m", "Single", "6 mm", "5 mm", "6 m", "3 m"],
+        ["1 Ton", "6 m", "Single", "6 mm", "5 mm", "6 m", "6 m"],
+        ["2 Ton", "3 m", "Single", "8 mm", "5 mm", "6 m", "3 m"],
+        ["2 Ton", "6 m", "Single", "8 mm", "5 mm", "6 m", "6 m"],
+        ["3 Ton", "3 m", "Single", "8 mm", "5 mm", "6 m", "6 m"],
+        ["3 Ton", "6 m", "Double", "8 mm", "5 mm", "12 m", "12 m"],
+        ["5 Ton", "3 m", "Single", "10 mm", "5 mm", "3 m", "6 m"],
+        ["5 Ton", "3 m", "Double", "10 mm", "6 mm", "6 m", "6 m"],
+        ["5 Ton", "6 m", "Double", "10 mm", "6 mm", "12 m", "12 m"]
+      ]
+    },
+    "notes": [],
+    "images": [
+      "5255-0.webp"
+    ],
+    "page": 30
+  },
+  {
+    "id": "5345",
+    "model": "5345",
+    "name": "Chain Pulley Block",
+    "category": "LIFTING EQUIPMENTS",
+    "power": [
+      "1, 2, 3, 5 TON"
+    ],
+    "specs": {},
+    "table": {
+      "head": [
+        ["", "", "", "Thickness", "Thickness", "Length", "Length"],
+        ["Capacity", "Lift", "Fold", "Load chain", "Hand chain", "Load chain", "Hand chain"]
+      ],
+      "rows": [
+        ["1 Ton", "3 m", "Single", "6 mm", "5 mm", "6 m", "3 m"],
+        ["1 Ton", "6 m", "Single", "6 mm", "5 mm", "6 m", "6 m"],
+        ["2 Ton", "3 m", "Single", "8 mm", "5 mm", "6 m", "3 m"],
+        ["2 Ton", "6 m", "Single", "8 mm", "5 mm", "6 m", "6 m"],
+        ["3 Ton", "3 m", "Single", "8 mm", "5 mm", "6 m", "6 m"],
+        ["3 Ton", "6 m", "Double", "8 mm", "5 mm", "12 m", "12 m"],
+        ["5 Ton", "3 m", "Single", "10 mm", "5 mm", "3 m", "6 m"],
+        ["5 Ton", "3 m", "Double", "10 mm", "6 mm", "6 m", "6 m"],
+        ["5 Ton", "6 m", "Double", "10 mm", "6 mm", "12 m", "12 m"]
+      ]
+    },
+    "notes": [],
+    "images": [
+      "5345-0.webp"
+    ],
+    "page": 30
+  },
+  {
+    "id": "5343",
+    "model": "5343",
+    "name": "Mini Wire Rope Hoist",
+    "category": "LIFTING EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "table": {
+      "head": [
+        ["Hoist", "Rope length", "Wire rope size"]
+      ],
+      "rows": [
+        ["PA 500", "20 m", "6 mm"],
+        ["PA 1000", "20 m", "8 mm"],
+        ["PA 1500", "20 m", "8 mm"],
+        ["PA 2000", "12 m", "10 mm"]
+      ]
+    },
+    "notes": [],
+    "images": [
+      "5343-0.webp"
+    ],
+    "page": 31
+  },
+  {
+    "id": "5216",
+    "model": "5216",
+    "name": "Clutch Winch",
+    "category": "LIFTING EQUIPMENTS",
+    "power": [
+      "40M, 50M, 60M"
+    ],
+    "specs": {
+      "Lifting Capacity": "100 KG to 1000 KG",
+      "Wire Rope Specification": "8mm - 12mm",
+      "Lifting Height": "1 - 60 Mtr.",
+      "Rated Power": "3Kw - 9Kw",
+      "Rotation": "360° with rotation locking",
+      "Boom-Extendable/Fit": "9-10 Ft.",
+      "Frame": "Heavy mounted and moveable",
+      "Breaking": "Fail (safe) breaking"
+    },
+    "notes": [
+      "1TON X 40MT",
+      "1TON X 50MT, with handle",
+      "1TON X 60MT, with big frame and handle"
+    ],
+    "images": [
+      "5216-0.webp",
+      "5216-1.webp",
+      "5216-2.webp"
+    ],
+    "page": 31
+  },
+  {
+    "id": "2.5-TON-3-TON",
+    "model": "2.5 TON/3 TON",
+    "name": "Pallet Truck",
+    "category": "LIFTING EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Capacity": "2.5/3 Ton",
+      "min. fork height": "80mm",
+      "max. lifting height": "190-200mm",
+      "Loading Wheel": "80*70mm",
+      "Steering Wheel": "180*50mm"
+    },
+    "notes": [],
+    "images": [
+      "2.5-TON-3-TON-0.webp"
+    ],
+    "page": 31
+  },
+  {
     "id": "5203",
     "model": "5203",
     "name": "Gasoline chain saw",
@@ -2041,6 +2437,23 @@
     "page": 33
   },
   {
+    "id": "5202",
+    "model": "5202",
+    "name": "Chain Saw Chain",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Sizes": "16\" (405mm), 18\" (455mm), 22\" (550mm)"
+    },
+    "notes": [
+      "FULL CHISEL & ANTI KICK BACK"
+    ],
+    "images": [
+      "5202-0.webp"
+    ],
+    "page": 33
+  },
+  {
     "id": "5317",
     "model": "5317",
     "name": "Chain saw chain",
@@ -2056,6 +2469,98 @@
       "5317-0.webp"
     ],
     "page": 33
+  },
+  {
+    "id": "chain-saw-guide-bar",
+    "model": "",
+    "name": "Chain Saw Guide Bar",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Sizes": "16\" (405mm), 18\" (455mm), 22\" (550mm)"
+    },
+    "notes": [
+      "Titanium type"
+    ],
+    "images": [
+      "chain-saw-guide-bar-0.webp"
+    ],
+    "page": 33
+  },
+  {
+    "id": "5344---45NO",
+    "model": "5344 - 45NO",
+    "name": "HTP Sprayer Pump",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Speed": "800-1200RPM",
+      "Suction": "40-60L/min",
+      "Pressure": "20-40 Bar",
+      "Motor": "3X30X22 HP"
+    },
+    "notes": [],
+    "images": [
+      "5344---45NO-0.webp"
+    ],
+    "page": 34
+  },
+  {
+    "id": "5344---75NO",
+    "model": "5344 - 75NO",
+    "name": "HTP Sprayer Pump",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {
+      "Speed": "600-1000RPM",
+      "Suction": "40-70L/min",
+      "Pressure": "10-40 Bar",
+      "Motor": "3X34X24 HP"
+    },
+    "notes": [],
+    "images": [
+      "5344---75NO-0.webp"
+    ],
+    "page": 34
+  },
+  {
+    "id": "5309",
+    "model": "5309",
+    "name": "Gasoline Engine",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Real Oil Alert",
+      "Easy Recoil Starter",
+      "Heavy Crank Case",
+      "Iron Cramshaft",
+      "Pulley Included"
+    ],
+    "images": [
+      "5309-0.webp"
+    ],
+    "page": 34
+  },
+  {
+    "id": "5328-WP-50-80",
+    "model": "5328-WP-50/80",
+    "name": "Water Pump",
+    "category": "AGRICULTURE EQUIPMENTS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "Real Oil Alert",
+      "Easy recoil starter",
+      "Heavy crank case",
+      "Square frame",
+      "Screw oil cap",
+      "Chrome air cleaner"
+    ],
+    "images": [
+      "5328-WP-50-80-0.webp"
+    ],
+    "page": 34
   },
   {
     "id": "5205",
@@ -2114,6 +2619,48 @@
     "notes": [],
     "images": [
       "5372-0.webp"
+    ],
+    "page": 36
+  },
+  {
+    "id": "5373",
+    "model": "5373",
+    "variant": "50L",
+    "name": "Compresser 50L",
+    "category": "PNEUMATIC EQUIPMENTS",
+    "power": [
+      "50L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Capacity": "205 L/min",
+      "Power": "2 HP"
+    },
+    "notes": [],
+    "images": [
+      "5373-0.webp"
+    ],
+    "page": 36
+  },
+  {
+    "id": "5373-30l",
+    "model": "5373",
+    "variant": "30L oil-free",
+    "name": "Oil Free Compressor",
+    "category": "PNEUMATIC EQUIPMENTS",
+    "power": [
+      "30L"
+    ],
+    "specs": {
+      "Rated Voltage": "220/110V",
+      "Rated Frequency": "50Hz",
+      "Capacity": "102 L/min",
+      "No Load Speed": "1440 r/min"
+    },
+    "notes": [],
+    "images": [
+      "5373-30l-0.webp"
     ],
     "page": 36
   },
@@ -2202,6 +2749,200 @@
     "page": 38
   },
   {
+    "id": "5213",
+    "model": "5213",
+    "variant": "Rim, seg, turbo",
+    "name": "Diamond Saw Blade",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "4\" Rim": "110X9X20mm",
+      "4\" Seg, 9T": "110X9X9T",
+      "4\" Seg, 16T": "110X9X16T",
+      "4\" Turbo": "110X9X20mm"
+    },
+    "notes": [],
+    "images": [
+      "5213-0.webp"
+    ],
+    "page": 40
+  },
+  {
+    "id": "5213-ceramic",
+    "model": "5213",
+    "variant": "Ceramic",
+    "name": "Diamond Saw Blade",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "4\" Ceramic": "105X7X8X20mm"
+    },
+    "notes": [
+      "Segmented for cutting ceramic"
+    ],
+    "images": [
+      "5213-ceramic-0.webp"
+    ],
+    "page": 40
+  },
+  {
+    "id": "5388",
+    "model": "5388",
+    "variant": "Diamond saw blade",
+    "name": "Diamond Saw Blade",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "4\" x 8mm": "SEG, RIM, TURBO",
+      "4\" x 10mm": "SEG, RIM",
+      "4\" x 115mm": "SEG",
+      "5\" x 10mm": "SEG, RIM, TURBO",
+      "355mm": "SEG",
+      "400mm": "SEG"
+    },
+    "notes": [],
+    "images": [
+      "5388-0.webp"
+    ],
+    "page": 40
+  },
+  {
+    "id": "5388-concrete",
+    "model": "5388",
+    "variant": "Concrete cutter",
+    "name": "Concrete Cutter Blade",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "Size": "4\" concrete, 112x12x20mm"
+    },
+    "notes": [],
+    "images": [
+      "5388-concrete-0.webp"
+    ],
+    "page": 40
+  },
+  {
+    "id": "5388-turbo",
+    "model": "5388",
+    "variant": "Super thin turbo",
+    "name": "Super Thin Turbo",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "Sizes": "4x105 / 4x110"
+    },
+    "notes": [
+      "Extra life, smooth, no chipping, for all kinds of granite and tiles"
+    ],
+    "images": [
+      "5388-turbo-0.webp"
+    ],
+    "page": 40
+  },
+  {
+    "id": "5389",
+    "model": "5389",
+    "name": "TCT Saw Blades",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "4X30T": "110 X 20mm",
+      "4X40T": "110 X 20mm",
+      "5x30T": "110 X 20mm",
+      "5x40T": "110 X 20mm"
+    },
+    "notes": [],
+    "images": [
+      "5389-0.webp"
+    ],
+    "page": 40
+  },
+  {
+    "id": "DIAMOND",
+    "model": "DIAMOND",
+    "name": "Core Bits",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "Sizes": "6.5mm, 8mm, 10mm, 12mm, 14mm, 16mm, 19mm, 20mm, 22mm, 26mm, 30mm, 32mm, 37mm, 40mm, 45mm, 50mm, 65mm, 75mm"
+    },
+    "notes": [],
+    "images": [
+      "DIAMOND-0.webp"
+    ],
+    "page": 41
+  },
+  {
+    "id": "CONCRETE",
+    "model": "CONCRETE",
+    "name": "Core Bits",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "Sizes": "38mm, 52mm, 63mm, 78mm, 84mm, 102mm, 112mm, 127mm, 152mm, 178mm, 200mm, 250mm, 300mm"
+    },
+    "notes": [],
+    "images": [
+      "CONCRETE-0.webp"
+    ],
+    "page": 41
+  },
+  {
+    "id": "TWISTED",
+    "model": "TWISTED",
+    "name": "Wire Brush",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "Size 3\" (75mm)": "x M10",
+      "Size 3\" (75mm) ": "x M14",
+      "Size 4\" (100mm)": "x M14"
+    },
+    "notes": [],
+    "images": [
+      "TWISTED-0.webp"
+    ],
+    "page": 41
+  },
+  {
+    "id": "CRIMPED",
+    "model": "CRIMPED",
+    "name": "Wire Brush",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "Size 3\" (75mm)": "x M10",
+      "Size 3\" (75mm) ": "x M14",
+      "Size 4\" (100mm)": "x M14"
+    },
+    "notes": [],
+    "images": [
+      "CRIMPED-0.webp"
+    ],
+    "page": 41
+  },
+  {
+    "id": "chisels",
+    "model": "",
+    "name": "Chisels",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "SDS Plus": "14 x 250",
+      "SDS Hex": "17 x 280",
+      "SDS Max": "18 x 400",
+      "PH65": "30 x 410"
+    },
+    "notes": [
+      "FLAT / POINTED"
+    ],
+    "images": [
+      "chisels-0.webp"
+    ],
+    "page": 42
+  },
+  {
     "id": "DM200",
     "model": "DM200",
     "name": "Door Mortiser",
@@ -2218,6 +2959,95 @@
       "DM200-0.webp"
     ],
     "page": 42
+  },
+  {
+    "id": "flap-disc",
+    "model": "",
+    "name": "Flap Disc",
+    "category": "POWER TOOLS ACCESSORIES",
+    "power": null,
+    "specs": {
+      "60 # Grit": "100mm x 16",
+      "80 # Grit": "100mm x 16",
+      "120 # Grit": "100mm x 16"
+    },
+    "notes": [
+      "Metal cap, 3x performance",
+      "Fiber cap"
+    ],
+    "images": [
+      "flap-disc-0.webp"
+    ],
+    "page": 42
+  },
+  {
+    "id": "SG900D",
+    "model": "SG900D",
+    "name": "Caulking Gun",
+    "category": "HAND TOOLS",
+    "power": [
+      "900GMS"
+    ],
+    "specs": {},
+    "notes": [
+      "Fischer Chemical Gun",
+      "900 GMS"
+    ],
+    "images": [
+      "SG900D-0.webp"
+    ],
+    "page": 54
+  },
+  {
+    "id": "SG510",
+    "model": "SG510",
+    "name": "Caulking Gun",
+    "category": "HAND TOOLS",
+    "power": [
+      "510GMS"
+    ],
+    "specs": {},
+    "notes": [
+      "510GMS"
+    ],
+    "images": [
+      "SG510-0.webp"
+    ],
+    "page": 54
+  },
+  {
+    "id": "SG700",
+    "model": "SG700",
+    "name": "Caulking Gun",
+    "category": "HAND TOOLS",
+    "power": [
+      "700GMS"
+    ],
+    "specs": {},
+    "notes": [
+      "700GMS"
+    ],
+    "images": [
+      "SG700-0.webp"
+    ],
+    "page": 54
+  },
+  {
+    "id": "5359",
+    "model": "5359",
+    "name": "Manual Tile Cutter",
+    "category": "HAND TOOLS",
+    "power": null,
+    "specs": {},
+    "notes": [
+      "24 inch - 600mm",
+      "48 inch - 1200mm",
+      "72 inch - 1800mm"
+    ],
+    "images": [
+      "5359-0.webp"
+    ],
+    "page": 54
   },
   {
     "id": "110-08",
@@ -3767,40 +4597,6 @@
     ],
     "page": 35,
     "refModel": "S-101",
-    "source": "construction-2026"
-  },
-  {
-    "id": "92-04",
-    "model": "92-04",
-    "name": "Diaphragm Pump",
-    "category": "PAINTING EQUIPMENTS",
-    "power": [
-      "1100W"
-    ],
-    "specs": {
-      "The motor power": "1100W",
-      "Voltage/frequency": "220V/50Hz",
-      "High pressure pipe": "20m Steel Wire Tube",
-      "Maximum jet flow": "2.0L/min",
-      "The nozzle type": "621",
-      "The best spray distance": "350-400mm",
-      "Jet width": "250mm",
-      "High pressure pipe compression strength": "25mpa",
-      "Shot and pressure": "14mpa (1800PSI)",
-      "Close the gun pressure": "18mpa(2800PSII",
-      "The maximum output tube": "50m",
-      "Packing size": "61.5*48*50.5cm",
-      "The weight": "34.5KG"
-    },
-    "notes": [
-      "Applied Materials: Emulsion Paint; Water Based Waterproof Coating; Ultra-thin Fireproof Paint; No Sand Cement Water",
-      "Shall not Apply to Materials: Gypsum; Glue; Really Stone Paint; Anti-crack Mortar; Thick Type Anticorrosive Coating; Oily Waterproof Coating; Thin & Thick Type Fireproof Coating; Any Coatings Containing Particles",
-      "Use: Cars, Ships Washing; Spray Insecticide, Disinfection; External Walls and Yard"
-    ],
-    "images": [
-      "92-04-0.webp"
-    ],
-    "page": 38,
     "source": "construction-2026"
   },
   {
